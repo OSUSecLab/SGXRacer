@@ -1,0 +1,78 @@
+*
+global variable:
+completed.7594
+access1:
+function1:
+__do_global_dtors_aux
+0x62aaa0 0x40d3b0 0x1
+access2:
+function2:
+__do_global_dtors_aux
+0x62aaa0 0x40d3d9 0x2
+exploitable_type:
+0x1
+*
+global variable:
+pending_async_ecalls
+access1:
+function1:
+async_ecall_busy_waiter
+0x62acd0 0x413720 0x1
+access2:
+function2:
+make_asynchronous_ecall
+0x62acd0 0x4139e6 0x3
+exploitable_type:
+0x1
+*
+global variable:
+pending_async_ecalls
+access1:
+function1:
+async_ecall_busy_waiter
+0x62acd0 0x413720 0x1
+access2:
+function2:
+make_asynchronous_ecall
+0x62acd0 0x413b1c 0x3
+exploitable_type:
+0x1
+*
+global variable:
+pending_async_ecalls
+access1:
+function1:
+async_ecall_busy_waiter
+0x62acd0 0x413740 0x1
+access2:
+function2:
+make_asynchronous_ecall
+0x62acd0 0x4139e6 0x3
+exploitable_type:
+0x1
+*
+global variable:
+pending_async_ecalls
+access1:
+function1:
+async_ecall_busy_waiter
+0x62acd0 0x413740 0x1
+access2:
+function2:
+make_asynchronous_ecall
+0x62acd0 0x413b1c 0x3
+exploitable_type:
+0x1
+*
+global variable:
+pending_async_ecalls
+access1:
+function1:
+make_asynchronous_ecall
+0x62acd0 0x4139e6 0x3
+access2:
+function2:
+make_asynchronous_ecall
+0x62acd0 0x413b1c 0x3
+exploitable_type:
+0x1

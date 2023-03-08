@@ -1,0 +1,34 @@
+// Copyright (c) Microsoft Corporation. All rights reserved.
+// Licensed under the MIT License.
+
+enclave {
+    include "includes.h"
+
+    trusted {
+        // datetime tests.
+        public void test_iso8601_time();
+        public void test_iso8601_time_negative();
+
+        // tcb info tests.
+        public oe_result_t test_verify_tcb_info(
+            [in, string] const char* tcb_info,
+            [user_check] oe_tcb_level_t* platform_tcb_level,
+            [out] oe_parsed_tcb_info_t* parsed_tcb_info
+        );
+
+        public void test_minimum_issue_date(oe_datetime_t now);
+
+        public void enclave_test_local_report(
+            [in, out]sgx_target_info_t* target_info);
+        public void enclave_test_remote_report();
+        public void enclave_test_parse_report_negative();
+        public void enclave_test_local_verify_report();
+        public void enclave_test_remote_verify_report();
+        public void enclave_test_verify_report_with_collaterals();
+    };
+
+    untrusted {
+      
+    };
+};
+

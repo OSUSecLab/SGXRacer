@@ -1,0 +1,78 @@
+*
+global variable:
+-0x1
+access1:
+function1:
+_Z13SetupLookup16v
+0x66a940 0x403502 0x2
+access2:
+function2:
+_Z13SetupLookup16v
+0x66a940 0x403502 0x2
+exploitable_type:
+0x1
+*
+global variable:
+p_key
+access1:
+function1:
+loadKeyEnclave
+0x66a948 0x40412c 0x1
+access2:
+function2:
+loadKeyEnclave
+0x66a948 0x404158 0x2
+exploitable_type:
+0x1
+*
+global variable:
+p_key
+access1:
+function1:
+loadKeyEnclave
+0x66a948 0x404158 0x2
+access2:
+function2:
+loadKeyEnclave
+0x66a948 0x404158 0x2
+exploitable_type:
+0x1
+*
+global variable:
+p_key
+access1:
+function1:
+loadKeyEnclave
+0x66a948 0x404158 0x2
+access2:
+function2:
+loadKeyEnclave
+0x66a948 0x40418b 0x1
+exploitable_type:
+0x1
+*
+global variable:
+p_key
+access1:
+function1:
+loadKeyEnclave
+0x66a948 0x404158 0x2
+access2:
+function2:
+decrypt_bytes
+0x66a948 0x4041f1 0x1
+exploitable_type:
+0x1
+*
+global variable:
+p_key
+access1:
+function1:
+loadKeyEnclave
+0x66a948 0x404158 0x2
+access2:
+function2:
+encrypt_bytes
+0x66a948 0x4042ab 0x1
+exploitable_type:
+0x1

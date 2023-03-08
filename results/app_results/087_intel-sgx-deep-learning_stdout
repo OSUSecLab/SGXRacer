@@ -1,0 +1,20 @@
+potential racing pairs: 190
+potential racing interleavings: 332
+max_lockset_size: 1
+min_lockset_size: 0
+average_lockset_size: 0.6338910043629339
+max_history_size: 1
+min_history_size: 0
+average_history_size: 0.6057817200839282
+sv_r_count: 279
+sv_w_count: 14
+sv_rw_count: 0
+len(info.gv_reverse_map): 96
+mutex_count: 0
+spin_count: 29
+once_count: 0
+unique_locks: 2
+phase 1 time:
+0.29881882667541504
+phase 2 time:
+4.735946893692017

@@ -1,0 +1,64 @@
+--- ./crypto/asn1/asn1_lib.c	2019-09-04 14:50:24.018777954 +0900
++++ ../talos/./crypto/asn1/asn1_lib.c	2019-09-04 14:49:11.834299492 +0900
+@@ -63,6 +63,14 @@
+ #include <openssl/asn1.h>
+ #include <openssl/err.h>
+ 
++#ifdef COMPILE_WITH_INTEL_SGX
++#include "sgx_error.h"
++#include "sgx_trts.h"
++
++extern sgx_status_t ocall_realloc(void** retval, void*ptr, size_t size);
++extern sgx_status_t ocall_free(void* ptr);
++#endif
++
+ static int asn1_get_length(const unsigned char **pp, int *inf, long *rl, int max);
+ static void asn1_put_length(unsigned char **pp, int length);
+ 
+@@ -383,7 +391,16 @@
+ 	}
+ 	if ((str->length < len) || (str->data == NULL)) {
+ 		unsigned char *tmp;
+-		tmp = realloc(str->data, len + 1);
++#ifdef COMPILE_WITH_INTEL_SGX
++		if (!str->data || sgx_is_within_enclave(str->data, 1)) {
++#endif
++			tmp = realloc(str->data, len + 1);
++#ifdef COMPILE_WITH_INTEL_SGX
++		} else {
++			ocall_realloc((void**)&tmp, str->data, len+1);
++		}
++#endif
++
+ 		if (tmp == NULL) {
+ 			ASN1err(ASN1_F_ASN1_STRING_SET, ERR_R_MALLOC_FAILURE);
+ 			return (0);
+@@ -402,7 +419,7 @@
+ ASN1_STRING_set0(ASN1_STRING *str, void *data, int len)
+ {
+ 	if (str->data != NULL)
+-		explicit_bzero(str->data, str->length);
++		bzero(str->data, str->length);
+ 	free(str->data);
+ 	str->data = data;
+ 	str->length = len;
+@@ -437,8 +454,17 @@
+ 	if (a == NULL)
+ 		return;
+ 	if (a->data != NULL && !(a->flags & ASN1_STRING_FLAG_NDEF)) {
+-		explicit_bzero(a->data, a->length);
+-		free(a->data);
++		bzero(a->data, a->length);
++
++#ifdef COMPILE_WITH_INTEL_SGX
++        if (sgx_is_within_enclave(a->data, 1)) {
++#endif
++            free(a->data);
++#ifdef COMPILE_WITH_INTEL_SGX
++        } else {
++			ocall_free(a->data);
++		}
++#endif
+ 	}
+ 	free(a);
+ }

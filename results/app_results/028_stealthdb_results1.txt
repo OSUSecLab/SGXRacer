@@ -1,0 +1,4 @@
+gpLookup16*_Z13SetupLookup16v*_Z13SetupLookup16v
+p_key*loadKeyEnclave*decrypt_bytes
+p_key*loadKeyEnclave*encrypt_bytes
+p_key*loadKeyEnclave*loadKeyEnclave

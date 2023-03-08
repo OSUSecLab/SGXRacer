@@ -1,0 +1,20 @@
+[workspace]
+members = [
+    "aesm-client",
+    "dcap-provider",
+    "dcap-ql-sys",
+    "dcap-ql",
+    "dcap-retrieve-pckid",
+    "enclave-runner",
+    "fortanix-sgx-abi",
+    "fortanix-sgx-tools",
+    "ipc-queue",
+    "report-test",
+    "rs-libc",
+    "sgxs",
+    "sgx-isa",
+    "sgx-pkix",
+    "sgxs-loaders",
+    "sgxs-tools"
+]
+exclude = ["examples"]

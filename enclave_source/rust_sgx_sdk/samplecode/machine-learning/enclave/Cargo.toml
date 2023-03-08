@@ -1,0 +1,21 @@
+[package]
+name = "Machinelearningsampleenclave"
+version = "1.0.0"
+authors = ["Baidu"]
+
+[lib]
+name = "machinelearningsampleenclave"
+crate-type = ["staticlib"]
+
+[features]
+default = []
+
+[target.'cfg(not(target_env = "sgx"))'.dependencies]
+sgx_types = { path = "../../../sgx_types" }
+sgx_tstd = { path = "../../../sgx_tstd" }
+sgx_rand = { path = "../../../sgx_rand" }
+
+[dependencies]
+rusty-machine = { path = "../../../third_party/rusty-machine" }
+serde         = { path = "../../../third_party/serde-rs/serde/serde" }
+serde_json    = { path = "../../../third_party/serde-rs/json" }

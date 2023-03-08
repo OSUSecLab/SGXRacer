@@ -1,0 +1,3 @@
+completed.7594*__do_global_dtors_aux*__do_global_dtors_aux
+pending_async_ecalls*async_ecall_busy_waiter*make_asynchronous_ecall
+pending_async_ecalls*make_asynchronous_ecall*make_asynchronous_ecall

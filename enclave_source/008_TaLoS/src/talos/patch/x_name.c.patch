@@ -1,0 +1,13 @@
+--- ./crypto/asn1/x_name.c	2017-11-28 10:46:51.992404595 +0000
++++ ../talos/./crypto/asn1/x_name.c	2017-07-17 11:08:32.261409300 +0100
+@@ -130,6 +130,10 @@
+ }
+ 
+ void
++ecall_X509_NAME_ENTRY_free(X509_NAME_ENTRY *a) {
++	X509_NAME_ENTRY_free(a);
++}
++void
+ X509_NAME_ENTRY_free(X509_NAME_ENTRY *a)
+ {
+ 	ASN1_item_free((ASN1_VALUE *)a, &X509_NAME_ENTRY_it);

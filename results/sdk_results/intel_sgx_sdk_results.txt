@@ -1,0 +1,1547 @@
+*
+global variable:
+_ZL16g_is_first_ecall
+access1:
+function1:
+_ZL10trts_ecalljPv
+0x648190 0x408ad0 0x1
+access2:
+function2:
+_ZL10trts_ecalljPv
+0x648190 0x408b6f 0x2
+exploitable_type:
+0x1
+*
+global variable:
+_ZL16buffer_available
+access1:
+function1:
+_ZL16emergency_mallocm
+0x648a68 0x43746e 0x2
+access2:
+function2:
+_ZL16emergency_mallocm
+0x648a68 0x437481 0x1
+exploitable_type:
+0x1
+*
+global variable:
+_ZL16buffer_available
+access1:
+function1:
+_ZL16emergency_mallocm
+0x648a68 0x437481 0x1
+access2:
+function2:
+_ZL21emergency_malloc_freePc
+0x648a68 0x43757a 0x2
+exploitable_type:
+0x1
+*
+global variable:
+-0x1
+access1:
+function1:
+trts_handle_exception
+0x648b24 0x40a2be 0x2
+access2:
+function2:
+get_enclave_state
+0x648b24 0x43dc00 0x1
+exploitable_type:
+0x1
+*
+global variable:
+-0x1
+access1:
+function1:
+trts_handle_exception
+0x648b24 0x40a2be 0x2
+access2:
+function2:
+set_enclave_state
+0x648b24 0x43dc0a 0x2
+exploitable_type:
+0x1
+*
+global variable:
+-0x1
+access1:
+function1:
+trts_handle_exception
+0x648b24 0x40a2be 0x2
+access2:
+function2:
+lock_enclave
+0x648b24 0x43dc24 0x1
+exploitable_type:
+0x1
+*
+global variable:
+-0x1
+access1:
+function1:
+trts_handle_exception
+0x648b24 0x409ee1 0x2
+access2:
+function2:
+get_enclave_state
+0x648b24 0x43dc00 0x1
+exploitable_type:
+0x1
+*
+global variable:
+-0x1
+access1:
+function1:
+trts_handle_exception
+0x648b24 0x409ee1 0x2
+access2:
+function2:
+set_enclave_state
+0x648b24 0x43dc0a 0x2
+exploitable_type:
+0x1
+*
+global variable:
+-0x1
+access1:
+function1:
+trts_handle_exception
+0x648b24 0x409ee1 0x2
+access2:
+function2:
+lock_enclave
+0x648b24 0x43dc24 0x1
+exploitable_type:
+0x1
+*
+global variable:
+-0x1
+access1:
+function1:
+trts_handle_exception
+0x648b24 0x409f34 0x2
+access2:
+function2:
+get_enclave_state
+0x648b24 0x43dc00 0x1
+exploitable_type:
+0x1
+*
+global variable:
+-0x1
+access1:
+function1:
+trts_handle_exception
+0x648b24 0x409f34 0x2
+access2:
+function2:
+set_enclave_state
+0x648b24 0x43dc0a 0x2
+exploitable_type:
+0x1
+*
+global variable:
+-0x1
+access1:
+function1:
+trts_handle_exception
+0x648b24 0x409f34 0x2
+access2:
+function2:
+lock_enclave
+0x648b24 0x43dc24 0x1
+exploitable_type:
+0x1
+*
+global variable:
+-0x1
+access1:
+function1:
+trts_handle_exception
+0x648b24 0x409f7d 0x2
+access2:
+function2:
+get_enclave_state
+0x648b24 0x43dc00 0x1
+exploitable_type:
+0x1
+*
+global variable:
+-0x1
+access1:
+function1:
+trts_handle_exception
+0x648b24 0x409f7d 0x2
+access2:
+function2:
+set_enclave_state
+0x648b24 0x43dc0a 0x2
+exploitable_type:
+0x1
+*
+global variable:
+-0x1
+access1:
+function1:
+trts_handle_exception
+0x648b24 0x409f7d 0x2
+access2:
+function2:
+lock_enclave
+0x648b24 0x43dc24 0x1
+exploitable_type:
+0x1
+*
+global variable:
+-0x1
+access1:
+function1:
+trts_handle_exception
+0x648b24 0x40a05c 0x2
+access2:
+function2:
+get_enclave_state
+0x648b24 0x43dc00 0x1
+exploitable_type:
+0x1
+*
+global variable:
+-0x1
+access1:
+function1:
+trts_handle_exception
+0x648b24 0x40a05c 0x2
+access2:
+function2:
+set_enclave_state
+0x648b24 0x43dc0a 0x2
+exploitable_type:
+0x1
+*
+global variable:
+-0x1
+access1:
+function1:
+trts_handle_exception
+0x648b24 0x40a05c 0x2
+access2:
+function2:
+lock_enclave
+0x648b24 0x43dc24 0x1
+exploitable_type:
+0x1
+*
+global variable:
+-0x1
+access1:
+function1:
+get_enclave_state
+0x648b24 0x43dc00 0x1
+access2:
+function2:
+set_enclave_state
+0x648b24 0x43dc0a 0x2
+exploitable_type:
+0x1
+*
+global variable:
+-0x1
+access1:
+function1:
+get_enclave_state
+0x648b24 0x43dc00 0x1
+access2:
+function2:
+abort
+0x648b24 0x43df2c 0x2
+exploitable_type:
+0x1
+*
+global variable:
+-0x1
+access1:
+function1:
+set_enclave_state
+0x648b24 0x43dc0a 0x2
+access2:
+function2:
+set_enclave_state
+0x648b24 0x43dc0a 0x2
+exploitable_type:
+0x1
+*
+global variable:
+-0x1
+access1:
+function1:
+set_enclave_state
+0x648b24 0x43dc0a 0x2
+access2:
+function2:
+lock_enclave
+0x648b24 0x43dc24 0x1
+exploitable_type:
+0x1
+*
+global variable:
+-0x1
+access1:
+function1:
+set_enclave_state
+0x648b24 0x43dc0a 0x2
+access2:
+function2:
+abort
+0x648b24 0x43df2c 0x2
+exploitable_type:
+0x1
+*
+global variable:
+-0x1
+access1:
+function1:
+lock_enclave
+0x648b24 0x43dc24 0x1
+access2:
+function2:
+abort
+0x648b24 0x43df2c 0x2
+exploitable_type:
+0x1
+*
+global variable:
+_ZL10g_tcs_node
+access1:
+function1:
+_ZL11do_save_tcsPv
+0x648b48 0x408996 0x1
+access2:
+function2:
+_ZL11do_save_tcsPv
+0x648b48 0x4089a9 0x2
+exploitable_type:
+0x1
+*
+global variable:
+_ZL10g_tcs_node
+access1:
+function1:
+_ZL11do_save_tcsPv
+0x648b48 0x408996 0x1
+access2:
+function2:
+_ZL10do_del_tcsPv
+0x648b48 0x408a27 0x2
+exploitable_type:
+0x1
+*
+global variable:
+_ZL10g_tcs_node
+access1:
+function1:
+_ZL11do_save_tcsPv
+0x648b48 0x408996 0x1
+access2:
+function2:
+do_uninit_enclave
+0x648b48 0x4090e0 0x2
+exploitable_type:
+0x1
+*
+global variable:
+_ZL10g_tcs_node
+access1:
+function1:
+_ZL11do_save_tcsPv
+0x648b48 0x4089a9 0x2
+access2:
+function2:
+_ZL11do_save_tcsPv
+0x648b48 0x4089a9 0x2
+exploitable_type:
+0x1
+*
+global variable:
+_ZL10g_tcs_node
+access1:
+function1:
+_ZL11do_save_tcsPv
+0x648b48 0x4089a9 0x2
+access2:
+function2:
+_ZL10do_del_tcsPv
+0x648b48 0x4089e7 0x1
+exploitable_type:
+0x1
+*
+global variable:
+_ZL10g_tcs_node
+access1:
+function1:
+_ZL11do_save_tcsPv
+0x648b48 0x4089a9 0x2
+access2:
+function2:
+_ZL10do_del_tcsPv
+0x648b48 0x4089f7 0x1
+exploitable_type:
+0x3
+*
+global variable:
+_ZL10g_tcs_node
+access1:
+function1:
+_ZL11do_save_tcsPv
+0x648b48 0x4089a9 0x2
+access2:
+function2:
+_ZL10do_del_tcsPv
+0x648b48 0x408a11 0x1
+exploitable_type:
+0x1
+*
+global variable:
+_ZL10g_tcs_node
+access1:
+function1:
+_ZL11do_save_tcsPv
+0x648b48 0x4089a9 0x2
+access2:
+function2:
+_ZL10do_del_tcsPv
+0x648b48 0x408a1c 0x1
+exploitable_type:
+0x1
+*
+global variable:
+_ZL10g_tcs_node
+access1:
+function1:
+_ZL11do_save_tcsPv
+0x648b48 0x4089a9 0x2
+access2:
+function2:
+_ZL10do_del_tcsPv
+0x648b48 0x408a27 0x2
+exploitable_type:
+0x1
+*
+global variable:
+_ZL10g_tcs_node
+access1:
+function1:
+_ZL11do_save_tcsPv
+0x648b48 0x4089a9 0x2
+access2:
+function2:
+_ZL10do_del_tcsPv
+0x648b48 0x408a3c 0x1
+exploitable_type:
+0x1
+*
+global variable:
+_ZL10g_tcs_node
+access1:
+function1:
+_ZL11do_save_tcsPv
+0x648b48 0x4089a9 0x2
+access2:
+function2:
+_ZL10do_del_tcsPv
+0x648b48 0x408a4b 0x1
+exploitable_type:
+0x1
+*
+global variable:
+_ZL10g_tcs_node
+access1:
+function1:
+_ZL11do_save_tcsPv
+0x648b48 0x4089a9 0x2
+access2:
+function2:
+do_uninit_enclave
+0x648b48 0x4090d5 0x1
+exploitable_type:
+0x1
+*
+global variable:
+_ZL10g_tcs_node
+access1:
+function1:
+_ZL11do_save_tcsPv
+0x648b48 0x4089a9 0x2
+access2:
+function2:
+do_uninit_enclave
+0x648b48 0x4090e0 0x2
+exploitable_type:
+0x1
+*
+global variable:
+_ZL10g_tcs_node
+access1:
+function1:
+_ZL10do_del_tcsPv
+0x648b48 0x4089e7 0x1
+access2:
+function2:
+_ZL10do_del_tcsPv
+0x648b48 0x408a27 0x2
+exploitable_type:
+0x1
+*
+global variable:
+_ZL10g_tcs_node
+access1:
+function1:
+_ZL10do_del_tcsPv
+0x648b48 0x4089e7 0x1
+access2:
+function2:
+do_uninit_enclave
+0x648b48 0x4090e0 0x2
+exploitable_type:
+0x1
+*
+global variable:
+_ZL10g_tcs_node
+access1:
+function1:
+_ZL10do_del_tcsPv
+0x648b48 0x4089f7 0x1
+access2:
+function2:
+_ZL10do_del_tcsPv
+0x648b48 0x408a27 0x2
+exploitable_type:
+0x3
+*
+global variable:
+_ZL10g_tcs_node
+access1:
+function1:
+_ZL10do_del_tcsPv
+0x648b48 0x4089f7 0x1
+access2:
+function2:
+do_uninit_enclave
+0x648b48 0x4090e0 0x2
+exploitable_type:
+0x3
+*
+global variable:
+_ZL10g_tcs_node
+access1:
+function1:
+_ZL10do_del_tcsPv
+0x648b48 0x408a11 0x1
+access2:
+function2:
+_ZL10do_del_tcsPv
+0x648b48 0x408a27 0x2
+exploitable_type:
+0x1
+*
+global variable:
+_ZL10g_tcs_node
+access1:
+function1:
+_ZL10do_del_tcsPv
+0x648b48 0x408a11 0x1
+access2:
+function2:
+do_uninit_enclave
+0x648b48 0x4090e0 0x2
+exploitable_type:
+0x1
+*
+global variable:
+_ZL10g_tcs_node
+access1:
+function1:
+_ZL10do_del_tcsPv
+0x648b48 0x408a1c 0x1
+access2:
+function2:
+_ZL10do_del_tcsPv
+0x648b48 0x408a27 0x2
+exploitable_type:
+0x1
+*
+global variable:
+_ZL10g_tcs_node
+access1:
+function1:
+_ZL10do_del_tcsPv
+0x648b48 0x408a1c 0x1
+access2:
+function2:
+do_uninit_enclave
+0x648b48 0x4090e0 0x2
+exploitable_type:
+0x1
+*
+global variable:
+_ZL10g_tcs_node
+access1:
+function1:
+_ZL10do_del_tcsPv
+0x648b48 0x408a27 0x2
+access2:
+function2:
+_ZL10do_del_tcsPv
+0x648b48 0x408a27 0x2
+exploitable_type:
+0x1
+*
+global variable:
+_ZL10g_tcs_node
+access1:
+function1:
+_ZL10do_del_tcsPv
+0x648b48 0x408a27 0x2
+access2:
+function2:
+_ZL10do_del_tcsPv
+0x648b48 0x408a3c 0x1
+exploitable_type:
+0x1
+*
+global variable:
+_ZL10g_tcs_node
+access1:
+function1:
+_ZL10do_del_tcsPv
+0x648b48 0x408a27 0x2
+access2:
+function2:
+_ZL10do_del_tcsPv
+0x648b48 0x408a4b 0x1
+exploitable_type:
+0x1
+*
+global variable:
+_ZL10g_tcs_node
+access1:
+function1:
+_ZL10do_del_tcsPv
+0x648b48 0x408a27 0x2
+access2:
+function2:
+do_uninit_enclave
+0x648b48 0x4090d5 0x1
+exploitable_type:
+0x1
+*
+global variable:
+_ZL10g_tcs_node
+access1:
+function1:
+_ZL10do_del_tcsPv
+0x648b48 0x408a27 0x2
+access2:
+function2:
+do_uninit_enclave
+0x648b48 0x4090e0 0x2
+exploitable_type:
+0x1
+*
+global variable:
+_ZL10g_tcs_node
+access1:
+function1:
+_ZL10do_del_tcsPv
+0x648b48 0x408a3c 0x1
+access2:
+function2:
+do_uninit_enclave
+0x648b48 0x4090e0 0x2
+exploitable_type:
+0x1
+*
+global variable:
+_ZL10g_tcs_node
+access1:
+function1:
+_ZL10do_del_tcsPv
+0x648b48 0x408a4b 0x1
+access2:
+function2:
+do_uninit_enclave
+0x648b48 0x4090e0 0x2
+exploitable_type:
+0x1
+*
+global variable:
+_ZL10g_tcs_node
+access1:
+function1:
+do_uninit_enclave
+0x648b48 0x4090d5 0x1
+access2:
+function2:
+do_uninit_enclave
+0x648b48 0x4090e0 0x2
+exploitable_type:
+0x1
+*
+global variable:
+_ZL12g_tcs_cookie
+access1:
+function1:
+_ZL11do_save_tcsPv
+0x648b50 0x408905 0x1
+access2:
+function2:
+_ZL11do_save_tcsPv
+0x648b50 0x40895e 0x2
+exploitable_type:
+0x1
+*
+global variable:
+_ZL12g_tcs_cookie
+access1:
+function1:
+_ZL11do_save_tcsPv
+0x648b50 0x40894e 0x1
+access2:
+function2:
+_ZL11do_save_tcsPv
+0x648b50 0x40895e 0x2
+exploitable_type:
+0x1
+*
+global variable:
+_ZL12g_tcs_cookie
+access1:
+function1:
+_ZL11do_save_tcsPv
+0x648b50 0x40895e 0x2
+access2:
+function2:
+_ZL11do_save_tcsPv
+0x648b50 0x40895e 0x2
+exploitable_type:
+0x1
+*
+global variable:
+_ZL12g_tcs_cookie
+access1:
+function1:
+_ZL11do_save_tcsPv
+0x648b50 0x40895e 0x2
+access2:
+function2:
+_ZL11do_save_tcsPv
+0x648b50 0x408985 0x1
+exploitable_type:
+0x1
+*
+global variable:
+_ZL12g_tcs_cookie
+access1:
+function1:
+_ZL11do_save_tcsPv
+0x648b50 0x40895e 0x2
+access2:
+function2:
+_ZL10do_del_tcsPv
+0x648b50 0x408a01 0x1
+exploitable_type:
+0x1
+*
+global variable:
+_ZL12g_tcs_cookie
+access1:
+function1:
+_ZL11do_save_tcsPv
+0x648b50 0x40895e 0x2
+access2:
+function2:
+_ZL10do_del_tcsPv
+0x648b50 0x408a64 0x1
+exploitable_type:
+0x1
+*
+global variable:
+_ZL12g_tcs_cookie
+access1:
+function1:
+_ZL11do_save_tcsPv
+0x648b50 0x40895e 0x2
+access2:
+function2:
+do_uninit_enclave
+0x648b50 0x4090fd 0x1
+exploitable_type:
+0x1
+*
+global variable:
+_ZL12g_tcs_cookie
+access1:
+function1:
+_ZL11do_save_tcsPv
+0x648b50 0x40895e 0x2
+access2:
+function2:
+do_uninit_enclave
+0x648b50 0x409136 0x1
+exploitable_type:
+0x1
+*
+global variable:
+mparams
+access1:
+function1:
+mmap_resize
+0x648ba0 0x40b853 0x1
+access2:
+function2:
+init_mparams
+0x648ba0 0x40b2bd 0x2
+exploitable_type:
+0x1
+*
+global variable:
+mparams
+access1:
+function1:
+try_realloc_chunk
+0x648ba0 0x412337 0x1
+access2:
+function2:
+init_mparams
+0x648ba0 0x40b2bd 0x2
+exploitable_type:
+0x1
+*
+global variable:
+mparams
+access1:
+function1:
+try_realloc_chunk
+0x648ba0 0x4123b1 0x1
+access2:
+function2:
+init_mparams
+0x648ba0 0x40b2bd 0x2
+exploitable_type:
+0x1
+*
+global variable:
+mparams
+access1:
+function1:
+try_realloc_chunk
+0x648ba0 0x412504 0x1
+access2:
+function2:
+init_mparams
+0x648ba0 0x40b2bd 0x2
+exploitable_type:
+0x1
+*
+global variable:
+mparams
+access1:
+function1:
+try_realloc_chunk
+0x648ba0 0x412661 0x1
+access2:
+function2:
+init_mparams
+0x648ba0 0x40b2bd 0x2
+exploitable_type:
+0x1
+*
+global variable:
+mparams
+access1:
+function1:
+try_realloc_chunk
+0x648ba0 0x412743 0x1
+access2:
+function2:
+init_mparams
+0x648ba0 0x40b2bd 0x2
+exploitable_type:
+0x1
+*
+global variable:
+mparams
+access1:
+function1:
+try_realloc_chunk
+0x648ba0 0x412da4 0x1
+access2:
+function2:
+init_mparams
+0x648ba0 0x40b2bd 0x2
+exploitable_type:
+0x1
+*
+global variable:
+mparams
+access1:
+function1:
+try_realloc_chunk
+0x648ba0 0x412e38 0x1
+access2:
+function2:
+init_mparams
+0x648ba0 0x40b2bd 0x2
+exploitable_type:
+0x1
+*
+global variable:
+mparams
+access1:
+function1:
+try_realloc_chunk
+0x648ba0 0x412e97 0x1
+access2:
+function2:
+init_mparams
+0x648ba0 0x40b2bd 0x2
+exploitable_type:
+0x1
+*
+global variable:
+mparams
+access1:
+function1:
+dlrealloc
+0x648ba0 0x412f8d 0x1
+access2:
+function2:
+init_mparams
+0x648ba0 0x40b2bd 0x2
+exploitable_type:
+0x1
+*
+global variable:
+mparams
+access1:
+function1:
+dlrealloc
+0x648ba0 0x412fa3 0x1
+access2:
+function2:
+init_mparams
+0x648ba0 0x40b2bd 0x2
+exploitable_type:
+0x1
+*
+global variable:
+mparams+0x8
+access1:
+function1:
+init_mparams
+0x648ba8 0x40b235 0x2
+access2:
+function2:
+mmap_resize
+0x648ba8 0x40b7e7 0x1
+exploitable_type:
+0x1
+*
+global variable:
+mparams+0x8
+access1:
+function1:
+init_mparams
+0x648ba8 0x40b235 0x2
+access2:
+function2:
+mmap_resize
+0x648ba8 0x40b7f9 0x1
+exploitable_type:
+0x1
+*
+global variable:
+mparams+0x10
+access1:
+function1:
+init_mparams
+0x648bb0 0x40b22a 0x2
+access2:
+function2:
+mmap_resize
+0x648bb0 0x40b7b1 0x1
+exploitable_type:
+0x1
+*
+global variable:
+__intel_cpu_feature_indicator
+access1:
+function1:
+__intel_cpu_features_init_body
+0x648fa0 0x414901 0x2
+access2:
+function2:
+__intel_cpu_features_init_body
+0x648fa0 0x414901 0x2
+exploitable_type:
+0x1
+*
+global variable:
+__intel_cpu_feature_indicator
+access1:
+function1:
+__intel_cpu_features_init_body
+0x648fa0 0x414901 0x2
+access2:
+function2:
+__intel_cpu_features_init_body
+0x648fa0 0x41491c 0x2
+exploitable_type:
+0x1
+*
+global variable:
+__intel_cpu_feature_indicator
+access1:
+function1:
+__intel_cpu_features_init_body
+0x648fa0 0x414901 0x2
+access2:
+function2:
+_intel_fast_memcpy
+0x648fa0 0x4149e6 0x1
+exploitable_type:
+0x1
+*
+global variable:
+__intel_cpu_feature_indicator
+access1:
+function1:
+__intel_cpu_features_init_body
+0x648fa0 0x414901 0x2
+access2:
+function2:
+_intel_fast_memcpy
+0x648fa0 0x4149fa 0x1
+exploitable_type:
+0x1
+*
+global variable:
+__intel_cpu_feature_indicator
+access1:
+function1:
+__intel_cpu_features_init_body
+0x648fa0 0x414901 0x2
+access2:
+function2:
+_intel_fast_memcpy
+0x648fa0 0x414a4e 0x1
+exploitable_type:
+0x1
+*
+global variable:
+__intel_cpu_feature_indicator
+access1:
+function1:
+__intel_cpu_features_init_body
+0x648fa0 0x414901 0x2
+access2:
+function2:
+_intel_fast_memcpy
+0x648fa0 0x414a64 0x1
+exploitable_type:
+0x1
+*
+global variable:
+__intel_cpu_feature_indicator
+access1:
+function1:
+__intel_cpu_features_init_body
+0x648fa0 0x414901 0x2
+access2:
+function2:
+_intel_fast_memset
+0x648fa0 0x414ae6 0x1
+exploitable_type:
+0x1
+*
+global variable:
+__intel_cpu_feature_indicator
+access1:
+function1:
+__intel_cpu_features_init_body
+0x648fa0 0x414901 0x2
+access2:
+function2:
+_intel_fast_memset
+0x648fa0 0x414afa 0x1
+exploitable_type:
+0x1
+*
+global variable:
+__intel_cpu_feature_indicator
+access1:
+function1:
+__intel_cpu_features_init_body
+0x648fa0 0x414901 0x2
+access2:
+function2:
+_intel_fast_memset
+0x648fa0 0x414b16 0x1
+exploitable_type:
+0x1
+*
+global variable:
+__intel_cpu_feature_indicator
+access1:
+function1:
+__intel_cpu_features_init_body
+0x648fa0 0x414901 0x2
+access2:
+function2:
+_intel_fast_memset
+0x648fa0 0x414b2c 0x1
+exploitable_type:
+0x1
+*
+global variable:
+__intel_cpu_feature_indicator
+access1:
+function1:
+__intel_cpu_features_init_body
+0x648fa0 0x41491c 0x2
+access2:
+function2:
+_intel_fast_memcpy
+0x648fa0 0x4149e6 0x1
+exploitable_type:
+0x1
+*
+global variable:
+__intel_cpu_feature_indicator
+access1:
+function1:
+__intel_cpu_features_init_body
+0x648fa0 0x41491c 0x2
+access2:
+function2:
+_intel_fast_memcpy
+0x648fa0 0x4149fa 0x1
+exploitable_type:
+0x1
+*
+global variable:
+__intel_cpu_feature_indicator
+access1:
+function1:
+__intel_cpu_features_init_body
+0x648fa0 0x41491c 0x2
+access2:
+function2:
+_intel_fast_memcpy
+0x648fa0 0x414a4e 0x1
+exploitable_type:
+0x1
+*
+global variable:
+__intel_cpu_feature_indicator
+access1:
+function1:
+__intel_cpu_features_init_body
+0x648fa0 0x41491c 0x2
+access2:
+function2:
+_intel_fast_memcpy
+0x648fa0 0x414a64 0x1
+exploitable_type:
+0x1
+*
+global variable:
+__intel_cpu_feature_indicator
+access1:
+function1:
+__intel_cpu_features_init_body
+0x648fa0 0x41491c 0x2
+access2:
+function2:
+_intel_fast_memset
+0x648fa0 0x414ae6 0x1
+exploitable_type:
+0x1
+*
+global variable:
+__intel_cpu_feature_indicator
+access1:
+function1:
+__intel_cpu_features_init_body
+0x648fa0 0x41491c 0x2
+access2:
+function2:
+_intel_fast_memset
+0x648fa0 0x414afa 0x1
+exploitable_type:
+0x1
+*
+global variable:
+__intel_cpu_feature_indicator
+access1:
+function1:
+__intel_cpu_features_init_body
+0x648fa0 0x41491c 0x2
+access2:
+function2:
+_intel_fast_memset
+0x648fa0 0x414b16 0x1
+exploitable_type:
+0x1
+*
+global variable:
+__intel_cpu_feature_indicator
+access1:
+function1:
+__intel_cpu_features_init_body
+0x648fa0 0x41491c 0x2
+access2:
+function2:
+_intel_fast_memset
+0x648fa0 0x414b2c 0x1
+exploitable_type:
+0x1
+*
+global variable:
+__intel_cpu_feature_indicator_x
+access1:
+function1:
+__intel_cpu_features_init_body
+0x648fa8 0x4148ed 0x2
+access2:
+function2:
+__intel_cpu_features_init_body
+0x648fa8 0x4148ed 0x2
+exploitable_type:
+0x1
+*
+global variable:
+__intel_cpu_feature_indicator_x
+access1:
+function1:
+__intel_cpu_features_init_body
+0x648fa8 0x4148ed 0x2
+access2:
+function2:
+__intel_cpu_features_init_body
+0x648fa8 0x414908 0x2
+exploitable_type:
+0x1
+*
+global variable:
+__intel_cpu_feature_indicator_x
+access1:
+function1:
+__intel_cpu_features_init_body
+0x648fa8 0x414908 0x2
+access2:
+function2:
+__intel_cpu_features_init_body
+0x648fa8 0x414908 0x2
+exploitable_type:
+0x1
+*
+global variable:
+g_last_token
+access1:
+function1:
+__intel_sse2_strtok
+0x648fb0 0x421290 0x2
+access2:
+function2:
+__intel_sse2_strtok
+0x648fb0 0x421290 0x2
+exploitable_type:
+0x1
+*
+global variable:
+g_last_token
+access1:
+function1:
+__intel_sse2_strtok
+0x648fb0 0x421290 0x2
+access2:
+function2:
+__intel_sse2_strtok
+0x648fb0 0x4214a0 0x2
+exploitable_type:
+0x1
+*
+global variable:
+g_last_token
+access1:
+function1:
+__intel_sse2_strtok
+0x648fb0 0x421290 0x2
+access2:
+function2:
+__intel_sse2_strtok
+0x648fb0 0x4215a2 0x2
+exploitable_type:
+0x1
+*
+global variable:
+g_last_token
+access1:
+function1:
+__intel_sse2_strtok
+0x648fb0 0x421290 0x2
+access2:
+function2:
+__intel_sse2_strtok
+0x648fb0 0x421654 0x2
+exploitable_type:
+0x1
+*
+global variable:
+g_last_token
+access1:
+function1:
+__intel_sse2_strtok
+0x648fb0 0x421290 0x2
+access2:
+function2:
+__intel_sse2_strtok
+0x648fb0 0x421887 0x1
+exploitable_type:
+0x1
+*
+global variable:
+g_last_token
+access1:
+function1:
+__intel_sse2_strtok
+0x648fb0 0x4214a0 0x2
+access2:
+function2:
+__intel_sse2_strtok
+0x648fb0 0x4215a2 0x2
+exploitable_type:
+0x1
+*
+global variable:
+g_last_token
+access1:
+function1:
+__intel_sse2_strtok
+0x648fb0 0x4214a0 0x2
+access2:
+function2:
+__intel_sse2_strtok
+0x648fb0 0x421654 0x2
+exploitable_type:
+0x1
+*
+global variable:
+g_last_token
+access1:
+function1:
+__intel_sse2_strtok
+0x648fb0 0x4214a0 0x2
+access2:
+function2:
+__intel_sse2_strtok
+0x648fb0 0x421887 0x1
+exploitable_type:
+0x1
+*
+global variable:
+g_last_token
+access1:
+function1:
+__intel_sse2_strtok
+0x648fb0 0x4215a2 0x2
+access2:
+function2:
+__intel_sse2_strtok
+0x648fb0 0x4215a2 0x2
+exploitable_type:
+0x1
+*
+global variable:
+g_last_token
+access1:
+function1:
+__intel_sse2_strtok
+0x648fb0 0x4215a2 0x2
+access2:
+function2:
+__intel_sse2_strtok
+0x648fb0 0x421654 0x2
+exploitable_type:
+0x1
+*
+global variable:
+g_last_token
+access1:
+function1:
+__intel_sse2_strtok
+0x648fb0 0x4215a2 0x2
+access2:
+function2:
+__intel_sse2_strtok
+0x648fb0 0x421887 0x1
+exploitable_type:
+0x1
+*
+global variable:
+g_last_token
+access1:
+function1:
+__intel_sse2_strtok
+0x648fb0 0x421654 0x2
+access2:
+function2:
+__intel_sse2_strtok
+0x648fb0 0x421654 0x2
+exploitable_type:
+0x1
+*
+global variable:
+g_last_token
+access1:
+function1:
+__intel_sse2_strtok
+0x648fb0 0x421654 0x2
+access2:
+function2:
+__intel_sse2_strtok
+0x648fb0 0x421887 0x1
+exploitable_type:
+0x1
+*
+global variable:
+__libirc_cache_tbl
+access1:
+function1:
+__cacheSize
+0x648fc0 0x42af8b 0x2
+access2:
+function2:
+__cacheSize
+0x648fc0 0x42af8b 0x2
+exploitable_type:
+0x1
+*
+global variable:
+__libirc_cache_tbl+0x4
+access1:
+function1:
+__cacheSize
+0x648fc4 0x42af91 0x2
+access2:
+function2:
+__cacheSize
+0x648fc4 0x42af91 0x2
+exploitable_type:
+0x1
+*
+global variable:
+__libirc_cache_tbl+0xc
+access1:
+function1:
+__cacheSize
+0x648fcc 0x42aeae 0x1
+access2:
+function2:
+__cacheSize
+0x648fcc 0x42b26a 0x2
+exploitable_type:
+0x1
+*
+global variable:
+p5s
+access1:
+function1:
+__pow5mult_D2A
+0x649980 0x431105 0x1
+access2:
+function2:
+__pow5mult_D2A
+0x649980 0x43113f 0x2
+exploitable_type:
+0x1
+*
+global variable:
+lga_victim
+access1:
+function1:
+validate_mem
+0x651a20 0x43a409 0x1
+access2:
+function2:
+validate_mem
+0x651a20 0x43a467 0x2
+exploitable_type:
+0x1
+*
+global variable:
+lga_victim
+access1:
+function1:
+validate_mem
+0x651a20 0x43a409 0x1
+access2:
+function2:
+_ULx86_64_local_addr_space_init
+0x651a20 0x43a6c3 0x2
+exploitable_type:
+0x1
+*
+global variable:
+lga_victim
+access1:
+function1:
+validate_mem
+0x651a20 0x43a467 0x2
+access2:
+function2:
+validate_mem
+0x651a20 0x43a467 0x2
+exploitable_type:
+0x1
+*
+global variable:
+lga_victim
+access1:
+function1:
+validate_mem
+0x651a20 0x43a467 0x2
+access2:
+function2:
+_ULx86_64_local_addr_space_init
+0x651a20 0x43a6c3 0x2
+exploitable_type:
+0x1
+*
+global variable:
+mem_validate_func
+access1:
+function1:
+validate_mem
+0x651a60 0x43a3fe 0x1
+access2:
+function2:
+_ULx86_64_init_mem_validate
+0x651a60 0x43a5e9 0x2
+exploitable_type:
+0x1
+*
+global variable:
+_ULx86_64_init_done
+access1:
+function1:
+_ULx86_64_init
+0x658348 0x43a36e 0x2
+access2:
+function2:
+unw_init_local_common
+0x658348 0x43408b 0x1
+exploitable_type:
+0x1

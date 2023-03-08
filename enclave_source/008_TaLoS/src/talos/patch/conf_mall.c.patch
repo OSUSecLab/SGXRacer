@@ -1,0 +1,13 @@
+--- ./crypto/conf/conf_mall.c	2017-11-28 10:46:51.992404595 +0000
++++ ../talos/./crypto/conf/conf_mall.c	2017-07-17 11:08:32.213410215 +0100
+@@ -72,6 +72,10 @@
+ /* Load all OpenSSL builtin modules */
+ 
+ void
++ecall_OPENSSL_load_builtin_modules(void) {
++	OPENSSL_load_builtin_modules();
++}
++void
+ OPENSSL_load_builtin_modules(void)
+ {
+ 	/* Add builtin modules here */

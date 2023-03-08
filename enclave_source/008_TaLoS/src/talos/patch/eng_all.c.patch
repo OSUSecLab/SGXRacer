@@ -1,0 +1,14 @@
+--- ./crypto/engine/eng_all.c	2017-11-28 10:46:51.996404519 +0000
++++ ../talos/./crypto/engine/eng_all.c	2017-07-17 11:08:32.229409910 +0100
+@@ -62,6 +62,11 @@
+ #include "eng_int.h"
+ 
+ void
++ecall_ENGINE_load_builtin_engines(void)
++{
++	ENGINE_load_builtin_engines();
++}
++void
+ ENGINE_load_builtin_engines(void)
+ {
+ 	/* Some ENGINEs need this */

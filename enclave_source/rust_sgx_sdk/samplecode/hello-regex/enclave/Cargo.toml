@@ -1,0 +1,18 @@
+[package]
+name = "Helloregexsampleenclave"
+version = "1.0.0"
+authors = ["Baidu"]
+
+[lib]
+name = "helloregexsampleenclave"
+crate-type = ["staticlib"]
+
+[features]
+default = []
+
+[dependencies]
+regex = { git = "https://github.com/mesalock-linux/regex-sgx" }
+
+[target.'cfg(not(target_env = "sgx"))'.dependencies]
+sgx_types = { rev = "v1.0.8", git = "https://github.com/baidu/rust-sgx-sdk.git" }
+sgx_tstd = { rev = "v1.0.8", git = "https://github.com/baidu/rust-sgx-sdk.git" }

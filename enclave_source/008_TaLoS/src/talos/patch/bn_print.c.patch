@@ -1,0 +1,14 @@
+--- ./crypto/bn/bn_print.c	2017-11-28 10:46:51.992404595 +0000
++++ ../talos/./crypto/bn/bn_print.c	2017-07-17 11:08:32.261409300 +0100
+@@ -260,6 +260,11 @@
+ }
+ 
+ int
++ecall_BN_dec2bn(BIGNUM **bn, const char *a)
++{
++	return BN_dec2bn(bn, a);
++}
++int
+ BN_dec2bn(BIGNUM **bn, const char *a)
+ {
+ 	BIGNUM *ret = NULL;

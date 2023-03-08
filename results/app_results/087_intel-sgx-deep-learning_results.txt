@@ -1,0 +1,728 @@
+*
+global variable:
+g_finished
+access1:
+function1:
+ecall_thread_enter_enclave_waiting
+0x677040 0x4027e3 0x1
+access2:
+function2:
+ecall_train_network
+0x677040 0x4028f3 0x2
+exploitable_type:
+0x1
+*
+global variable:
+g_finished
+access1:
+function1:
+ecall_thread_enter_enclave_waiting
+0x677040 0x402806 0x1
+access2:
+function2:
+ecall_train_network
+0x677040 0x4028f3 0x2
+exploitable_type:
+0x1
+*
+global variable:
+g_finished
+access1:
+function1:
+ecall_thread_enter_enclave_waiting
+0x677040 0x402806 0x1
+access2:
+function2:
+ecall_test_network
+0x677040 0x402c27 0x2
+exploitable_type:
+0x1
+*
+global variable:
+g_finished
+access1:
+function1:
+ecall_train_network
+0x677040 0x4028f3 0x2
+access2:
+function2:
+ecall_train_network
+0x677040 0x4028f3 0x2
+exploitable_type:
+0x1
+*
+global variable:
+g_finished
+access1:
+function1:
+ecall_train_network
+0x677040 0x4028f3 0x2
+access2:
+function2:
+ecall_test_network
+0x677040 0x402c27 0x2
+exploitable_type:
+0x1
+*
+global variable:
+g_gemm_args_pointer
+access1:
+function1:
+ecall_thread_enter_enclave_waiting
+0x677048 0x4027a2 0x1
+access2:
+function2:
+ecall_train_network
+0x677048 0x4028d6 0x2
+exploitable_type:
+0x1
+*
+global variable:
+g_gemm_args_pointer
+access1:
+function1:
+ecall_train_network
+0x677048 0x4028d6 0x2
+access2:
+function2:
+ecall_train_network
+0x677048 0x4028d6 0x2
+exploitable_type:
+0x1
+*
+global variable:
+g_gemm_args_pointer
+access1:
+function1:
+ecall_train_network
+0x677048 0x4028d6 0x2
+access2:
+function2:
+ecall_test_network
+0x677048 0x402c18 0x2
+exploitable_type:
+0x1
+*
+global variable:
+g_gemm_args_pointer
+access1:
+function1:
+ecall_train_network
+0x677048 0x4028d6 0x2
+access2:
+function2:
+gemm
+0x677048 0x404df1 0x1
+exploitable_type:
+0x1
+*
+global variable:
+g_gemm_args_pointer
+access1:
+function1:
+ecall_train_network
+0x677048 0x4028d6 0x2
+access2:
+function2:
+gemm
+0x677048 0x404e25 0x1
+exploitable_type:
+0x1
+*
+global variable:
+g_gemm_args_pointer
+access1:
+function1:
+ecall_train_network
+0x677048 0x4028d6 0x2
+access2:
+function2:
+gemm
+0x677048 0x405034 0x1
+exploitable_type:
+0x1
+*
+global variable:
+g_gemm_args_pointer
+access1:
+function1:
+ecall_train_network
+0x677048 0x4028d6 0x2
+access2:
+function2:
+gemm
+0x677048 0x405185 0x1
+exploitable_type:
+0x1
+*
+global variable:
+g_gemm_args_pointer
+access1:
+function1:
+ecall_train_network
+0x677048 0x4028d6 0x2
+access2:
+function2:
+gemm
+0x677048 0x405391 0x1
+exploitable_type:
+0x1
+*
+global variable:
+g_gemm_args_pointer
+access1:
+function1:
+ecall_test_network
+0x677048 0x402c18 0x2
+access2:
+function2:
+gemm
+0x677048 0x404df1 0x1
+exploitable_type:
+0x1
+*
+global variable:
+g_gemm_args_pointer
+access1:
+function1:
+ecall_test_network
+0x677048 0x402c18 0x2
+access2:
+function2:
+gemm
+0x677048 0x404e25 0x1
+exploitable_type:
+0x1
+*
+global variable:
+g_gemm_args_pointer
+access1:
+function1:
+ecall_test_network
+0x677048 0x402c18 0x2
+access2:
+function2:
+gemm
+0x677048 0x405034 0x1
+exploitable_type:
+0x1
+*
+global variable:
+g_gemm_args_pointer
+access1:
+function1:
+ecall_test_network
+0x677048 0x402c18 0x2
+access2:
+function2:
+gemm
+0x677048 0x405185 0x1
+exploitable_type:
+0x1
+*
+global variable:
+g_gemm_args_pointer
+access1:
+function1:
+ecall_test_network
+0x677048 0x402c18 0x2
+access2:
+function2:
+gemm
+0x677048 0x405391 0x1
+exploitable_type:
+0x1
+*
+global variable:
+g_spin_locks
+access1:
+function1:
+ecall_thread_enter_enclave_waiting
+0x677050 0x402793 0x1
+access2:
+function2:
+ecall_train_network
+0x677050 0x4028c2 0x2
+exploitable_type:
+0x1
+*
+global variable:
+g_spin_locks
+access1:
+function1:
+ecall_thread_enter_enclave_waiting
+0x677050 0x402793 0x1
+access2:
+function2:
+ecall_test_network
+0x677050 0x402c04 0x2
+exploitable_type:
+0x1
+*
+global variable:
+g_spin_locks
+access1:
+function1:
+ecall_thread_enter_enclave_waiting
+0x677050 0x4027ed 0x1
+access2:
+function2:
+ecall_train_network
+0x677050 0x4028c2 0x2
+exploitable_type:
+0x1
+*
+global variable:
+g_spin_locks
+access1:
+function1:
+ecall_train_network
+0x677050 0x4028c2 0x2
+access2:
+function2:
+ecall_train_network
+0x677050 0x4028c2 0x2
+exploitable_type:
+0x1
+*
+global variable:
+g_spin_locks
+access1:
+function1:
+ecall_train_network
+0x677050 0x4028c2 0x2
+access2:
+function2:
+ecall_train_network
+0x677050 0x402963 0x1
+exploitable_type:
+0x1
+*
+global variable:
+g_spin_locks
+access1:
+function1:
+ecall_train_network
+0x677050 0x4028c2 0x2
+access2:
+function2:
+ecall_test_network
+0x677050 0x402c04 0x2
+exploitable_type:
+0x1
+*
+global variable:
+g_spin_locks
+access1:
+function1:
+ecall_train_network
+0x677050 0x4028c2 0x2
+access2:
+function2:
+ecall_test_network
+0x677050 0x402c40 0x1
+exploitable_type:
+0x1
+*
+global variable:
+g_spin_locks
+access1:
+function1:
+ecall_train_network
+0x677050 0x4028c2 0x2
+access2:
+function2:
+gemm
+0x677050 0x404e63 0x1
+exploitable_type:
+0x1
+*
+global variable:
+g_spin_locks
+access1:
+function1:
+ecall_train_network
+0x677050 0x4028c2 0x2
+access2:
+function2:
+gemm
+0x677050 0x405201 0x1
+exploitable_type:
+0x1
+*
+global variable:
+g_spin_locks
+access1:
+function1:
+ecall_test_network
+0x677050 0x402c04 0x2
+access2:
+function2:
+gemm
+0x677050 0x404e63 0x1
+exploitable_type:
+0x1
+*
+global variable:
+g_spin_locks
+access1:
+function1:
+ecall_test_network
+0x677050 0x402c04 0x2
+access2:
+function2:
+gemm
+0x677050 0x405201 0x1
+exploitable_type:
+0x1
+*
+global variable:
+g_num_threads
+access1:
+function1:
+ecall_train_network
+0x677058 0x40289f 0x2
+access2:
+function2:
+ecall_train_network
+0x677058 0x40289f 0x2
+exploitable_type:
+0x1
+*
+global variable:
+g_num_threads
+access1:
+function1:
+ecall_train_network
+0x677058 0x40289f 0x2
+access2:
+function2:
+ecall_train_network
+0x677058 0x402949 0x1
+exploitable_type:
+0x1
+*
+global variable:
+g_num_threads
+access1:
+function1:
+ecall_train_network
+0x677058 0x40289f 0x2
+access2:
+function2:
+ecall_train_network
+0x677058 0x402977 0x1
+exploitable_type:
+0x1
+*
+global variable:
+g_num_threads
+access1:
+function1:
+ecall_train_network
+0x677058 0x40289f 0x2
+access2:
+function2:
+ecall_test_network
+0x677058 0x402bee 0x2
+exploitable_type:
+0x1
+*
+global variable:
+g_num_threads
+access1:
+function1:
+ecall_train_network
+0x677058 0x40289f 0x2
+access2:
+function2:
+ecall_test_network
+0x677058 0x402c56 0x1
+exploitable_type:
+0x1
+*
+global variable:
+g_num_threads
+access1:
+function1:
+ecall_train_network
+0x677058 0x40289f 0x2
+access2:
+function2:
+gemm
+0x677058 0x404d85 0x1
+exploitable_type:
+0x1
+*
+global variable:
+g_num_threads
+access1:
+function1:
+ecall_train_network
+0x677058 0x402949 0x1
+access2:
+function2:
+ecall_test_network
+0x677058 0x402bee 0x2
+exploitable_type:
+0x1
+*
+global variable:
+g_num_threads
+access1:
+function1:
+ecall_test_network
+0x677058 0x402bee 0x2
+access2:
+function2:
+gemm
+0x677058 0x404d85 0x1
+exploitable_type:
+0x1
+*
+global variable:
+final_net
+access1:
+function1:
+ecall_build_network
+0x677060 0x402858 0x2
+access2:
+function2:
+ecall_build_network
+0x677060 0x402858 0x2
+exploitable_type:
+0x1
+*
+global variable:
+final_net
+access1:
+function1:
+ecall_build_network
+0x677060 0x402858 0x2
+access2:
+function2:
+ecall_train_network
+0x677060 0x40293b 0x1
+exploitable_type:
+0x1
+*
+global variable:
+final_net
+access1:
+function1:
+ecall_build_network
+0x677060 0x402858 0x2
+access2:
+function2:
+ecall_train_network
+0x677060 0x402998 0x1
+exploitable_type:
+0x1
+*
+global variable:
+final_net
+access1:
+function1:
+ecall_build_network
+0x677060 0x402858 0x2
+access2:
+function2:
+ecall_train_network
+0x677060 0x4029a4 0x1
+exploitable_type:
+0x1
+*
+global variable:
+final_net
+access1:
+function1:
+ecall_build_network
+0x677060 0x402858 0x2
+access2:
+function2:
+ecall_train_network
+0x677060 0x4029cc 0x1
+exploitable_type:
+0x1
+*
+global variable:
+final_net
+access1:
+function1:
+ecall_build_network
+0x677060 0x402858 0x2
+access2:
+function2:
+ecall_train_network
+0x677060 0x4029eb 0x1
+exploitable_type:
+0x1
+*
+global variable:
+final_net
+access1:
+function1:
+ecall_build_network
+0x677060 0x402858 0x2
+access2:
+function2:
+ecall_train_network
+0x677060 0x402a93 0x1
+exploitable_type:
+0x1
+*
+global variable:
+final_net
+access1:
+function1:
+ecall_build_network
+0x677060 0x402858 0x2
+access2:
+function2:
+ecall_train_network
+0x677060 0x402af0 0x1
+exploitable_type:
+0x1
+*
+global variable:
+final_net
+access1:
+function1:
+ecall_build_network
+0x677060 0x402858 0x2
+access2:
+function2:
+ecall_test_network
+0x677060 0x402bcc 0x1
+exploitable_type:
+0x1
+*
+global variable:
+final_net
+access1:
+function1:
+ecall_build_network
+0x677060 0x402858 0x2
+access2:
+function2:
+ecall_test_network
+0x677060 0x402cad 0x1
+exploitable_type:
+0x1
+*
+global variable:
+final_net
+access1:
+function1:
+ecall_build_network
+0x677060 0x402858 0x2
+access2:
+function2:
+ecall_test_network
+0x677060 0x402d94 0x1
+exploitable_type:
+0x1
+*
+global variable:
+rand2.7465
+access1:
+function1:
+rand_normal
+0x677068 0x41191e 0x1
+access2:
+function2:
+rand_normal
+0x677068 0x4119b8 0x2
+exploitable_type:
+0x1
+*
+global variable:
+rand2.7465
+access1:
+function1:
+rand_normal
+0x677068 0x4119b8 0x2
+access2:
+function2:
+rand_normal
+0x677068 0x4119b8 0x2
+exploitable_type:
+0x1
+*
+global variable:
+rand1.7464
+access1:
+function1:
+rand_normal
+0x677070 0x411926 0x1
+access2:
+function2:
+rand_normal
+0x677070 0x41198d 0x2
+exploitable_type:
+0x1
+*
+global variable:
+rand1.7464
+access1:
+function1:
+rand_normal
+0x677070 0x41198d 0x2
+access2:
+function2:
+rand_normal
+0x677070 0x41198d 0x2
+exploitable_type:
+0x1
+*
+global variable:
+rand1.7464
+access1:
+function1:
+rand_normal
+0x677070 0x41198d 0x2
+access2:
+function2:
+rand_normal
+0x677070 0x41199a 0x1
+exploitable_type:
+0x1
+*
+global variable:
+haveSpare.7463
+access1:
+function1:
+rand_normal
+0x677078 0x411914 0x1
+access2:
+function2:
+rand_normal
+0x677078 0x41192e 0x2
+exploitable_type:
+0x1
+*
+global variable:
+haveSpare.7463
+access1:
+function1:
+rand_normal
+0x677078 0x411914 0x1
+access2:
+function2:
+rand_normal
+0x677078 0x411958 0x2
+exploitable_type:
+0x1
+*
+global variable:
+haveSpare.7463
+access1:
+function1:
+rand_normal
+0x677078 0x41192e 0x2
+access2:
+function2:
+rand_normal
+0x677078 0x411958 0x2
+exploitable_type:
+0x1

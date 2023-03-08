@@ -1,0 +1,8658 @@
+*
+global variable:
+azDirs.11933
+access1:
+function1:
+unixGetTempname
+0x6e9060 0x440574 0x1
+access2:
+function2:
+unixGetTempname
+0x6e9060 0x4406bd 0x2
+exploitable_type:
+0x1
+*
+global variable:
+azDirs.11933
+access1:
+function1:
+unixGetTempname
+0x6e9060 0x4406bd 0x2
+access2:
+function2:
+unixGetTempname
+0x6e9060 0x4406bd 0x2
+exploitable_type:
+0x1
+*
+global variable:
+azDirs.11933+0x8
+access1:
+function1:
+unixGetTempname
+0x6e9068 0x440582 0x1
+access2:
+function2:
+unixGetTempname
+0x6e9068 0x4406a5 0x2
+exploitable_type:
+0x1
+*
+global variable:
+azDirs.11933+0x8
+access1:
+function1:
+unixGetTempname
+0x6e9068 0x4406a5 0x2
+access2:
+function2:
+unixGetTempname
+0x6e9068 0x4406a5 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3PendingByte
+access1:
+function1:
+finalDbSize
+0x6e95e0 0x40c50d 0x1
+access2:
+function2:
+sqlite3_test_control
+0x6e95e0 0x4659bb 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3PendingByte
+access1:
+function1:
+finalDbSize
+0x6e95e0 0x40c568 0x1
+access2:
+function2:
+sqlite3_test_control
+0x6e95e0 0x4659bb 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3PendingByte
+access1:
+function1:
+unixCheckReservedLock
+0x6e95e0 0x411697 0x1
+access2:
+function2:
+sqlite3_test_control
+0x6e95e0 0x4659bb 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3PendingByte
+access1:
+function1:
+unixFileLock.isra.20
+0x6e95e0 0x414f8b 0x1
+access2:
+function2:
+sqlite3_test_control
+0x6e95e0 0x4659bb 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3PendingByte
+access1:
+function1:
+unixLock
+0x6e95e0 0x41506a 0x1
+access2:
+function2:
+sqlite3_test_control
+0x6e95e0 0x4659bb 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3PendingByte
+access1:
+function1:
+unixLock
+0x6e95e0 0x4150ed 0x1
+access2:
+function2:
+sqlite3_test_control
+0x6e95e0 0x4659bb 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3PendingByte
+access1:
+function1:
+unixLock
+0x6e95e0 0x4151c1 0x1
+access2:
+function2:
+sqlite3_test_control
+0x6e95e0 0x4659bb 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3PendingByte
+access1:
+function1:
+unixLock
+0x6e95e0 0x4151fb 0x1
+access2:
+function2:
+sqlite3_test_control
+0x6e95e0 0x4659bb 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3PendingByte
+access1:
+function1:
+unixLock
+0x6e95e0 0x41526a 0x1
+access2:
+function2:
+sqlite3_test_control
+0x6e95e0 0x4659bb 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3PendingByte
+access1:
+function1:
+unixLock
+0x6e95e0 0x415348 0x1
+access2:
+function2:
+sqlite3_test_control
+0x6e95e0 0x4659bb 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3PendingByte
+access1:
+function1:
+unixLock
+0x6e95e0 0x415380 0x1
+access2:
+function2:
+sqlite3_test_control
+0x6e95e0 0x4659bb 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3PendingByte
+access1:
+function1:
+unixLock
+0x6e95e0 0x4153ec 0x1
+access2:
+function2:
+sqlite3_test_control
+0x6e95e0 0x4659bb 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3PendingByte
+access1:
+function1:
+posixUnlock.isra.346
+0x6e95e0 0x42d7a1 0x1
+access2:
+function2:
+sqlite3_test_control
+0x6e95e0 0x4659bb 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3PendingByte
+access1:
+function1:
+posixUnlock.isra.346
+0x6e95e0 0x42d838 0x1
+access2:
+function2:
+sqlite3_test_control
+0x6e95e0 0x4659bb 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3PendingByte
+access1:
+function1:
+backupOnePage.isra.430
+0x6e95e0 0x441814 0x1
+access2:
+function2:
+sqlite3_test_control
+0x6e95e0 0x4659bb 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3PendingByte
+access1:
+function1:
+pager_playback_one_page
+0x6e95e0 0x4423a8 0x1
+access2:
+function2:
+sqlite3_test_control
+0x6e95e0 0x4659bb 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3PendingByte
+access1:
+function1:
+getPageNormal
+0x6e95e0 0x443df0 0x1
+access2:
+function2:
+sqlite3_test_control
+0x6e95e0 0x4659bb 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3PendingByte
+access1:
+function1:
+pagerWriteLargeSector.isra.429
+0x6e95e0 0x44440b 0x1
+access2:
+function2:
+sqlite3_test_control
+0x6e95e0 0x4659bb 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3PendingByte
+access1:
+function1:
+ptrmapGet
+0x6e95e0 0x444657 0x1
+access2:
+function2:
+sqlite3_test_control
+0x6e95e0 0x4659bb 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3PendingByte
+access1:
+function1:
+getOverflowPage
+0x6e95e0 0x444ad7 0x1
+access2:
+function2:
+sqlite3_test_control
+0x6e95e0 0x4659bb 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3PendingByte
+access1:
+function1:
+allocateBtreePage
+0x6e95e0 0x446edd 0x1
+access2:
+function2:
+sqlite3_test_control
+0x6e95e0 0x4659bb 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3PendingByte
+access1:
+function1:
+allocateBtreePage
+0x6e95e0 0x447213 0x1
+access2:
+function2:
+sqlite3_test_control
+0x6e95e0 0x4659bb 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3PendingByte
+access1:
+function1:
+ptrmapPut
+0x6e95e0 0x4472f1 0x1
+access2:
+function2:
+sqlite3_test_control
+0x6e95e0 0x4659bb 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3PendingByte
+access1:
+function1:
+incrVacuumStep
+0x6e95e0 0x447beb 0x1
+access2:
+function2:
+sqlite3_test_control
+0x6e95e0 0x4659bb 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3PendingByte
+access1:
+function1:
+incrVacuumStep
+0x6e95e0 0x447c0a 0x1
+access2:
+function2:
+sqlite3_test_control
+0x6e95e0 0x4659bb 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3PendingByte
+access1:
+function1:
+incrVacuumStep
+0x6e95e0 0x447ce5 0x1
+access2:
+function2:
+sqlite3_test_control
+0x6e95e0 0x4659bb 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3PendingByte
+access1:
+function1:
+btreeCreateTable
+0x6e95e0 0x44b517 0x1
+access2:
+function2:
+sqlite3_test_control
+0x6e95e0 0x4659bb 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3PendingByte
+access1:
+function1:
+sqlite3BtreeInsert
+0x6e95e0 0x44cdf9 0x1
+access2:
+function2:
+sqlite3_test_control
+0x6e95e0 0x4659bb 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3PendingByte
+access1:
+function1:
+sqlite3PagerCommitPhaseOne
+0x6e95e0 0x44dc55 0x1
+access2:
+function2:
+sqlite3_test_control
+0x6e95e0 0x4659bb 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3PendingByte
+access1:
+function1:
+sqlite3PagerCommitPhaseOne
+0x6e95e0 0x44df0e 0x1
+access2:
+function2:
+sqlite3_test_control
+0x6e95e0 0x4659bb 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3PendingByte
+access1:
+function1:
+sqlite3BtreeCommitPhaseOne.part.461
+0x6e95e0 0x44e004 0x1
+access2:
+function2:
+sqlite3_test_control
+0x6e95e0 0x4659bb 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3PendingByte
+access1:
+function1:
+sqlite3BtreeCommitPhaseOne.part.461
+0x6e95e0 0x44e020 0x1
+access2:
+function2:
+sqlite3_test_control
+0x6e95e0 0x4659bb 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3PendingByte
+access1:
+function1:
+sqlite3_backup_step
+0x6e95e0 0x44e4a4 0x1
+access2:
+function2:
+sqlite3_test_control
+0x6e95e0 0x4659bb 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3PendingByte
+access1:
+function1:
+sqlite3_backup_step
+0x6e95e0 0x44e604 0x1
+access2:
+function2:
+sqlite3_test_control
+0x6e95e0 0x4659bb 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3PendingByte
+access1:
+function1:
+sqlite3_backup_step
+0x6e95e0 0x44e7d6 0x1
+access2:
+function2:
+sqlite3_test_control
+0x6e95e0 0x4659bb 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3PendingByte
+access1:
+function1:
+sqlite3_backup_step
+0x6e95e0 0x44e82c 0x1
+access2:
+function2:
+sqlite3_test_control
+0x6e95e0 0x4659bb 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3PendingByte
+access1:
+function1:
+sqlite3_test_control
+0x6e95e0 0x465994 0x1
+access2:
+function2:
+sqlite3_test_control
+0x6e95e0 0x4659bb 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3PendingByte
+access1:
+function1:
+sqlite3_test_control
+0x6e95e0 0x4659bb 0x2
+access2:
+function2:
+sqlite3_test_control
+0x6e95e0 0x4659bb 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3PendingByte
+access1:
+function1:
+sqlite3_test_control
+0x6e95e0 0x4659bb 0x2
+access2:
+function2:
+sqlite3VdbeExec
+0x6e95e0 0x476771 0x1
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3PendingByte
+access1:
+function1:
+sqlite3_test_control
+0x6e95e0 0x4659bb 0x2
+access2:
+function2:
+sqlite3VdbeExec
+0x6e95e0 0x4768e0 0x1
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3PendingByte
+access1:
+function1:
+sqlite3_test_control
+0x6e95e0 0x4659bb 0x2
+access2:
+function2:
+sqlite3VdbeExec
+0x6e95e0 0x476974 0x1
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3PendingByte
+access1:
+function1:
+sqlite3_test_control
+0x6e95e0 0x4659bb 0x2
+access2:
+function2:
+sqlite3VdbeExec
+0x6e95e0 0x478bfa 0x1
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config
+access1:
+function1:
+sqlite3Malloc
+0x6e9600 0x411f71 0x1
+access2:
+function2:
+sqlite3_config
+0x6e9600 0x42131b 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config
+access1:
+function1:
+sqlite3ScratchMalloc
+0x6e9600 0x41217b 0x1
+access2:
+function2:
+sqlite3_config
+0x6e9600 0x42131b 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config
+access1:
+function1:
+sqlite3ScratchFree
+0x6e9600 0x4121d7 0x1
+access2:
+function2:
+sqlite3_config
+0x6e9600 0x42131b 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config
+access1:
+function1:
+sqlite3_free
+0x6e9600 0x4122a5 0x1
+access2:
+function2:
+sqlite3_config
+0x6e9600 0x42131b 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config
+access1:
+function1:
+sqlite3Realloc
+0x6e9600 0x41235c 0x1
+access2:
+function2:
+sqlite3_config
+0x6e9600 0x42131b 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config
+access1:
+function1:
+sqlite3_config
+0x6e9600 0x42131b 0x2
+access2:
+function2:
+sqlite3_config
+0x6e9600 0x42131b 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0xc
+access1:
+function1:
+sqlite3_config
+0x6e960c 0x421043 0x2
+access2:
+function2:
+sqlite3_config
+0x6e960c 0x421043 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0xc
+access1:
+function1:
+sqlite3_config
+0x6e960c 0x421043 0x2
+access2:
+function2:
+sqlite3ParseUri
+0x6e960c 0x43f1f6 0x1
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x10
+access1:
+function1:
+sqlite3_config
+0x6e9610 0x4212b3 0x2
+access2:
+function2:
+sqlite3_config
+0x6e9610 0x4212b3 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x10
+access1:
+function1:
+sqlite3_config
+0x6e9610 0x4212b3 0x2
+access2:
+function2:
+whereLoopAddBtree
+0x6e9610 0x4389ac 0x1
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x18
+access1:
+function1:
+sqlite3_test_control
+0x6e9618 0x465706 0x2
+access2:
+function2:
+sqlite3_test_control
+0x6e9618 0x465706 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x1c
+access1:
+function1:
+sqlite3_config
+0x6e961c 0x420f87 0x2
+access2:
+function2:
+sqlite3_config
+0x6e961c 0x420f87 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x1c
+access1:
+function1:
+sqlite3_config
+0x6e961c 0x420f87 0x2
+access2:
+function2:
+sqlite3_config
+0x6e961c 0x421523 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x1c
+access1:
+function1:
+sqlite3_config
+0x6e961c 0x420f87 0x2
+access2:
+function2:
+openDatabase
+0x6e961c 0x48a08d 0x1
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x1c
+access1:
+function1:
+sqlite3_config
+0x6e961c 0x421523 0x2
+access2:
+function2:
+sqlite3_config
+0x6e961c 0x421523 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x1c
+access1:
+function1:
+sqlite3_config
+0x6e961c 0x421523 0x2
+access2:
+function2:
+openDatabase
+0x6e961c 0x48a08d 0x1
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x20
+access1:
+function1:
+sqlite3_config
+0x6e9620 0x420f98 0x2
+access2:
+function2:
+sqlite3_config
+0x6e9620 0x420f98 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x20
+access1:
+function1:
+sqlite3_config
+0x6e9620 0x420f98 0x2
+access2:
+function2:
+openDatabase
+0x6e9620 0x48a087 0x1
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x24
+access1:
+function1:
+subjournalPageIfRequired
+0x6e9624 0x420152 0x1
+access2:
+function2:
+sqlite3_config
+0x6e9624 0x4213bf 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x24
+access1:
+function1:
+sqlite3_config
+0x6e9624 0x4213bf 0x2
+access2:
+function2:
+sqlite3_config
+0x6e9624 0x4213bf 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x24
+access1:
+function1:
+sqlite3_config
+0x6e9624 0x4213bf 0x2
+access2:
+function2:
+pager_write
+0x6e9624 0x4415c9 0x1
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x28
+access1:
+function1:
+sqlite3Malloc
+0x6e9628 0x411f7c 0x1
+access2:
+function2:
+sqlite3_config
+0x6e9628 0x420f07 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x28
+access1:
+function1:
+sqlite3Malloc
+0x6e9628 0x411fc8 0x1
+access2:
+function2:
+sqlite3_config
+0x6e9628 0x420f07 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x28
+access1:
+function1:
+sqlite3_config
+0x6e9628 0x420f07 0x2
+access2:
+function2:
+sqlite3_config
+0x6e9628 0x420f07 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x28
+access1:
+function1:
+sqlite3_config
+0x6e9628 0x420f07 0x2
+access2:
+function2:
+sqlite3_config
+0x6e9628 0x4210b0 0x1
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x28
+access1:
+function1:
+sqlite3_config
+0x6e9628 0x420f07 0x2
+access2:
+function2:
+sqlite3_config
+0x6e9628 0x4210d2 0x1
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x28
+access1:
+function1:
+sqlite3_config
+0x6e9628 0x420f07 0x2
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6e9628 0x421640 0x1
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x30
+access1:
+function1:
+sqlite3ScratchFree
+0x6e9630 0x4121e1 0x1
+access2:
+function2:
+sqlite3_config
+0x6e9630 0x420f12 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x30
+access1:
+function1:
+sqlite3ScratchFree
+0x6e9630 0x412216 0x1
+access2:
+function2:
+sqlite3_config
+0x6e9630 0x420f12 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x30
+access1:
+function1:
+sqlite3_free
+0x6e9630 0x4122af 0x1
+access2:
+function2:
+sqlite3_config
+0x6e9630 0x420f12 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x30
+access1:
+function1:
+sqlite3_free
+0x6e9630 0x4122d7 0x1
+access2:
+function2:
+sqlite3_config
+0x6e9630 0x420f12 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x30
+access1:
+function1:
+sqlite3_config
+0x6e9630 0x420f12 0x2
+access2:
+function2:
+sqlite3_config
+0x6e9630 0x420f12 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x30
+access1:
+function1:
+sqlite3_config
+0x6e9630 0x420f12 0x2
+access2:
+function2:
+sqlite3_config
+0x6e9630 0x4210dc 0x1
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x38
+access1:
+function1:
+sqlite3Realloc
+0x6e9638 0x412380 0x1
+access2:
+function2:
+sqlite3_config
+0x6e9638 0x420f1d 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x38
+access1:
+function1:
+sqlite3Realloc
+0x6e9638 0x4123e0 0x1
+access2:
+function2:
+sqlite3_config
+0x6e9638 0x420f1d 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x38
+access1:
+function1:
+sqlite3Realloc
+0x6e9638 0x412410 0x1
+access2:
+function2:
+sqlite3_config
+0x6e9638 0x420f1d 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x38
+access1:
+function1:
+sqlite3_config
+0x6e9638 0x420f1d 0x2
+access2:
+function2:
+sqlite3_config
+0x6e9638 0x420f1d 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x38
+access1:
+function1:
+sqlite3_config
+0x6e9638 0x420f1d 0x2
+access2:
+function2:
+sqlite3_config
+0x6e9638 0x4210e7 0x1
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x40
+access1:
+function1:
+sqlite3MallocSize
+0x6e9640 0x40a830 0x1
+access2:
+function2:
+sqlite3_config
+0x6e9640 0x420f28 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x40
+access1:
+function1:
+sqlite3_msize
+0x6e9640 0x40a849 0x1
+access2:
+function2:
+sqlite3_config
+0x6e9640 0x420f28 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x40
+access1:
+function1:
+sqlite3Malloc
+0x6e9640 0x411fd9 0x1
+access2:
+function2:
+sqlite3_config
+0x6e9640 0x420f28 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x40
+access1:
+function1:
+sqlite3ScratchMalloc
+0x6e9640 0x41218d 0x1
+access2:
+function2:
+sqlite3_config
+0x6e9640 0x420f28 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x40
+access1:
+function1:
+sqlite3ScratchFree
+0x6e9640 0x4121f4 0x1
+access2:
+function2:
+sqlite3_config
+0x6e9640 0x420f28 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x40
+access1:
+function1:
+sqlite3DbMallocSize
+0x6e9640 0x41226a 0x1
+access2:
+function2:
+sqlite3_config
+0x6e9640 0x420f28 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x40
+access1:
+function1:
+sqlite3_free
+0x6e9640 0x4122bc 0x1
+access2:
+function2:
+sqlite3_config
+0x6e9640 0x420f28 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x40
+access1:
+function1:
+sqlite3Realloc
+0x6e9640 0x41233f 0x1
+access2:
+function2:
+sqlite3_config
+0x6e9640 0x420f28 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x40
+access1:
+function1:
+sqlite3Realloc
+0x6e9640 0x412391 0x1
+access2:
+function2:
+sqlite3_config
+0x6e9640 0x420f28 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x40
+access1:
+function1:
+sqlite3HashInsert
+0x6e9640 0x41484d 0x1
+access2:
+function2:
+sqlite3_config
+0x6e9640 0x420f28 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x40
+access1:
+function1:
+pcache1Alloc
+0x6e9640 0x41575e 0x1
+access2:
+function2:
+sqlite3_config
+0x6e9640 0x420f28 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x40
+access1:
+function1:
+pcache1Free
+0x6e9640 0x4157bb 0x1
+access2:
+function2:
+sqlite3_config
+0x6e9640 0x420f28 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x40
+access1:
+function1:
+setupLookaside.part.232
+0x6e9640 0x419acd 0x1
+access2:
+function2:
+sqlite3_config
+0x6e9640 0x420f28 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x40
+access1:
+function1:
+pcache1FetchStage2
+0x6e9640 0x41ace8 0x1
+access2:
+function2:
+sqlite3_config
+0x6e9640 0x420f28 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x40
+access1:
+function1:
+sqlite3_db_status
+0x6e9640 0x41efd9 0x1
+access2:
+function2:
+sqlite3_config
+0x6e9640 0x420f28 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x40
+access1:
+function1:
+sqlite3_db_status
+0x6e9640 0x41f16d 0x1
+access2:
+function2:
+sqlite3_config
+0x6e9640 0x420f28 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x40
+access1:
+function1:
+sqlite3_db_status
+0x6e9640 0x41f188 0x1
+access2:
+function2:
+sqlite3_config
+0x6e9640 0x420f28 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x40
+access1:
+function1:
+sqlite3_db_status
+0x6e9640 0x41f1a3 0x1
+access2:
+function2:
+sqlite3_config
+0x6e9640 0x420f28 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x40
+access1:
+function1:
+sqlite3_db_status
+0x6e9640 0x41f1be 0x1
+access2:
+function2:
+sqlite3_config
+0x6e9640 0x420f28 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x40
+access1:
+function1:
+sqlite3_config
+0x6e9640 0x420f28 0x2
+access2:
+function2:
+sqlite3_config
+0x6e9640 0x420f28 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x40
+access1:
+function1:
+sqlite3_config
+0x6e9640 0x420f28 0x2
+access2:
+function2:
+sqlite3_config
+0x6e9640 0x4210f2 0x1
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x48
+access1:
+function1:
+sqlite3Malloc
+0x6e9648 0x411f8b 0x1
+access2:
+function2:
+sqlite3_config
+0x6e9648 0x420f33 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x48
+access1:
+function1:
+sqlite3Realloc
+0x6e9648 0x41234a 0x1
+access2:
+function2:
+sqlite3_config
+0x6e9648 0x420f33 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x48
+access1:
+function1:
+sqlite3_db_status
+0x6e9648 0x41f143 0x1
+access2:
+function2:
+sqlite3_config
+0x6e9648 0x420f33 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x48
+access1:
+function1:
+sqlite3_config
+0x6e9648 0x420f33 0x2
+access2:
+function2:
+sqlite3_config
+0x6e9648 0x420f33 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x48
+access1:
+function1:
+sqlite3_config
+0x6e9648 0x420f33 0x2
+access2:
+function2:
+sqlite3_config
+0x6e9648 0x4210fd 0x1
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x50
+access1:
+function1:
+sqlite3_config
+0x6e9650 0x420f3e 0x2
+access2:
+function2:
+sqlite3_config
+0x6e9650 0x420f3e 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x50
+access1:
+function1:
+sqlite3_config
+0x6e9650 0x420f3e 0x2
+access2:
+function2:
+sqlite3_config
+0x6e9650 0x421108 0x1
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x50
+access1:
+function1:
+sqlite3_config
+0x6e9650 0x420f3e 0x2
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6e9650 0x421769 0x1
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x58
+access1:
+function1:
+sqlite3_config
+0x6e9658 0x420f4d 0x2
+access2:
+function2:
+sqlite3_config
+0x6e9658 0x420f4d 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x58
+access1:
+function1:
+sqlite3_config
+0x6e9658 0x420f4d 0x2
+access2:
+function2:
+sqlite3_config
+0x6e9658 0x421113 0x1
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x60
+access1:
+function1:
+sqlite3_config
+0x6e9660 0x420f54 0x2
+access2:
+function2:
+sqlite3_config
+0x6e9660 0x420f54 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x60
+access1:
+function1:
+sqlite3_config
+0x6e9660 0x420f54 0x2
+access2:
+function2:
+sqlite3_config
+0x6e9660 0x42111e 0x1
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x60
+access1:
+function1:
+sqlite3_config
+0x6e9660 0x420f54 0x2
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6e9660 0x421762 0x1
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0xb0
+access1:
+function1:
+sqlite3_config
+0x6e96b0 0x421152 0x1
+access2:
+function2:
+sqlite3_config
+0x6e96b0 0x421207 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0xb0
+access1:
+function1:
+sqlite3_config
+0x6e96b0 0x421207 0x2
+access2:
+function2:
+sqlite3_config
+0x6e96b0 0x421207 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0xb8
+access1:
+function1:
+sqlite3_config
+0x6e96b8 0x42115c 0x1
+access2:
+function2:
+sqlite3_config
+0x6e96b8 0x421212 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0xb8
+access1:
+function1:
+sqlite3_config
+0x6e96b8 0x421212 0x2
+access2:
+function2:
+sqlite3_config
+0x6e96b8 0x421212 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0xb8
+access1:
+function1:
+sqlite3_config
+0x6e96b8 0x421212 0x2
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6e96b8 0x42198c 0x1
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0xc0
+access1:
+function1:
+sqlite3_config
+0x6e96c0 0x421130 0x1
+access2:
+function2:
+sqlite3_config
+0x6e96c0 0x42121d 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0xc0
+access1:
+function1:
+sqlite3_config
+0x6e96c0 0x421167 0x1
+access2:
+function2:
+sqlite3_config
+0x6e96c0 0x42121d 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0xc0
+access1:
+function1:
+sqlite3_config
+0x6e96c0 0x42121d 0x2
+access2:
+function2:
+sqlite3_config
+0x6e96c0 0x42121d 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0xc0
+access1:
+function1:
+sqlite3_config
+0x6e96c0 0x42121d 0x2
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6e96c0 0x421980 0x1
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0xc0
+access1:
+function1:
+sqlite3_config
+0x6e96c0 0x42121d 0x2
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6e96c0 0x421a19 0x1
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0xc8
+access1:
+function1:
+sqlite3_config
+0x6e96c8 0x421172 0x1
+access2:
+function2:
+sqlite3_config
+0x6e96c8 0x421228 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0xc8
+access1:
+function1:
+sqlite3_config
+0x6e96c8 0x421228 0x2
+access2:
+function2:
+sqlite3_config
+0x6e96c8 0x421228 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0xd0
+access1:
+function1:
+sqlite3PcacheSetPageSize.part.26
+0x6e96d0 0x415525 0x1
+access2:
+function2:
+sqlite3_config
+0x6e96d0 0x421233 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0xd0
+access1:
+function1:
+sqlite3_config
+0x6e96d0 0x42117d 0x1
+access2:
+function2:
+sqlite3_config
+0x6e96d0 0x421233 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0xd0
+access1:
+function1:
+sqlite3_config
+0x6e96d0 0x421233 0x2
+access2:
+function2:
+sqlite3_config
+0x6e96d0 0x421233 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0xd8
+access1:
+function1:
+sqlite3BtreeSetCacheSize
+0x6e96d8 0x40c3fd 0x1
+access2:
+function2:
+sqlite3_config
+0x6e96d8 0x42123e 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0xd8
+access1:
+function1:
+sqlite3PcacheSetPageSize.part.26
+0x6e96d8 0x41553c 0x1
+access2:
+function2:
+sqlite3_config
+0x6e96d8 0x42123e 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0xd8
+access1:
+function1:
+sqlite3_config
+0x6e96d8 0x421188 0x1
+access2:
+function2:
+sqlite3_config
+0x6e96d8 0x42123e 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0xd8
+access1:
+function1:
+sqlite3_config
+0x6e96d8 0x42123e 0x2
+access2:
+function2:
+sqlite3_config
+0x6e96d8 0x42123e 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0xd8
+access1:
+function1:
+sqlite3_config
+0x6e96d8 0x42123e 0x2
+access2:
+function2:
+sqlite3BtreeOpen
+0x6e96d8 0x4503a2 0x1
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0xe0
+access1:
+function1:
+sqlite3_db_status
+0x6e96e0 0x41efc8 0x1
+access2:
+function2:
+sqlite3_config
+0x6e96e0 0x421249 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0xe0
+access1:
+function1:
+sqlite3_config
+0x6e96e0 0x421193 0x1
+access2:
+function2:
+sqlite3_config
+0x6e96e0 0x421249 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0xe0
+access1:
+function1:
+sqlite3_config
+0x6e96e0 0x421249 0x2
+access2:
+function2:
+sqlite3_config
+0x6e96e0 0x421249 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0xe0
+access1:
+function1:
+sqlite3_config
+0x6e96e0 0x421249 0x2
+access2:
+function2:
+getPageNormal
+0x6e96e0 0x443f7e 0x1
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0xe8
+access1:
+function1:
+sqlite3PcacheTruncate
+0x6e96e8 0x415658 0x1
+access2:
+function2:
+sqlite3_config
+0x6e96e8 0x421254 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0xe8
+access1:
+function1:
+sqlite3PagerLookup.isra.260
+0x6e96e8 0x41aed4 0x1
+access2:
+function2:
+sqlite3_config
+0x6e96e8 0x421254 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0xe8
+access1:
+function1:
+sqlite3_config
+0x6e96e8 0x42119e 0x1
+access2:
+function2:
+sqlite3_config
+0x6e96e8 0x421254 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0xe8
+access1:
+function1:
+sqlite3_config
+0x6e96e8 0x421254 0x2
+access2:
+function2:
+sqlite3_config
+0x6e96e8 0x421254 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0xe8
+access1:
+function1:
+sqlite3_config
+0x6e96e8 0x421254 0x2
+access2:
+function2:
+getPageNormal
+0x6e96e8 0x443d9d 0x1
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0xe8
+access1:
+function1:
+sqlite3_config
+0x6e96e8 0x421254 0x2
+access2:
+function2:
+getPageNormal
+0x6e96e8 0x443ffb 0x1
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0xf0
+access1:
+function1:
+sqlite3PcacheRelease
+0x6e96f0 0x40bb8c 0x1
+access2:
+function2:
+sqlite3_config
+0x6e96f0 0x42125f 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0xf0
+access1:
+function1:
+sqlite3PcacheDrop
+0x6e96f0 0x40bbcf 0x1
+access2:
+function2:
+sqlite3_config
+0x6e96f0 0x42125f 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0xf0
+access1:
+function1:
+sqlite3PcacheMakeClean
+0x6e96f0 0x4155da 0x1
+access2:
+function2:
+sqlite3_config
+0x6e96f0 0x42125f 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0xf0
+access1:
+function1:
+sqlite3_config
+0x6e96f0 0x4211a9 0x1
+access2:
+function2:
+sqlite3_config
+0x6e96f0 0x42125f 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0xf0
+access1:
+function1:
+sqlite3_config
+0x6e96f0 0x42125f 0x2
+access2:
+function2:
+sqlite3_config
+0x6e96f0 0x42125f 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0xf8
+access1:
+function1:
+sqlite3PcacheMove
+0x6e96f8 0x40bc3b 0x1
+access2:
+function2:
+sqlite3_config
+0x6e96f8 0x42126a 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0xf8
+access1:
+function1:
+sqlite3_config
+0x6e96f8 0x4211b4 0x1
+access2:
+function2:
+sqlite3_config
+0x6e96f8 0x42126a 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0xf8
+access1:
+function1:
+sqlite3_config
+0x6e96f8 0x42126a 0x2
+access2:
+function2:
+sqlite3_config
+0x6e96f8 0x42126a 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x100
+access1:
+function1:
+sqlite3PcacheTruncate
+0x6e9700 0x415633 0x1
+access2:
+function2:
+sqlite3_config
+0x6e9700 0x421275 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x100
+access1:
+function1:
+sqlite3_config
+0x6e9700 0x4211bf 0x1
+access2:
+function2:
+sqlite3_config
+0x6e9700 0x421275 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x100
+access1:
+function1:
+sqlite3_config
+0x6e9700 0x421275 0x2
+access2:
+function2:
+sqlite3_config
+0x6e9700 0x421275 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x108
+access1:
+function1:
+sqlite3PcacheSetPageSize.part.26
+0x6e9708 0x415555 0x1
+access2:
+function2:
+sqlite3_config
+0x6e9708 0x421284 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x108
+access1:
+function1:
+sqlite3_config
+0x6e9708 0x4211ca 0x1
+access2:
+function2:
+sqlite3_config
+0x6e9708 0x421284 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x108
+access1:
+function1:
+sqlite3_config
+0x6e9708 0x421284 0x2
+access2:
+function2:
+sqlite3_config
+0x6e9708 0x421284 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x108
+access1:
+function1:
+sqlite3_config
+0x6e9708 0x421284 0x2
+access2:
+function2:
+sqlite3PagerClose
+0x6e9708 0x44f9cf 0x1
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x110
+access1:
+function1:
+sqlite3_db_release_memory
+0x6e9710 0x40ff51 0x1
+access2:
+function2:
+sqlite3_config
+0x6e9710 0x42128b 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x110
+access1:
+function1:
+sqlite3_config
+0x6e9710 0x4211d5 0x1
+access2:
+function2:
+sqlite3_config
+0x6e9710 0x42128b 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x110
+access1:
+function1:
+sqlite3_config
+0x6e9710 0x42128b 0x2
+access2:
+function2:
+sqlite3_config
+0x6e9710 0x42128b 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x130
+access1:
+function1:
+sqlite3_config
+0x6e9730 0x421020 0x2
+access2:
+function2:
+sqlite3_config
+0x6e9730 0x421020 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x130
+access1:
+function1:
+sqlite3_config
+0x6e9730 0x421020 0x2
+access2:
+function2:
+unixOpen
+0x6e9730 0x440c4f 0x1
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x130
+access1:
+function1:
+sqlite3_config
+0x6e9730 0x421020 0x2
+access2:
+function2:
+sqlite3Pragma
+0x6e9730 0x469198 0x1
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x130
+access1:
+function1:
+sqlite3_config
+0x6e9730 0x421020 0x2
+access2:
+function2:
+openDatabase
+0x6e9730 0x489bbb 0x1
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x138
+access1:
+function1:
+sqlite3_config
+0x6e9738 0x421019 0x2
+access2:
+function2:
+sqlite3_config
+0x6e9738 0x421019 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x138
+access1:
+function1:
+sqlite3_config
+0x6e9738 0x421019 0x2
+access2:
+function2:
+unixFileControl
+0x6e9738 0x440923 0x1
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x140
+access1:
+function1:
+sqlite3ScratchFree
+0x6e9740 0x4121c5 0x1
+access2:
+function2:
+sqlite3_config
+0x6e9740 0x421070 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x140
+access1:
+function1:
+sqlite3ScratchFree
+0x6e9740 0x4121c5 0x1
+access2:
+function2:
+sqlite3_config
+0x6e9740 0x421414 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x140
+access1:
+function1:
+sqlite3ScratchFree
+0x6e9740 0x4121c5 0x1
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6e9740 0x421718 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x140
+access1:
+function1:
+sqlite3_config
+0x6e9740 0x421070 0x2
+access2:
+function2:
+sqlite3_config
+0x6e9740 0x421070 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x140
+access1:
+function1:
+sqlite3_config
+0x6e9740 0x421070 0x2
+access2:
+function2:
+sqlite3_config
+0x6e9740 0x421414 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x140
+access1:
+function1:
+sqlite3_config
+0x6e9740 0x421070 0x2
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6e9740 0x42164e 0x1
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x140
+access1:
+function1:
+sqlite3_config
+0x6e9740 0x421070 0x2
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6e9740 0x421718 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x140
+access1:
+function1:
+sqlite3_config
+0x6e9740 0x421070 0x2
+access2:
+function2:
+sqlite3VdbeExec
+0x6e9740 0x471396 0x1
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x140
+access1:
+function1:
+sqlite3_config
+0x6e9740 0x421414 0x2
+access2:
+function2:
+sqlite3_config
+0x6e9740 0x421414 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x140
+access1:
+function1:
+sqlite3_config
+0x6e9740 0x421414 0x2
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6e9740 0x42164e 0x1
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x140
+access1:
+function1:
+sqlite3_config
+0x6e9740 0x421414 0x2
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6e9740 0x421718 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x140
+access1:
+function1:
+sqlite3_config
+0x6e9740 0x421414 0x2
+access2:
+function2:
+sqlite3VdbeExec
+0x6e9740 0x471396 0x1
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x140
+access1:
+function1:
+sqlite3_initialize.part.319
+0x6e9740 0x42164e 0x1
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6e9740 0x421718 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x140
+access1:
+function1:
+sqlite3_initialize.part.319
+0x6e9740 0x421718 0x2
+access2:
+function2:
+sqlite3VdbeExec
+0x6e9740 0x471396 0x1
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x148
+access1:
+function1:
+sqlite3ScratchMalloc
+0x6e9748 0x41211e 0x1
+access2:
+function2:
+sqlite3_config
+0x6e9748 0x421089 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x148
+access1:
+function1:
+sqlite3ScratchMalloc
+0x6e9748 0x41211e 0x1
+access2:
+function2:
+sqlite3_config
+0x6e9748 0x421429 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x148
+access1:
+function1:
+sqlite3ScratchMalloc
+0x6e9748 0x41211e 0x1
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6e9748 0x4216ba 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x148
+access1:
+function1:
+sqlite3ScratchMalloc
+0x6e9748 0x41211e 0x1
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6e9748 0x421723 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x148
+access1:
+function1:
+sqlite3_config
+0x6e9748 0x421089 0x2
+access2:
+function2:
+sqlite3_config
+0x6e9748 0x421089 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x148
+access1:
+function1:
+sqlite3_config
+0x6e9748 0x421089 0x2
+access2:
+function2:
+sqlite3_config
+0x6e9748 0x421429 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x148
+access1:
+function1:
+sqlite3_config
+0x6e9748 0x421089 0x2
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6e9748 0x421695 0x1
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x148
+access1:
+function1:
+sqlite3_config
+0x6e9748 0x421089 0x2
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6e9748 0x4216ba 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x148
+access1:
+function1:
+sqlite3_config
+0x6e9748 0x421089 0x2
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6e9748 0x421723 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x148
+access1:
+function1:
+sqlite3_config
+0x6e9748 0x421429 0x2
+access2:
+function2:
+sqlite3_config
+0x6e9748 0x421429 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x148
+access1:
+function1:
+sqlite3_config
+0x6e9748 0x421429 0x2
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6e9748 0x421695 0x1
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x148
+access1:
+function1:
+sqlite3_config
+0x6e9748 0x421429 0x2
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6e9748 0x4216ba 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x148
+access1:
+function1:
+sqlite3_config
+0x6e9748 0x421429 0x2
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6e9748 0x421723 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x148
+access1:
+function1:
+sqlite3_initialize.part.319
+0x6e9748 0x421695 0x1
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6e9748 0x4216ba 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x148
+access1:
+function1:
+sqlite3_initialize.part.319
+0x6e9748 0x421695 0x1
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6e9748 0x421723 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x148
+access1:
+function1:
+sqlite3_initialize.part.319
+0x6e9748 0x4216ba 0x2
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6e9748 0x4216ba 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x148
+access1:
+function1:
+sqlite3_initialize.part.319
+0x6e9748 0x4216ba 0x2
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6e9748 0x421723 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x14c
+access1:
+function1:
+sqlite3_config
+0x6e974c 0x42109a 0x2
+access2:
+function2:
+sqlite3_config
+0x6e974c 0x42109a 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x14c
+access1:
+function1:
+sqlite3_config
+0x6e974c 0x42109a 0x2
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6e974c 0x4216a0 0x1
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x14c
+access1:
+function1:
+sqlite3_config
+0x6e974c 0x42109a 0x2
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6e974c 0x42172d 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x14c
+access1:
+function1:
+sqlite3_initialize.part.319
+0x6e974c 0x4216a0 0x1
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6e974c 0x42172d 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x150
+access1:
+function1:
+pcache1Init
+0x6e9750 0x410ce6 0x1
+access2:
+function2:
+sqlite3_config
+0x6e9750 0x421350 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x150
+access1:
+function1:
+pcache1Init
+0x6e9750 0x410ce6 0x1
+access2:
+function2:
+sqlite3_config
+0x6e9750 0x4214bc 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x150
+access1:
+function1:
+pcache1Init
+0x6e9750 0x410ce6 0x1
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6e9750 0x42174d 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x150
+access1:
+function1:
+sqlite3_config
+0x6e9750 0x421350 0x2
+access2:
+function2:
+sqlite3_config
+0x6e9750 0x421350 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x150
+access1:
+function1:
+sqlite3_config
+0x6e9750 0x421350 0x2
+access2:
+function2:
+sqlite3_config
+0x6e9750 0x4214bc 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x150
+access1:
+function1:
+sqlite3_config
+0x6e9750 0x421350 0x2
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6e9750 0x421737 0x1
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x150
+access1:
+function1:
+sqlite3_config
+0x6e9750 0x421350 0x2
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6e9750 0x42174d 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x150
+access1:
+function1:
+sqlite3_config
+0x6e9750 0x421350 0x2
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6e9750 0x4218a2 0x1
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x150
+access1:
+function1:
+sqlite3_config
+0x6e9750 0x4214bc 0x2
+access2:
+function2:
+sqlite3_config
+0x6e9750 0x4214bc 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x150
+access1:
+function1:
+sqlite3_config
+0x6e9750 0x4214bc 0x2
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6e9750 0x421737 0x1
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x150
+access1:
+function1:
+sqlite3_config
+0x6e9750 0x4214bc 0x2
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6e9750 0x42174d 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x150
+access1:
+function1:
+sqlite3_config
+0x6e9750 0x4214bc 0x2
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6e9750 0x4218a2 0x1
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x150
+access1:
+function1:
+sqlite3_initialize.part.319
+0x6e9750 0x421737 0x1
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6e9750 0x42174d 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x150
+access1:
+function1:
+sqlite3_initialize.part.319
+0x6e9750 0x42174d 0x2
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6e9750 0x4218a2 0x1
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x158
+access1:
+function1:
+sqlite3_config
+0x6e9758 0x421369 0x2
+access2:
+function2:
+sqlite3_config
+0x6e9758 0x421369 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x158
+access1:
+function1:
+sqlite3_config
+0x6e9758 0x421369 0x2
+access2:
+function2:
+sqlite3_config
+0x6e9758 0x4214d1 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x158
+access1:
+function1:
+sqlite3_config
+0x6e9758 0x421369 0x2
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6e9758 0x421741 0x1
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x158
+access1:
+function1:
+sqlite3_config
+0x6e9758 0x421369 0x2
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6e9758 0x421758 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x158
+access1:
+function1:
+sqlite3_config
+0x6e9758 0x421369 0x2
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6e9758 0x4218b8 0x1
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x158
+access1:
+function1:
+sqlite3_config
+0x6e9758 0x4214d1 0x2
+access2:
+function2:
+sqlite3_config
+0x6e9758 0x4214d1 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x158
+access1:
+function1:
+sqlite3_config
+0x6e9758 0x4214d1 0x2
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6e9758 0x421741 0x1
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x158
+access1:
+function1:
+sqlite3_config
+0x6e9758 0x4214d1 0x2
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6e9758 0x421758 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x158
+access1:
+function1:
+sqlite3_config
+0x6e9758 0x4214d1 0x2
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6e9758 0x4218b8 0x1
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x158
+access1:
+function1:
+sqlite3_initialize.part.319
+0x6e9758 0x421741 0x1
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6e9758 0x421758 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x158
+access1:
+function1:
+sqlite3_initialize.part.319
+0x6e9758 0x421758 0x2
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6e9758 0x4218b8 0x1
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x15c
+access1:
+function1:
+pcache1Init
+0x6e975c 0x410cfb 0x1
+access2:
+function2:
+sqlite3_config
+0x6e975c 0x42137a 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x15c
+access1:
+function1:
+sqlite3_config
+0x6e975c 0x42137a 0x2
+access2:
+function2:
+sqlite3_config
+0x6e975c 0x42137a 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x15c
+access1:
+function1:
+sqlite3_config
+0x6e975c 0x42137a 0x2
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6e975c 0x4217b8 0x1
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x15c
+access1:
+function1:
+sqlite3_config
+0x6e975c 0x42137a 0x2
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6e975c 0x4218b2 0x1
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x164
+access1:
+function1:
+sqlite3_enable_shared_cache
+0x6e9764 0x40c1c0 0x2
+access2:
+function2:
+sqlite3_enable_shared_cache
+0x6e9764 0x40c1c0 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x164
+access1:
+function1:
+sqlite3_enable_shared_cache
+0x6e9764 0x40c1c0 0x2
+access2:
+function2:
+openDatabase
+0x6e9764 0x489b57 0x1
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x168
+access1:
+function1:
+sqlite3_config
+0x6e9768 0x4213a3 0x2
+access2:
+function2:
+sqlite3_config
+0x6e9768 0x4213a3 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x168
+access1:
+function1:
+sqlite3_config
+0x6e9768 0x4213a3 0x2
+access2:
+function2:
+sqlite3VdbeExec
+0x6e9768 0x47135e 0x1
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x16c
+access1:
+function1:
+sqlite3_config
+0x6e976c 0x420e39 0x1
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6e976c 0x421949 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x16c
+access1:
+function1:
+sqlite3_initialize.part.319
+0x6e976c 0x4215f8 0x1
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6e976c 0x421949 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x16c
+access1:
+function1:
+sqlite3_initialize.part.319
+0x6e976c 0x421949 0x2
+access2:
+function2:
+sqlite3_vfs_find
+0x6e976c 0x421a89 0x1
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x16c
+access1:
+function1:
+sqlite3_initialize.part.319
+0x6e976c 0x421949 0x2
+access2:
+function2:
+sqlite3_vfs_register
+0x6e976c 0x421b3b 0x1
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x16c
+access1:
+function1:
+sqlite3_initialize.part.319
+0x6e976c 0x421949 0x2
+access2:
+function2:
+sqlite3_malloc
+0x6e976c 0x421bb4 0x1
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x16c
+access1:
+function1:
+sqlite3_initialize.part.319
+0x6e976c 0x421949 0x2
+access2:
+function2:
+sqlite3_malloc64
+0x6e976c 0x421f50 0x1
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x16c
+access1:
+function1:
+sqlite3_initialize.part.319
+0x6e976c 0x421949 0x2
+access2:
+function2:
+sqlite3_realloc
+0x6e976c 0x421f94 0x1
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x16c
+access1:
+function1:
+sqlite3_initialize.part.319
+0x6e976c 0x421949 0x2
+access2:
+function2:
+sqlite3_realloc64
+0x6e976c 0x421fe0 0x1
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x16c
+access1:
+function1:
+sqlite3_initialize.part.319
+0x6e976c 0x421949 0x2
+access2:
+function2:
+sqlite3_soft_heap_limit64
+0x6e976c 0x43ef64 0x1
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x16c
+access1:
+function1:
+sqlite3_initialize.part.319
+0x6e976c 0x421949 0x2
+access2:
+function2:
+sqlite3_vmprintf
+0x6e976c 0x43effb 0x1
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x16c
+access1:
+function1:
+sqlite3_initialize.part.319
+0x6e976c 0x421949 0x2
+access2:
+function2:
+sqlite3_mprintf
+0x6e976c 0x43f11e 0x1
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x16c
+access1:
+function1:
+sqlite3_initialize.part.319
+0x6e976c 0x421949 0x2
+access2:
+function2:
+sqlite3_randomness
+0x6e976c 0x4403b4 0x1
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x16c
+access1:
+function1:
+sqlite3_initialize.part.319
+0x6e976c 0x421949 0x2
+access2:
+function2:
+sqlite3_test_control
+0x6e976c 0x465bd0 0x1
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x16c
+access1:
+function1:
+sqlite3_initialize.part.319
+0x6e976c 0x421949 0x2
+access2:
+function2:
+sqlite3Pragma
+0x6e976c 0x46665f 0x1
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x16c
+access1:
+function1:
+sqlite3_initialize.part.319
+0x6e976c 0x421949 0x2
+access2:
+function2:
+sqlite3_auto_extension
+0x6e976c 0x489920 0x1
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x16c
+access1:
+function1:
+sqlite3_initialize.part.319
+0x6e976c 0x421949 0x2
+access2:
+function2:
+sqlite3_reset_auto_extension
+0x6e976c 0x4899d4 0x1
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x16c
+access1:
+function1:
+sqlite3_initialize.part.319
+0x6e976c 0x421949 0x2
+access2:
+function2:
+sqlite3_complete16
+0x6e976c 0x489a20 0x1
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x16c
+access1:
+function1:
+sqlite3_initialize.part.319
+0x6e976c 0x421949 0x2
+access2:
+function2:
+openDatabase
+0x6e976c 0x489ad5 0x1
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x16c
+access1:
+function1:
+sqlite3_initialize.part.319
+0x6e976c 0x421949 0x2
+access2:
+function2:
+sqlite3_open16
+0x6e976c 0x48a0e0 0x1
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x170
+access1:
+function1:
+sqlite3_initialize.part.319
+0x6e9770 0x42160d 0x1
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6e9770 0x4217e3 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x170
+access1:
+function1:
+sqlite3_initialize.part.319
+0x6e9770 0x42160d 0x1
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6e9770 0x421955 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x170
+access1:
+function1:
+sqlite3_initialize.part.319
+0x6e9770 0x4217e3 0x2
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6e9770 0x421955 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x178
+access1:
+function1:
+sqlite3_initialize.part.319
+0x6e9778 0x4215c4 0x1
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6e9778 0x4215e2 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x17c
+access1:
+function1:
+sqlite3_initialize.part.319
+0x6e977c 0x421821 0x1
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6e977c 0x421834 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x180
+access1:
+function1:
+sqlite3_initialize.part.319
+0x6e9780 0x4215f2 0x1
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6e9780 0x421605 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x180
+access1:
+function1:
+sqlite3_initialize.part.319
+0x6e9780 0x4215f2 0x1
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6e9780 0x421622 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x180
+access1:
+function1:
+sqlite3_initialize.part.319
+0x6e9780 0x421605 0x2
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6e9780 0x421622 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x180
+access1:
+function1:
+sqlite3_initialize.part.319
+0x6e9780 0x421605 0x2
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6e9780 0x42195f 0x1
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x180
+access1:
+function1:
+sqlite3_initialize.part.319
+0x6e9780 0x421622 0x2
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6e9780 0x421622 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x180
+access1:
+function1:
+sqlite3_initialize.part.319
+0x6e9780 0x421622 0x2
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6e9780 0x42195f 0x1
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x188
+access1:
+function1:
+sqlite3_initialize.part.319
+0x6e9788 0x4215da 0x1
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6e9788 0x421630 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x188
+access1:
+function1:
+sqlite3_initialize.part.319
+0x6e9788 0x4215da 0x1
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6e9788 0x421970 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x188
+access1:
+function1:
+sqlite3_initialize.part.319
+0x6e9788 0x421630 0x2
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6e9788 0x421970 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x190
+access1:
+function1:
+sqlite3_config
+0x6e9790 0x4212e0 0x2
+access2:
+function2:
+sqlite3_config
+0x6e9790 0x4212e0 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x190
+access1:
+function1:
+sqlite3_config
+0x6e9790 0x4212e0 0x2
+access2:
+function2:
+sqlite3_config
+0x6e9790 0x42145c 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x190
+access1:
+function1:
+sqlite3_config
+0x6e9790 0x4212e0 0x2
+access2:
+function2:
+renderLogMsg
+0x6e9790 0x42bb15 0x1
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x190
+access1:
+function1:
+sqlite3_config
+0x6e9790 0x4212e0 0x2
+access2:
+function2:
+sqlite3_log
+0x6e9790 0x42bbc6 0x1
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x190
+access1:
+function1:
+sqlite3_config
+0x6e9790 0x42145c 0x2
+access2:
+function2:
+sqlite3_config
+0x6e9790 0x42145c 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x190
+access1:
+function1:
+sqlite3_config
+0x6e9790 0x42145c 0x2
+access2:
+function2:
+renderLogMsg
+0x6e9790 0x42bb15 0x1
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x190
+access1:
+function1:
+sqlite3_config
+0x6e9790 0x42145c 0x2
+access2:
+function2:
+sqlite3_log
+0x6e9790 0x42bbc6 0x1
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x198
+access1:
+function1:
+sqlite3_config
+0x6e9798 0x4212f3 0x2
+access2:
+function2:
+sqlite3_config
+0x6e9798 0x4212f3 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x198
+access1:
+function1:
+sqlite3_config
+0x6e9798 0x4212f3 0x2
+access2:
+function2:
+renderLogMsg
+0x6e9798 0x42bb27 0x1
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x1a0
+access1:
+function1:
+vdbeMergeEngineNew
+0x6e97a0 0x41208f 0x1
+access2:
+function2:
+sqlite3_test_control
+0x6e97a0 0x465bb1 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x1a0
+access1:
+function1:
+vdbePmaReaderSeek
+0x6e97a0 0x417a76 0x1
+access2:
+function2:
+sqlite3_test_control
+0x6e97a0 0x465bb1 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x1a0
+access1:
+function1:
+vdbeSorterOpenTempFile
+0x6e97a0 0x41a4d1 0x1
+access2:
+function2:
+sqlite3_test_control
+0x6e97a0 0x465bb1 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x1a0
+access1:
+function1:
+vdbeIncrMergerNew
+0x6e97a0 0x41dbf0 0x1
+access2:
+function2:
+sqlite3_test_control
+0x6e97a0 0x465bb1 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x1a0
+access1:
+function1:
+sqlite3PagerCommitPhaseOne
+0x6e97a0 0x44dae5 0x1
+access2:
+function2:
+sqlite3_test_control
+0x6e97a0 0x465bb1 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x1a0
+access1:
+function1:
+sqlite3_test_control
+0x6e97a0 0x465bb1 0x2
+access2:
+function2:
+sqlite3_test_control
+0x6e97a0 0x465bb1 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x1a8
+access1:
+function1:
+localtimeOffset
+0x6e97a8 0x422c8d 0x1
+access2:
+function2:
+sqlite3_test_control
+0x6e97a8 0x465746 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x1a8
+access1:
+function1:
+sqlite3_test_control
+0x6e97a8 0x465746 0x2
+access2:
+function2:
+sqlite3_test_control
+0x6e97a8 0x465746 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x1ac
+access1:
+function1:
+sqlite3_test_control
+0x6e97ac 0x465726 0x2
+access2:
+function2:
+sqlite3_test_control
+0x6e97ac 0x465726 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Config+0x1ac
+access1:
+function1:
+sqlite3_test_control
+0x6e97ac 0x465726 0x2
+access2:
+function2:
+sqlite3VdbeExec
+0x6e97ac 0x474382 0x1
+exploitable_type:
+0x1
+*
+global variable:
+dummy.17089+0x8
+access1:
+function1:
+sqlite3ExprCodeTarget
+0x6ea188 0x45a303 0x2
+access2:
+function2:
+sqlite3ExprCodeTarget
+0x6ea188 0x45a303 0x2
+exploitable_type:
+0x1
+*
+global variable:
+dummy.17089+0x8
+access1:
+function1:
+sqlite3ExprCodeTarget
+0x6ea188 0x45a303 0x2
+access2:
+function2:
+sqlite3ExprCodeTarget
+0x6ea188 0x45af9e 0x2
+exploitable_type:
+0x1
+*
+global variable:
+dummy.17089+0x8
+access1:
+function1:
+sqlite3ExprCodeTarget
+0x6ea188 0x45a303 0x2
+access2:
+function2:
+multiSelect
+0x6ea188 0x461ca8 0x2
+exploitable_type:
+0x1
+*
+global variable:
+dummy.17089+0x8
+access1:
+function1:
+sqlite3ExprCodeTarget
+0x6ea188 0x45af9e 0x2
+access2:
+function2:
+sqlite3ExprCodeTarget
+0x6ea188 0x45af9e 0x2
+exploitable_type:
+0x1
+*
+global variable:
+dummy.17089+0x8
+access1:
+function1:
+sqlite3ExprCodeTarget
+0x6ea188 0x45af9e 0x2
+access2:
+function2:
+multiSelect
+0x6ea188 0x461ca8 0x2
+exploitable_type:
+0x1
+*
+global variable:
+dummy.17089+0x8
+access1:
+function1:
+multiSelect
+0x6ea188 0x461ca8 0x2
+access2:
+function2:
+multiSelect
+0x6ea188 0x461ca8 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Autoext
+access1:
+function1:
+sqlite3_cancel_auto_extension
+0x6ea1a0 0x40e5d0 0x1
+access2:
+function2:
+sqlite3_cancel_auto_extension
+0x6ea1a0 0x40e620 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Autoext
+access1:
+function1:
+sqlite3_cancel_auto_extension
+0x6ea1a0 0x40e5d0 0x1
+access2:
+function2:
+sqlite3_auto_extension
+0x6ea1a0 0x489993 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Autoext
+access1:
+function1:
+sqlite3_cancel_auto_extension
+0x6ea1a0 0x40e5d0 0x1
+access2:
+function2:
+sqlite3_reset_auto_extension
+0x6ea1a0 0x4899f5 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Autoext
+access1:
+function1:
+sqlite3_cancel_auto_extension
+0x6ea1a0 0x40e620 0x2
+access2:
+function2:
+sqlite3_cancel_auto_extension
+0x6ea1a0 0x40e620 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Autoext
+access1:
+function1:
+sqlite3_cancel_auto_extension
+0x6ea1a0 0x40e620 0x2
+access2:
+function2:
+sqlite3_auto_extension
+0x6ea1a0 0x48992e 0x1
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Autoext
+access1:
+function1:
+sqlite3_cancel_auto_extension
+0x6ea1a0 0x40e620 0x2
+access2:
+function2:
+sqlite3_auto_extension
+0x6ea1a0 0x48997a 0x1
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Autoext
+access1:
+function1:
+sqlite3_cancel_auto_extension
+0x6ea1a0 0x40e620 0x2
+access2:
+function2:
+sqlite3_auto_extension
+0x6ea1a0 0x489993 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Autoext
+access1:
+function1:
+sqlite3_cancel_auto_extension
+0x6ea1a0 0x40e620 0x2
+access2:
+function2:
+sqlite3_reset_auto_extension
+0x6ea1a0 0x4899f5 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Autoext
+access1:
+function1:
+sqlite3_cancel_auto_extension
+0x6ea1a0 0x40e620 0x2
+access2:
+function2:
+openDatabase
+0x6ea1a0 0x489fe2 0x1
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Autoext
+access1:
+function1:
+sqlite3_cancel_auto_extension
+0x6ea1a0 0x40e620 0x2
+access2:
+function2:
+openDatabase
+0x6ea1a0 0x489fef 0x1
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Autoext
+access1:
+function1:
+sqlite3_cancel_auto_extension
+0x6ea1a0 0x40e620 0x2
+access2:
+function2:
+openDatabase
+0x6ea1a0 0x48a03a 0x1
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Autoext
+access1:
+function1:
+sqlite3_auto_extension
+0x6ea1a0 0x48992e 0x1
+access2:
+function2:
+sqlite3_auto_extension
+0x6ea1a0 0x489993 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Autoext
+access1:
+function1:
+sqlite3_auto_extension
+0x6ea1a0 0x48992e 0x1
+access2:
+function2:
+sqlite3_reset_auto_extension
+0x6ea1a0 0x4899f5 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Autoext
+access1:
+function1:
+sqlite3_auto_extension
+0x6ea1a0 0x48997a 0x1
+access2:
+function2:
+sqlite3_auto_extension
+0x6ea1a0 0x489993 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Autoext
+access1:
+function1:
+sqlite3_auto_extension
+0x6ea1a0 0x48997a 0x1
+access2:
+function2:
+sqlite3_reset_auto_extension
+0x6ea1a0 0x4899f5 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Autoext
+access1:
+function1:
+sqlite3_auto_extension
+0x6ea1a0 0x489993 0x2
+access2:
+function2:
+sqlite3_reset_auto_extension
+0x6ea1a0 0x4899f5 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Autoext
+access1:
+function1:
+sqlite3_auto_extension
+0x6ea1a0 0x489993 0x2
+access2:
+function2:
+openDatabase
+0x6ea1a0 0x489fe2 0x1
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Autoext
+access1:
+function1:
+sqlite3_auto_extension
+0x6ea1a0 0x489993 0x2
+access2:
+function2:
+openDatabase
+0x6ea1a0 0x489fef 0x1
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Autoext
+access1:
+function1:
+sqlite3_auto_extension
+0x6ea1a0 0x489993 0x2
+access2:
+function2:
+openDatabase
+0x6ea1a0 0x48a03a 0x1
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Autoext
+access1:
+function1:
+sqlite3_reset_auto_extension
+0x6ea1a0 0x4899f5 0x2
+access2:
+function2:
+openDatabase
+0x6ea1a0 0x489fe2 0x1
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Autoext
+access1:
+function1:
+sqlite3_reset_auto_extension
+0x6ea1a0 0x4899f5 0x2
+access2:
+function2:
+openDatabase
+0x6ea1a0 0x489fef 0x1
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Autoext
+access1:
+function1:
+sqlite3_reset_auto_extension
+0x6ea1a0 0x4899f5 0x2
+access2:
+function2:
+openDatabase
+0x6ea1a0 0x48a03a 0x1
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Autoext+0x8
+access1:
+function1:
+sqlite3_cancel_auto_extension
+0x6ea1a8 0x40e5df 0x1
+access2:
+function2:
+sqlite3_auto_extension
+0x6ea1a8 0x489980 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Autoext+0x8
+access1:
+function1:
+sqlite3_cancel_auto_extension
+0x6ea1a8 0x40e5df 0x1
+access2:
+function2:
+sqlite3_reset_auto_extension
+0x6ea1a8 0x4899ea 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Autoext+0x8
+access1:
+function1:
+sqlite3_auto_extension
+0x6ea1a8 0x489938 0x1
+access2:
+function2:
+sqlite3_auto_extension
+0x6ea1a8 0x489980 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Autoext+0x8
+access1:
+function1:
+sqlite3_auto_extension
+0x6ea1a8 0x489938 0x1
+access2:
+function2:
+sqlite3_reset_auto_extension
+0x6ea1a8 0x4899ea 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Autoext+0x8
+access1:
+function1:
+sqlite3_auto_extension
+0x6ea1a8 0x489980 0x2
+access2:
+function2:
+sqlite3_auto_extension
+0x6ea1a8 0x489980 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Autoext+0x8
+access1:
+function1:
+sqlite3_auto_extension
+0x6ea1a8 0x489980 0x2
+access2:
+function2:
+sqlite3_auto_extension
+0x6ea1a8 0x4899b7 0x1
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Autoext+0x8
+access1:
+function1:
+sqlite3_auto_extension
+0x6ea1a8 0x489980 0x2
+access2:
+function2:
+sqlite3_reset_auto_extension
+0x6ea1a8 0x4899de 0x1
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Autoext+0x8
+access1:
+function1:
+sqlite3_auto_extension
+0x6ea1a8 0x489980 0x2
+access2:
+function2:
+sqlite3_reset_auto_extension
+0x6ea1a8 0x4899ea 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Autoext+0x8
+access1:
+function1:
+sqlite3_auto_extension
+0x6ea1a8 0x489980 0x2
+access2:
+function2:
+openDatabase
+0x6ea1a8 0x489ffd 0x1
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Autoext+0x8
+access1:
+function1:
+sqlite3_auto_extension
+0x6ea1a8 0x4899b7 0x1
+access2:
+function2:
+sqlite3_reset_auto_extension
+0x6ea1a8 0x4899ea 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Autoext+0x8
+access1:
+function1:
+sqlite3_reset_auto_extension
+0x6ea1a8 0x4899de 0x1
+access2:
+function2:
+sqlite3_reset_auto_extension
+0x6ea1a8 0x4899ea 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Autoext+0x8
+access1:
+function1:
+sqlite3_reset_auto_extension
+0x6ea1a8 0x4899ea 0x2
+access2:
+function2:
+openDatabase
+0x6ea1a8 0x489ffd 0x1
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3SharedCacheList
+access1:
+function1:
+sqlite3BtreeOpen
+0x6ea1b0 0x450015 0x1
+access2:
+function2:
+sqlite3BtreeOpen
+0x6ea1b0 0x45001c 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3SharedCacheList
+access1:
+function1:
+sqlite3BtreeOpen
+0x6ea1b0 0x450015 0x1
+access2:
+function2:
+sqlite3BtreeClose
+0x6ea1b0 0x462e9f 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3SharedCacheList
+access1:
+function1:
+sqlite3BtreeOpen
+0x6ea1b0 0x45001c 0x2
+access2:
+function2:
+sqlite3BtreeOpen
+0x6ea1b0 0x45001c 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3SharedCacheList
+access1:
+function1:
+sqlite3BtreeOpen
+0x6ea1b0 0x45001c 0x2
+access2:
+function2:
+sqlite3BtreeOpen
+0x6ea1b0 0x450157 0x1
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3SharedCacheList
+access1:
+function1:
+sqlite3BtreeOpen
+0x6ea1b0 0x45001c 0x2
+access2:
+function2:
+sqlite3BtreeClose
+0x6ea1b0 0x462e58 0x1
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3SharedCacheList
+access1:
+function1:
+sqlite3BtreeOpen
+0x6ea1b0 0x45001c 0x2
+access2:
+function2:
+sqlite3BtreeClose
+0x6ea1b0 0x462e9f 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3SharedCacheList
+access1:
+function1:
+sqlite3BtreeOpen
+0x6ea1b0 0x450157 0x1
+access2:
+function2:
+sqlite3BtreeClose
+0x6ea1b0 0x462e9f 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3SharedCacheList
+access1:
+function1:
+sqlite3BtreeClose
+0x6ea1b0 0x462e58 0x1
+access2:
+function2:
+sqlite3BtreeClose
+0x6ea1b0 0x462e9f 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3SharedCacheList
+access1:
+function1:
+sqlite3BtreeClose
+0x6ea1b0 0x462e9f 0x2
+access2:
+function2:
+sqlite3BtreeClose
+0x6ea1b0 0x462e9f 0x2
+exploitable_type:
+0x1
+*
+global variable:
+pcache1_g+0x50
+access1:
+function1:
+pcache1Init
+0x6ea210 0x410d15 0x2
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6ea210 0x421894 0x1
+exploitable_type:
+0x1
+*
+global variable:
+pcache1_g+0x58
+access1:
+function1:
+pcache1Init
+0x6ea218 0x410d05 0x2
+access2:
+function2:
+pcache1Init
+0x6ea218 0x410d05 0x2
+exploitable_type:
+0x1
+*
+global variable:
+pcache1_g+0x58
+access1:
+function1:
+pcache1Init
+0x6ea218 0x410d05 0x2
+access2:
+function2:
+pcache1FetchStage2
+0x6ea218 0x41ac7d 0x1
+exploitable_type:
+0x1
+*
+global variable:
+pcache1_g+0x58
+access1:
+function1:
+pcache1Init
+0x6ea218 0x410d05 0x2
+access2:
+function2:
+pcache1FetchStage2
+0x6ea218 0x41ac9b 0x1
+exploitable_type:
+0x1
+*
+global variable:
+pcache1_g+0x60
+access1:
+function1:
+pcache1FetchStage2
+0x6ea220 0x41aa41 0x1
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6ea220 0x4218d0 0x2
+exploitable_type:
+0x1
+*
+global variable:
+pcache1_g+0x60
+access1:
+function1:
+pcache1FetchStage2
+0x6ea220 0x41aa41 0x1
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6ea220 0x421a3b 0x2
+exploitable_type:
+0x1
+*
+global variable:
+pcache1_g+0x60
+access1:
+function1:
+pcache1FetchStage2
+0x6ea220 0x41ab64 0x1
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6ea220 0x4218d0 0x2
+exploitable_type:
+0x1
+*
+global variable:
+pcache1_g+0x60
+access1:
+function1:
+pcache1FetchStage2
+0x6ea220 0x41ab64 0x1
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6ea220 0x421a3b 0x2
+exploitable_type:
+0x1
+*
+global variable:
+pcache1_g+0x60
+access1:
+function1:
+sqlite3_initialize.part.319
+0x6ea220 0x4218d0 0x2
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6ea220 0x421a3b 0x2
+exploitable_type:
+0x1
+*
+global variable:
+pcache1_g+0x64
+access1:
+function1:
+pcache1Alloc
+0x6ea224 0x4156f1 0x1
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6ea224 0x4218e0 0x2
+exploitable_type:
+0x1
+*
+global variable:
+pcache1_g+0x64
+access1:
+function1:
+pcache1Alloc
+0x6ea224 0x4156f1 0x1
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6ea224 0x4219f0 0x2
+exploitable_type:
+0x1
+*
+global variable:
+pcache1_g+0x64
+access1:
+function1:
+pcache1Alloc
+0x6ea224 0x4156f1 0x1
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6ea224 0x421a45 0x2
+exploitable_type:
+0x1
+*
+global variable:
+pcache1_g+0x64
+access1:
+function1:
+pcache1Free
+0x6ea224 0x4157fa 0x1
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6ea224 0x4218e0 0x2
+exploitable_type:
+0x1
+*
+global variable:
+pcache1_g+0x64
+access1:
+function1:
+pcache1Free
+0x6ea224 0x4157fa 0x1
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6ea224 0x4219f0 0x2
+exploitable_type:
+0x1
+*
+global variable:
+pcache1_g+0x64
+access1:
+function1:
+pcache1Free
+0x6ea224 0x4157fa 0x1
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6ea224 0x421a45 0x2
+exploitable_type:
+0x1
+*
+global variable:
+pcache1_g+0x64
+access1:
+function1:
+sqlite3_initialize.part.319
+0x6ea224 0x4218e0 0x2
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6ea224 0x4219f0 0x2
+exploitable_type:
+0x1
+*
+global variable:
+pcache1_g+0x64
+access1:
+function1:
+sqlite3_initialize.part.319
+0x6ea224 0x4218e0 0x2
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6ea224 0x421a45 0x2
+exploitable_type:
+0x1
+*
+global variable:
+pcache1_g+0x64
+access1:
+function1:
+sqlite3_initialize.part.319
+0x6ea224 0x4219f0 0x2
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6ea224 0x4219f0 0x2
+exploitable_type:
+0x1
+*
+global variable:
+pcache1_g+0x64
+access1:
+function1:
+sqlite3_initialize.part.319
+0x6ea224 0x4219f0 0x2
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6ea224 0x421a45 0x2
+exploitable_type:
+0x1
+*
+global variable:
+pcache1_g+0x68
+access1:
+function1:
+pcache1Free
+0x6ea228 0x4157a6 0x1
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6ea228 0x4218ea 0x2
+exploitable_type:
+0x1
+*
+global variable:
+pcache1_g+0x68
+access1:
+function1:
+pcache1Free
+0x6ea228 0x4157a6 0x1
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6ea228 0x4219c7 0x2
+exploitable_type:
+0x1
+*
+global variable:
+pcache1_g+0x68
+access1:
+function1:
+pcache1Free
+0x6ea228 0x4157a6 0x1
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6ea228 0x421a4f 0x2
+exploitable_type:
+0x1
+*
+global variable:
+pcache1_g+0x68
+access1:
+function1:
+sqlite3_initialize.part.319
+0x6ea228 0x4218ea 0x2
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6ea228 0x4218ea 0x2
+exploitable_type:
+0x1
+*
+global variable:
+pcache1_g+0x68
+access1:
+function1:
+sqlite3_initialize.part.319
+0x6ea228 0x4218ea 0x2
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6ea228 0x4219c7 0x2
+exploitable_type:
+0x1
+*
+global variable:
+pcache1_g+0x68
+access1:
+function1:
+sqlite3_initialize.part.319
+0x6ea228 0x4218ea 0x2
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6ea228 0x421a4f 0x2
+exploitable_type:
+0x1
+*
+global variable:
+pcache1_g+0x68
+access1:
+function1:
+sqlite3_initialize.part.319
+0x6ea228 0x4219c7 0x2
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6ea228 0x4219c7 0x2
+exploitable_type:
+0x1
+*
+global variable:
+pcache1_g+0x68
+access1:
+function1:
+sqlite3_initialize.part.319
+0x6ea228 0x4219c7 0x2
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6ea228 0x421a4f 0x2
+exploitable_type:
+0x1
+*
+global variable:
+pcache1_g+0x70
+access1:
+function1:
+pcache1Free
+0x6ea230 0x4157af 0x1
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6ea230 0x421942 0x2
+exploitable_type:
+0x1
+*
+global variable:
+pcache1_g+0x70
+access1:
+function1:
+sqlite3_initialize.part.319
+0x6ea230 0x421942 0x2
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6ea230 0x421942 0x2
+exploitable_type:
+0x1
+*
+global variable:
+pcache1_g+0x80
+access1:
+function1:
+pcache1Alloc
+0x6ea240 0x4156ce 0x1
+access2:
+function2:
+pcache1Alloc
+0x6ea240 0x4156e1 0x2
+exploitable_type:
+0x1
+*
+global variable:
+pcache1_g+0x80
+access1:
+function1:
+pcache1Alloc
+0x6ea240 0x4156ce 0x1
+access2:
+function2:
+pcache1Free
+0x6ea240 0x4157f0 0x2
+exploitable_type:
+0x1
+*
+global variable:
+pcache1_g+0x80
+access1:
+function1:
+pcache1Alloc
+0x6ea240 0x4156ce 0x1
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6ea240 0x42193b 0x2
+exploitable_type:
+0x1
+*
+global variable:
+pcache1_g+0x80
+access1:
+function1:
+pcache1Alloc
+0x6ea240 0x4156ce 0x1
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6ea240 0x4219d1 0x2
+exploitable_type:
+0x1
+*
+global variable:
+pcache1_g+0x80
+access1:
+function1:
+pcache1Alloc
+0x6ea240 0x4156ce 0x1
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6ea240 0x421a5a 0x2
+exploitable_type:
+0x1
+*
+global variable:
+pcache1_g+0x80
+access1:
+function1:
+pcache1Alloc
+0x6ea240 0x4156e1 0x2
+access2:
+function2:
+pcache1Alloc
+0x6ea240 0x4156e1 0x2
+exploitable_type:
+0x1
+*
+global variable:
+pcache1_g+0x80
+access1:
+function1:
+pcache1Alloc
+0x6ea240 0x4156e1 0x2
+access2:
+function2:
+pcache1Free
+0x6ea240 0x4157d8 0x1
+exploitable_type:
+0x1
+*
+global variable:
+pcache1_g+0x80
+access1:
+function1:
+pcache1Alloc
+0x6ea240 0x4156e1 0x2
+access2:
+function2:
+pcache1Free
+0x6ea240 0x4157f0 0x2
+exploitable_type:
+0x1
+*
+global variable:
+pcache1_g+0x80
+access1:
+function1:
+pcache1Alloc
+0x6ea240 0x4156e1 0x2
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6ea240 0x42193b 0x2
+exploitable_type:
+0x1
+*
+global variable:
+pcache1_g+0x80
+access1:
+function1:
+pcache1Alloc
+0x6ea240 0x4156e1 0x2
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6ea240 0x4219d1 0x2
+exploitable_type:
+0x1
+*
+global variable:
+pcache1_g+0x80
+access1:
+function1:
+pcache1Alloc
+0x6ea240 0x4156e1 0x2
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6ea240 0x421a5a 0x2
+exploitable_type:
+0x1
+*
+global variable:
+pcache1_g+0x80
+access1:
+function1:
+pcache1Free
+0x6ea240 0x4157d8 0x1
+access2:
+function2:
+pcache1Free
+0x6ea240 0x4157f0 0x2
+exploitable_type:
+0x1
+*
+global variable:
+pcache1_g+0x80
+access1:
+function1:
+pcache1Free
+0x6ea240 0x4157d8 0x1
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6ea240 0x42193b 0x2
+exploitable_type:
+0x1
+*
+global variable:
+pcache1_g+0x80
+access1:
+function1:
+pcache1Free
+0x6ea240 0x4157d8 0x1
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6ea240 0x4219d1 0x2
+exploitable_type:
+0x1
+*
+global variable:
+pcache1_g+0x80
+access1:
+function1:
+pcache1Free
+0x6ea240 0x4157d8 0x1
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6ea240 0x421a5a 0x2
+exploitable_type:
+0x1
+*
+global variable:
+pcache1_g+0x80
+access1:
+function1:
+pcache1Free
+0x6ea240 0x4157f0 0x2
+access2:
+function2:
+pcache1Free
+0x6ea240 0x4157f0 0x2
+exploitable_type:
+0x1
+*
+global variable:
+pcache1_g+0x80
+access1:
+function1:
+pcache1Free
+0x6ea240 0x4157f0 0x2
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6ea240 0x42193b 0x2
+exploitable_type:
+0x1
+*
+global variable:
+pcache1_g+0x80
+access1:
+function1:
+pcache1Free
+0x6ea240 0x4157f0 0x2
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6ea240 0x4219d1 0x2
+exploitable_type:
+0x1
+*
+global variable:
+pcache1_g+0x80
+access1:
+function1:
+pcache1Free
+0x6ea240 0x4157f0 0x2
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6ea240 0x421a5a 0x2
+exploitable_type:
+0x1
+*
+global variable:
+pcache1_g+0x80
+access1:
+function1:
+sqlite3_initialize.part.319
+0x6ea240 0x42193b 0x2
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6ea240 0x42193b 0x2
+exploitable_type:
+0x1
+*
+global variable:
+pcache1_g+0x80
+access1:
+function1:
+sqlite3_initialize.part.319
+0x6ea240 0x42193b 0x2
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6ea240 0x4219d1 0x2
+exploitable_type:
+0x1
+*
+global variable:
+pcache1_g+0x80
+access1:
+function1:
+sqlite3_initialize.part.319
+0x6ea240 0x42193b 0x2
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6ea240 0x421a5a 0x2
+exploitable_type:
+0x1
+*
+global variable:
+pcache1_g+0x88
+access1:
+function1:
+pcache1Alloc
+0x6ea248 0x4156e8 0x1
+access2:
+function2:
+pcache1Alloc
+0x6ea248 0x4156f7 0x2
+exploitable_type:
+0x1
+*
+global variable:
+pcache1_g+0x88
+access1:
+function1:
+pcache1Alloc
+0x6ea248 0x4156e8 0x1
+access2:
+function2:
+pcache1Free
+0x6ea248 0x415800 0x2
+exploitable_type:
+0x1
+*
+global variable:
+pcache1_g+0x88
+access1:
+function1:
+pcache1Alloc
+0x6ea248 0x4156e8 0x1
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6ea248 0x4218c4 0x2
+exploitable_type:
+0x1
+*
+global variable:
+pcache1_g+0x88
+access1:
+function1:
+pcache1Alloc
+0x6ea248 0x4156e8 0x1
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6ea248 0x421a2f 0x2
+exploitable_type:
+0x1
+*
+global variable:
+pcache1_g+0x88
+access1:
+function1:
+pcache1Alloc
+0x6ea248 0x4156f7 0x2
+access2:
+function2:
+pcache1Free
+0x6ea248 0x4157ea 0x1
+exploitable_type:
+0x1
+*
+global variable:
+pcache1_g+0x88
+access1:
+function1:
+pcache1Alloc
+0x6ea248 0x4156f7 0x2
+access2:
+function2:
+pcache1Free
+0x6ea248 0x415800 0x2
+exploitable_type:
+0x1
+*
+global variable:
+pcache1_g+0x88
+access1:
+function1:
+pcache1Alloc
+0x6ea248 0x4156f7 0x2
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6ea248 0x4218c4 0x2
+exploitable_type:
+0x1
+*
+global variable:
+pcache1_g+0x88
+access1:
+function1:
+pcache1Alloc
+0x6ea248 0x4156f7 0x2
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6ea248 0x421a2f 0x2
+exploitable_type:
+0x1
+*
+global variable:
+pcache1_g+0x88
+access1:
+function1:
+pcache1Free
+0x6ea248 0x4157ea 0x1
+access2:
+function2:
+pcache1Free
+0x6ea248 0x415800 0x2
+exploitable_type:
+0x1
+*
+global variable:
+pcache1_g+0x88
+access1:
+function1:
+pcache1Free
+0x6ea248 0x4157ea 0x1
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6ea248 0x4218c4 0x2
+exploitable_type:
+0x1
+*
+global variable:
+pcache1_g+0x88
+access1:
+function1:
+pcache1Free
+0x6ea248 0x4157ea 0x1
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6ea248 0x421a2f 0x2
+exploitable_type:
+0x1
+*
+global variable:
+pcache1_g+0x88
+access1:
+function1:
+pcache1Free
+0x6ea248 0x415800 0x2
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6ea248 0x4218c4 0x2
+exploitable_type:
+0x1
+*
+global variable:
+pcache1_g+0x88
+access1:
+function1:
+pcache1Free
+0x6ea248 0x415800 0x2
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6ea248 0x421a2f 0x2
+exploitable_type:
+0x1
+*
+global variable:
+pcache1_g+0x88
+access1:
+function1:
+sqlite3_initialize.part.319
+0x6ea248 0x4218c4 0x2
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6ea248 0x421a2f 0x2
+exploitable_type:
+0x1
+*
+global variable:
+pcache1_g+0x8c
+access1:
+function1:
+pcache1Alloc
+0x6ea24c 0x41570a 0x2
+access2:
+function2:
+pcache1Free
+0x6ea24c 0x41580c 0x2
+exploitable_type:
+0x1
+*
+global variable:
+pcache1_g+0x8c
+access1:
+function1:
+pcache1Alloc
+0x6ea24c 0x41570a 0x2
+access2:
+function2:
+pcache1FetchStage2
+0x6ea24c 0x41abb9 0x1
+exploitable_type:
+0x1
+*
+global variable:
+pcache1_g+0x8c
+access1:
+function1:
+pcache1Alloc
+0x6ea24c 0x41570a 0x2
+access2:
+function2:
+pcache1FetchStage2
+0x6ea24c 0x41abf8 0x1
+exploitable_type:
+0x1
+*
+global variable:
+pcache1_g+0x8c
+access1:
+function1:
+pcache1Alloc
+0x6ea24c 0x41570a 0x2
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6ea24c 0x4218f1 0x2
+exploitable_type:
+0x1
+*
+global variable:
+pcache1_g+0x8c
+access1:
+function1:
+pcache1Alloc
+0x6ea24c 0x41570a 0x2
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6ea24c 0x4219dc 0x2
+exploitable_type:
+0x1
+*
+global variable:
+pcache1_g+0x8c
+access1:
+function1:
+pcache1Alloc
+0x6ea24c 0x41570a 0x2
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6ea24c 0x421a65 0x2
+exploitable_type:
+0x1
+*
+global variable:
+pcache1_g+0x8c
+access1:
+function1:
+pcache1Free
+0x6ea24c 0x41580c 0x2
+access2:
+function2:
+pcache1FetchStage2
+0x6ea24c 0x41abb9 0x1
+exploitable_type:
+0x1
+*
+global variable:
+pcache1_g+0x8c
+access1:
+function1:
+pcache1Free
+0x6ea24c 0x41580c 0x2
+access2:
+function2:
+pcache1FetchStage2
+0x6ea24c 0x41abf8 0x1
+exploitable_type:
+0x1
+*
+global variable:
+pcache1_g+0x8c
+access1:
+function1:
+pcache1FetchStage2
+0x6ea24c 0x41abb9 0x1
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6ea24c 0x4218f1 0x2
+exploitable_type:
+0x1
+*
+global variable:
+pcache1_g+0x8c
+access1:
+function1:
+pcache1FetchStage2
+0x6ea24c 0x41abb9 0x1
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6ea24c 0x4219dc 0x2
+exploitable_type:
+0x1
+*
+global variable:
+pcache1_g+0x8c
+access1:
+function1:
+pcache1FetchStage2
+0x6ea24c 0x41abb9 0x1
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6ea24c 0x421a65 0x2
+exploitable_type:
+0x1
+*
+global variable:
+pcache1_g+0x8c
+access1:
+function1:
+pcache1FetchStage2
+0x6ea24c 0x41abf8 0x1
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6ea24c 0x4218f1 0x2
+exploitable_type:
+0x1
+*
+global variable:
+pcache1_g+0x8c
+access1:
+function1:
+pcache1FetchStage2
+0x6ea24c 0x41abf8 0x1
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6ea24c 0x4219dc 0x2
+exploitable_type:
+0x1
+*
+global variable:
+pcache1_g+0x8c
+access1:
+function1:
+pcache1FetchStage2
+0x6ea24c 0x41abf8 0x1
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6ea24c 0x421a65 0x2
+exploitable_type:
+0x1
+*
+global variable:
+inodeList
+access1:
+function1:
+unixClose
+0x6ea250 0x42e900 0x2
+access2:
+function2:
+unixClose
+0x6ea250 0x42e900 0x2
+exploitable_type:
+0x1
+*
+global variable:
+inodeList
+access1:
+function1:
+unixClose
+0x6ea250 0x42e900 0x2
+access2:
+function2:
+unixOpen
+0x6ea250 0x440e22 0x1
+exploitable_type:
+0x1
+*
+global variable:
+inodeList
+access1:
+function1:
+unixClose
+0x6ea250 0x42e900 0x2
+access2:
+function2:
+unixOpen
+0x6ea250 0x44119d 0x1
+exploitable_type:
+0x1
+*
+global variable:
+inodeList
+access1:
+function1:
+unixClose
+0x6ea250 0x42e900 0x2
+access2:
+function2:
+unixOpen
+0x6ea250 0x44122f 0x1
+exploitable_type:
+0x1
+*
+global variable:
+inodeList
+access1:
+function1:
+unixClose
+0x6ea250 0x42e900 0x2
+access2:
+function2:
+unixOpen
+0x6ea250 0x441247 0x2
+exploitable_type:
+0x1
+*
+global variable:
+inodeList
+access1:
+function1:
+unixOpen
+0x6ea250 0x440e22 0x1
+access2:
+function2:
+unixOpen
+0x6ea250 0x441247 0x2
+exploitable_type:
+0x1
+*
+global variable:
+inodeList
+access1:
+function1:
+unixOpen
+0x6ea250 0x44119d 0x1
+access2:
+function2:
+unixOpen
+0x6ea250 0x441247 0x2
+exploitable_type:
+0x1
+*
+global variable:
+inodeList
+access1:
+function1:
+unixOpen
+0x6ea250 0x44122f 0x1
+access2:
+function2:
+unixOpen
+0x6ea250 0x441247 0x2
+exploitable_type:
+0x1
+*
+global variable:
+inodeList
+access1:
+function1:
+unixOpen
+0x6ea250 0x441247 0x2
+access2:
+function2:
+unixOpen
+0x6ea250 0x441247 0x2
+exploitable_type:
+0x1
+*
+global variable:
+randomnessPid
+access1:
+function1:
+unixRandomness
+0x6ea258 0x42d650 0x2
+access2:
+function2:
+unixRandomness
+0x6ea258 0x42d650 0x2
+exploitable_type:
+0x1
+*
+global variable:
+randomnessPid
+access1:
+function1:
+unixRandomness
+0x6ea258 0x42d650 0x2
+access2:
+function2:
+unixRandomness
+0x6ea258 0x42d6d6 0x1
+exploitable_type:
+0x1
+*
+global variable:
+randomnessPid
+access1:
+function1:
+unixRandomness
+0x6ea258 0x42d650 0x2
+access2:
+function2:
+unixOpen
+0x6ea258 0x440b3c 0x1
+exploitable_type:
+0x1
+*
+global variable:
+randomnessPid
+access1:
+function1:
+unixRandomness
+0x6ea258 0x42d650 0x2
+access2:
+function2:
+unixOpen
+0x6ea258 0x440b4d 0x2
+exploitable_type:
+0x1
+*
+global variable:
+randomnessPid
+access1:
+function1:
+unixRandomness
+0x6ea258 0x42d6d6 0x1
+access2:
+function2:
+unixOpen
+0x6ea258 0x440b4d 0x2
+exploitable_type:
+0x1
+*
+global variable:
+randomnessPid
+access1:
+function1:
+unixOpen
+0x6ea258 0x440b3c 0x1
+access2:
+function2:
+unixOpen
+0x6ea258 0x440b4d 0x2
+exploitable_type:
+0x1
+*
+global variable:
+randomnessPid
+access1:
+function1:
+unixOpen
+0x6ea258 0x440b4d 0x2
+access2:
+function2:
+unixOpen
+0x6ea258 0x440b4d 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Prng
+access1:
+function1:
+sqlite3_randomness
+0x6ea380 0x4403d4 0x1
+access2:
+function2:
+sqlite3_randomness
+0x6ea380 0x440480 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Prng
+access1:
+function1:
+sqlite3_randomness
+0x6ea380 0x4403d4 0x1
+access2:
+function2:
+sqlite3_randomness
+0x6ea380 0x44052d 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Prng
+access1:
+function1:
+sqlite3_randomness
+0x6ea380 0x440480 0x2
+access2:
+function2:
+sqlite3_randomness
+0x6ea380 0x44052d 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Prng+0x1
+access1:
+function1:
+sqlite3_randomness
+0x6ea381 0x4403ef 0x1
+access2:
+function2:
+sqlite3_randomness
+0x6ea381 0x440454 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Prng+0x1
+access1:
+function1:
+sqlite3_randomness
+0x6ea381 0x4403ef 0x1
+access2:
+function2:
+sqlite3_randomness
+0x6ea381 0x4404a9 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Prng+0x1
+access1:
+function1:
+sqlite3_randomness
+0x6ea381 0x440454 0x2
+access2:
+function2:
+sqlite3_randomness
+0x6ea381 0x440454 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Prng+0x1
+access1:
+function1:
+sqlite3_randomness
+0x6ea381 0x440454 0x2
+access2:
+function2:
+sqlite3_randomness
+0x6ea381 0x4404a9 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Prng+0x2
+access1:
+function1:
+sqlite3_randomness
+0x6ea382 0x4403e1 0x1
+access2:
+function2:
+sqlite3_randomness
+0x6ea382 0x44044d 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Prng+0x2
+access1:
+function1:
+sqlite3_randomness
+0x6ea382 0x4403e1 0x1
+access2:
+function2:
+sqlite3_randomness
+0x6ea382 0x4404a2 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Prng+0x2
+access1:
+function1:
+sqlite3_randomness
+0x6ea382 0x44044d 0x2
+access2:
+function2:
+sqlite3_randomness
+0x6ea382 0x44044d 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Prng+0x2
+access1:
+function1:
+sqlite3_randomness
+0x6ea382 0x44044d 0x2
+access2:
+function2:
+sqlite3_randomness
+0x6ea382 0x4404a2 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Prng+0x2
+access1:
+function1:
+sqlite3_randomness
+0x6ea382 0x44044d 0x2
+access2:
+function2:
+sqlite3_randomness
+0x6ea382 0x4404df 0x1
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Prng+0x2
+access1:
+function1:
+sqlite3_randomness
+0x6ea382 0x4404a2 0x2
+access2:
+function2:
+sqlite3_randomness
+0x6ea382 0x4404df 0x1
+exploitable_type:
+0x1
+*
+global variable:
+mem0
+access1:
+function1:
+sqlite3_initialize.part.319
+0x6ea4a0 0x421681 0x2
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6ea4a0 0x421777 0x2
+exploitable_type:
+0x1
+*
+global variable:
+mem0+0x8
+access1:
+function1:
+sqlite3Malloc
+0x6ea4a8 0x411fa1 0x1
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6ea4a8 0x421655 0x2
+exploitable_type:
+0x1
+*
+global variable:
+mem0+0x8
+access1:
+function1:
+sqlite3Malloc
+0x6ea4a8 0x411fa1 0x1
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6ea4a8 0x421782 0x2
+exploitable_type:
+0x1
+*
+global variable:
+mem0+0x8
+access1:
+function1:
+sqlite3Malloc
+0x6ea4a8 0x411fa1 0x1
+access2:
+function2:
+sqlite3_soft_heap_limit64
+0x6ea4a8 0x43ef81 0x2
+exploitable_type:
+0x1
+*
+global variable:
+mem0+0x8
+access1:
+function1:
+sqlite3Realloc
+0x6ea4a8 0x4123d0 0x1
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6ea4a8 0x421655 0x2
+exploitable_type:
+0x1
+*
+global variable:
+mem0+0x8
+access1:
+function1:
+sqlite3Realloc
+0x6ea4a8 0x4123d0 0x1
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6ea4a8 0x421782 0x2
+exploitable_type:
+0x1
+*
+global variable:
+mem0+0x8
+access1:
+function1:
+sqlite3Realloc
+0x6ea4a8 0x4123d0 0x1
+access2:
+function2:
+sqlite3_soft_heap_limit64
+0x6ea4a8 0x43ef81 0x2
+exploitable_type:
+0x1
+*
+global variable:
+mem0+0x8
+access1:
+function1:
+sqlite3_initialize.part.319
+0x6ea4a8 0x421655 0x2
+access2:
+function2:
+sqlite3_soft_heap_limit64
+0x6ea4a8 0x43ef71 0x1
+exploitable_type:
+0x1
+*
+global variable:
+mem0+0x8
+access1:
+function1:
+sqlite3_initialize.part.319
+0x6ea4a8 0x421655 0x2
+access2:
+function2:
+sqlite3_soft_heap_limit64
+0x6ea4a8 0x43ef81 0x2
+exploitable_type:
+0x1
+*
+global variable:
+mem0+0x8
+access1:
+function1:
+sqlite3_initialize.part.319
+0x6ea4a8 0x421655 0x2
+access2:
+function2:
+sqlite3Pragma
+0x6ea4a8 0x46666c 0x1
+exploitable_type:
+0x1
+*
+global variable:
+mem0+0x8
+access1:
+function1:
+sqlite3_initialize.part.319
+0x6ea4a8 0x421782 0x2
+access2:
+function2:
+sqlite3_soft_heap_limit64
+0x6ea4a8 0x43ef71 0x1
+exploitable_type:
+0x1
+*
+global variable:
+mem0+0x8
+access1:
+function1:
+sqlite3_initialize.part.319
+0x6ea4a8 0x421782 0x2
+access2:
+function2:
+sqlite3_soft_heap_limit64
+0x6ea4a8 0x43ef81 0x2
+exploitable_type:
+0x1
+*
+global variable:
+mem0+0x8
+access1:
+function1:
+sqlite3_initialize.part.319
+0x6ea4a8 0x421782 0x2
+access2:
+function2:
+sqlite3Pragma
+0x6ea4a8 0x46666c 0x1
+exploitable_type:
+0x1
+*
+global variable:
+mem0+0x8
+access1:
+function1:
+sqlite3_soft_heap_limit64
+0x6ea4a8 0x43ef71 0x1
+access2:
+function2:
+sqlite3_soft_heap_limit64
+0x6ea4a8 0x43ef81 0x2
+exploitable_type:
+0x1
+*
+global variable:
+mem0+0x8
+access1:
+function1:
+sqlite3_soft_heap_limit64
+0x6ea4a8 0x43ef81 0x2
+access2:
+function2:
+sqlite3_soft_heap_limit64
+0x6ea4a8 0x43ef81 0x2
+exploitable_type:
+0x1
+*
+global variable:
+mem0+0x8
+access1:
+function1:
+sqlite3_soft_heap_limit64
+0x6ea4a8 0x43ef81 0x2
+access2:
+function2:
+sqlite3Pragma
+0x6ea4a8 0x46666c 0x1
+exploitable_type:
+0x1
+*
+global variable:
+mem0+0x10
+access1:
+function1:
+sqlite3ScratchFree
+0x6ea4b0 0x4121ce 0x1
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6ea4b0 0x421660 0x2
+exploitable_type:
+0x1
+*
+global variable:
+mem0+0x10
+access1:
+function1:
+sqlite3ScratchFree
+0x6ea4b0 0x4121ce 0x1
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6ea4b0 0x421709 0x2
+exploitable_type:
+0x1
+*
+global variable:
+mem0+0x10
+access1:
+function1:
+sqlite3ScratchFree
+0x6ea4b0 0x4121ce 0x1
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6ea4b0 0x42178d 0x2
+exploitable_type:
+0x1
+*
+global variable:
+mem0+0x10
+access1:
+function1:
+sqlite3_initialize.part.319
+0x6ea4b0 0x421660 0x2
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6ea4b0 0x421709 0x2
+exploitable_type:
+0x1
+*
+global variable:
+mem0+0x10
+access1:
+function1:
+sqlite3_initialize.part.319
+0x6ea4b0 0x421709 0x2
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6ea4b0 0x421709 0x2
+exploitable_type:
+0x1
+*
+global variable:
+mem0+0x10
+access1:
+function1:
+sqlite3_initialize.part.319
+0x6ea4b0 0x421709 0x2
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6ea4b0 0x42178d 0x2
+exploitable_type:
+0x1
+*
+global variable:
+mem0+0x18
+access1:
+function1:
+sqlite3ScratchMalloc
+0x6ea4b8 0x412126 0x1
+access2:
+function2:
+sqlite3ScratchMalloc
+0x6ea4b8 0x412139 0x2
+exploitable_type:
+0x1
+*
+global variable:
+mem0+0x18
+access1:
+function1:
+sqlite3ScratchMalloc
+0x6ea4b8 0x412126 0x1
+access2:
+function2:
+sqlite3ScratchFree
+0x6ea4b8 0x41223a 0x2
+exploitable_type:
+0x1
+*
+global variable:
+mem0+0x18
+access1:
+function1:
+sqlite3ScratchMalloc
+0x6ea4b8 0x412126 0x1
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6ea4b8 0x42166b 0x2
+exploitable_type:
+0x1
+*
+global variable:
+mem0+0x18
+access1:
+function1:
+sqlite3ScratchMalloc
+0x6ea4b8 0x412126 0x1
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6ea4b8 0x4216b3 0x2
+exploitable_type:
+0x1
+*
+global variable:
+mem0+0x18
+access1:
+function1:
+sqlite3ScratchMalloc
+0x6ea4b8 0x412126 0x1
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6ea4b8 0x421798 0x2
+exploitable_type:
+0x1
+*
+global variable:
+mem0+0x18
+access1:
+function1:
+sqlite3ScratchMalloc
+0x6ea4b8 0x412139 0x2
+access2:
+function2:
+sqlite3ScratchMalloc
+0x6ea4b8 0x412139 0x2
+exploitable_type:
+0x1
+*
+global variable:
+mem0+0x18
+access1:
+function1:
+sqlite3ScratchMalloc
+0x6ea4b8 0x412139 0x2
+access2:
+function2:
+sqlite3ScratchFree
+0x6ea4b8 0x412228 0x1
+exploitable_type:
+0x1
+*
+global variable:
+mem0+0x18
+access1:
+function1:
+sqlite3ScratchMalloc
+0x6ea4b8 0x412139 0x2
+access2:
+function2:
+sqlite3ScratchFree
+0x6ea4b8 0x41223a 0x2
+exploitable_type:
+0x1
+*
+global variable:
+mem0+0x18
+access1:
+function1:
+sqlite3ScratchMalloc
+0x6ea4b8 0x412139 0x2
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6ea4b8 0x42166b 0x2
+exploitable_type:
+0x1
+*
+global variable:
+mem0+0x18
+access1:
+function1:
+sqlite3ScratchMalloc
+0x6ea4b8 0x412139 0x2
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6ea4b8 0x4216b3 0x2
+exploitable_type:
+0x1
+*
+global variable:
+mem0+0x18
+access1:
+function1:
+sqlite3ScratchMalloc
+0x6ea4b8 0x412139 0x2
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6ea4b8 0x421798 0x2
+exploitable_type:
+0x1
+*
+global variable:
+mem0+0x18
+access1:
+function1:
+sqlite3ScratchFree
+0x6ea4b8 0x412228 0x1
+access2:
+function2:
+sqlite3ScratchFree
+0x6ea4b8 0x41223a 0x2
+exploitable_type:
+0x1
+*
+global variable:
+mem0+0x18
+access1:
+function1:
+sqlite3ScratchFree
+0x6ea4b8 0x412228 0x1
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6ea4b8 0x42166b 0x2
+exploitable_type:
+0x1
+*
+global variable:
+mem0+0x18
+access1:
+function1:
+sqlite3ScratchFree
+0x6ea4b8 0x412228 0x1
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6ea4b8 0x4216b3 0x2
+exploitable_type:
+0x1
+*
+global variable:
+mem0+0x18
+access1:
+function1:
+sqlite3ScratchFree
+0x6ea4b8 0x412228 0x1
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6ea4b8 0x421798 0x2
+exploitable_type:
+0x1
+*
+global variable:
+mem0+0x18
+access1:
+function1:
+sqlite3ScratchFree
+0x6ea4b8 0x41223a 0x2
+access2:
+function2:
+sqlite3ScratchFree
+0x6ea4b8 0x41223a 0x2
+exploitable_type:
+0x1
+*
+global variable:
+mem0+0x18
+access1:
+function1:
+sqlite3ScratchFree
+0x6ea4b8 0x41223a 0x2
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6ea4b8 0x42166b 0x2
+exploitable_type:
+0x1
+*
+global variable:
+mem0+0x18
+access1:
+function1:
+sqlite3ScratchFree
+0x6ea4b8 0x41223a 0x2
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6ea4b8 0x4216b3 0x2
+exploitable_type:
+0x1
+*
+global variable:
+mem0+0x18
+access1:
+function1:
+sqlite3ScratchFree
+0x6ea4b8 0x41223a 0x2
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6ea4b8 0x421798 0x2
+exploitable_type:
+0x1
+*
+global variable:
+mem0+0x18
+access1:
+function1:
+sqlite3_initialize.part.319
+0x6ea4b8 0x42166b 0x2
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6ea4b8 0x4216b3 0x2
+exploitable_type:
+0x1
+*
+global variable:
+mem0+0x18
+access1:
+function1:
+sqlite3_initialize.part.319
+0x6ea4b8 0x4216b3 0x2
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6ea4b8 0x4216b3 0x2
+exploitable_type:
+0x1
+*
+global variable:
+mem0+0x18
+access1:
+function1:
+sqlite3_initialize.part.319
+0x6ea4b8 0x4216b3 0x2
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6ea4b8 0x421798 0x2
+exploitable_type:
+0x1
+*
+global variable:
+mem0+0x20
+access1:
+function1:
+sqlite3ScratchMalloc
+0x6ea4c0 0x412114 0x1
+access2:
+function2:
+sqlite3ScratchMalloc
+0x6ea4c0 0x412133 0x2
+exploitable_type:
+0x1
+*
+global variable:
+mem0+0x20
+access1:
+function1:
+sqlite3ScratchMalloc
+0x6ea4c0 0x412114 0x1
+access2:
+function2:
+sqlite3ScratchFree
+0x6ea4c0 0x412241 0x3
+exploitable_type:
+0x1
+*
+global variable:
+mem0+0x20
+access1:
+function1:
+sqlite3ScratchMalloc
+0x6ea4c0 0x412114 0x1
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6ea4c0 0x421676 0x2
+exploitable_type:
+0x1
+*
+global variable:
+mem0+0x20
+access1:
+function1:
+sqlite3ScratchMalloc
+0x6ea4c0 0x412114 0x1
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6ea4c0 0x4216c0 0x2
+exploitable_type:
+0x1
+*
+global variable:
+mem0+0x20
+access1:
+function1:
+sqlite3ScratchMalloc
+0x6ea4c0 0x412114 0x1
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6ea4c0 0x4217a3 0x2
+exploitable_type:
+0x1
+*
+global variable:
+mem0+0x20
+access1:
+function1:
+sqlite3ScratchMalloc
+0x6ea4c0 0x412133 0x2
+access2:
+function2:
+sqlite3ScratchMalloc
+0x6ea4c0 0x412133 0x2
+exploitable_type:
+0x1
+*
+global variable:
+mem0+0x20
+access1:
+function1:
+sqlite3ScratchMalloc
+0x6ea4c0 0x412133 0x2
+access2:
+function2:
+sqlite3ScratchFree
+0x6ea4c0 0x412241 0x3
+exploitable_type:
+0x1
+*
+global variable:
+mem0+0x20
+access1:
+function1:
+sqlite3ScratchMalloc
+0x6ea4c0 0x412133 0x2
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6ea4c0 0x421676 0x2
+exploitable_type:
+0x1
+*
+global variable:
+mem0+0x20
+access1:
+function1:
+sqlite3ScratchMalloc
+0x6ea4c0 0x412133 0x2
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6ea4c0 0x4216c0 0x2
+exploitable_type:
+0x1
+*
+global variable:
+mem0+0x20
+access1:
+function1:
+sqlite3ScratchMalloc
+0x6ea4c0 0x412133 0x2
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6ea4c0 0x4217a3 0x2
+exploitable_type:
+0x1
+*
+global variable:
+mem0+0x20
+access1:
+function1:
+sqlite3ScratchFree
+0x6ea4c0 0x412241 0x3
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6ea4c0 0x421676 0x2
+exploitable_type:
+0x1
+*
+global variable:
+mem0+0x20
+access1:
+function1:
+sqlite3ScratchFree
+0x6ea4c0 0x412241 0x3
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6ea4c0 0x4216c0 0x2
+exploitable_type:
+0x1
+*
+global variable:
+mem0+0x20
+access1:
+function1:
+sqlite3ScratchFree
+0x6ea4c0 0x412241 0x3
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6ea4c0 0x4217a3 0x2
+exploitable_type:
+0x1
+*
+global variable:
+mem0+0x20
+access1:
+function1:
+sqlite3_initialize.part.319
+0x6ea4c0 0x421676 0x2
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6ea4c0 0x4216c0 0x2
+exploitable_type:
+0x1
+*
+global variable:
+mem0+0x20
+access1:
+function1:
+sqlite3_initialize.part.319
+0x6ea4c0 0x4216c0 0x2
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6ea4c0 0x4216c0 0x2
+exploitable_type:
+0x1
+*
+global variable:
+mem0+0x20
+access1:
+function1:
+sqlite3_initialize.part.319
+0x6ea4c0 0x4216c0 0x2
+access2:
+function2:
+sqlite3_initialize.part.319
+0x6ea4c0 0x4217a3 0x2
+exploitable_type:
+0x1
+*
+global variable:
+mem0+0x24
+access1:
+function1:
+sqlite3Malloc
+0x6ea4c4 0x411fc0 0x2
+access2:
+function2:
+sqlite3Malloc
+0x6ea4c4 0x411fc0 0x2
+exploitable_type:
+0x1
+*
+global variable:
+mem0+0x24
+access1:
+function1:
+sqlite3Malloc
+0x6ea4c4 0x411fc0 0x2
+access2:
+function2:
+pcache1FetchStage2
+0x6ea4c4 0x41aa5d 0x1
+exploitable_type:
+0x1
+*
+global variable:
+mem0+0x24
+access1:
+function1:
+sqlite3Malloc
+0x6ea4c4 0x411fc0 0x2
+access2:
+function2:
+pcache1FetchStage2
+0x6ea4c4 0x41ab70 0x1
+exploitable_type:
+0x1
+*
+global variable:
+mem0+0x24
+access1:
+function1:
+sqlite3Malloc
+0x6ea4c4 0x411fc0 0x2
+access2:
+function2:
+sqlite3_soft_heap_limit64
+0x6ea4c4 0x43ef95 0x2
+exploitable_type:
+0x1
+*
+global variable:
+mem0+0x24
+access1:
+function1:
+sqlite3Malloc
+0x6ea4c4 0x411fc0 0x2
+access2:
+function2:
+sqlite3VdbeExec
+0x6ea4c4 0x4792d3 0x1
+exploitable_type:
+0x1
+*
+global variable:
+mem0+0x24
+access1:
+function1:
+pcache1FetchStage2
+0x6ea4c4 0x41aa5d 0x1
+access2:
+function2:
+sqlite3_soft_heap_limit64
+0x6ea4c4 0x43ef95 0x2
+exploitable_type:
+0x1
+*
+global variable:
+mem0+0x24
+access1:
+function1:
+pcache1FetchStage2
+0x6ea4c4 0x41ab70 0x1
+access2:
+function2:
+sqlite3_soft_heap_limit64
+0x6ea4c4 0x43ef95 0x2
+exploitable_type:
+0x1
+*
+global variable:
+mem0+0x24
+access1:
+function1:
+sqlite3_soft_heap_limit64
+0x6ea4c4 0x43ef95 0x2
+access2:
+function2:
+sqlite3_soft_heap_limit64
+0x6ea4c4 0x43ef95 0x2
+exploitable_type:
+0x1
+*
+global variable:
+mem0+0x24
+access1:
+function1:
+sqlite3_soft_heap_limit64
+0x6ea4c4 0x43ef95 0x2
+access2:
+function2:
+sqlite3VdbeExec
+0x6ea4c4 0x4792d3 0x1
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Hooks
+access1:
+function1:
+sqlite3HashInsert
+0x6ea4d0 0x41480a 0x1
+access2:
+function2:
+sqlite3_test_control
+0x6ea4d0 0x465784 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Hooks
+access1:
+function1:
+setupLookaside.part.232
+0x6ea4d0 0x419a91 0x1
+access2:
+function2:
+sqlite3_test_control
+0x6ea4d0 0x465784 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Hooks
+access1:
+function1:
+pcache1ResizeHash.isra.258
+0x6ea4d0 0x41a931 0x1
+access2:
+function2:
+sqlite3_test_control
+0x6ea4d0 0x465784 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Hooks
+access1:
+function1:
+pcache1FetchStage2
+0x6ea4d0 0x41ac15 0x1
+access2:
+function2:
+sqlite3_test_control
+0x6ea4d0 0x465784 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Hooks
+access1:
+function1:
+pcache1FetchStage2
+0x6ea4d0 0x41ac8d 0x1
+access2:
+function2:
+sqlite3_test_control
+0x6ea4d0 0x465784 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Hooks
+access1:
+function1:
+sqlite3VdbeTransferError
+0x6ea4d0 0x422a85 0x1
+access2:
+function2:
+sqlite3_test_control
+0x6ea4d0 0x465784 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Hooks
+access1:
+function1:
+walLimitSize.isra.350
+0x6ea4d0 0x42e933 0x1
+access2:
+function2:
+sqlite3_test_control
+0x6ea4d0 0x465784 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Hooks
+access1:
+function1:
+sqlite3PagerSharedLock
+0x6ea4d0 0x4430eb 0x1
+access2:
+function2:
+sqlite3_test_control
+0x6ea4d0 0x465784 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Hooks
+access1:
+function1:
+pagerUnlockAndRollback
+0x6ea4d0 0x443cc4 0x1
+access2:
+function2:
+sqlite3_test_control
+0x6ea4d0 0x465784 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Hooks
+access1:
+function1:
+getPageNormal
+0x6ea4d0 0x443edc 0x1
+access2:
+function2:
+sqlite3_test_control
+0x6ea4d0 0x465784 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Hooks
+access1:
+function1:
+sqlite3RollbackAll
+0x6ea4d0 0x44ba24 0x1
+access2:
+function2:
+sqlite3_test_control
+0x6ea4d0 0x465784 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Hooks
+access1:
+function1:
+sqlite3WalClose
+0x6ea4d0 0x44f755 0x1
+access2:
+function2:
+sqlite3_test_control
+0x6ea4d0 0x465784 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Hooks
+access1:
+function1:
+sqlite3PagerClose
+0x6ea4d0 0x44f8c0 0x1
+access2:
+function2:
+sqlite3_test_control
+0x6ea4d0 0x465784 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Hooks
+access1:
+function1:
+sqlite3WalDefaultHook
+0x6ea4d0 0x463cc0 0x1
+access2:
+function2:
+sqlite3_test_control
+0x6ea4d0 0x465784 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Hooks
+access1:
+function1:
+sqlite3VdbeHalt
+0x6ea4d0 0x4645ed 0x1
+access2:
+function2:
+sqlite3_test_control
+0x6ea4d0 0x465784 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Hooks
+access1:
+function1:
+sqlite3_test_control
+0x6ea4d0 0x465784 0x2
+access2:
+function2:
+sqlite3_test_control
+0x6ea4d0 0x465784 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Hooks+0x8
+access1:
+function1:
+sqlite3HashInsert
+0x6ea4d8 0x414826 0x1
+access2:
+function2:
+sqlite3_test_control
+0x6ea4d8 0x46578d 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Hooks+0x8
+access1:
+function1:
+setupLookaside.part.232
+0x6ea4d8 0x419ab5 0x1
+access2:
+function2:
+sqlite3_test_control
+0x6ea4d8 0x46578d 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Hooks+0x8
+access1:
+function1:
+pcache1ResizeHash.isra.258
+0x6ea4d8 0x41a957 0x1
+access2:
+function2:
+sqlite3_test_control
+0x6ea4d8 0x46578d 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Hooks+0x8
+access1:
+function1:
+pcache1FetchStage2
+0x6ea4d8 0x41ac2f 0x1
+access2:
+function2:
+sqlite3_test_control
+0x6ea4d8 0x46578d 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Hooks+0x8
+access1:
+function1:
+pcache1FetchStage2
+0x6ea4d8 0x41acd2 0x1
+access2:
+function2:
+sqlite3_test_control
+0x6ea4d8 0x46578d 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Hooks+0x8
+access1:
+function1:
+sqlite3VdbeTransferError
+0x6ea4d8 0x422ac3 0x1
+access2:
+function2:
+sqlite3_test_control
+0x6ea4d8 0x46578d 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Hooks+0x8
+access1:
+function1:
+walLimitSize.isra.350
+0x6ea4d8 0x42e95a 0x1
+access2:
+function2:
+sqlite3_test_control
+0x6ea4d8 0x46578d 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Hooks+0x8
+access1:
+function1:
+walLimitSize.isra.350
+0x6ea4d8 0x42e988 0x1
+access2:
+function2:
+sqlite3_test_control
+0x6ea4d8 0x46578d 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Hooks+0x8
+access1:
+function1:
+walLimitSize.isra.350
+0x6ea4d8 0x42e9bf 0x1
+access2:
+function2:
+sqlite3_test_control
+0x6ea4d8 0x46578d 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Hooks+0x8
+access1:
+function1:
+sqlite3PagerSharedLock
+0x6ea4d8 0x443145 0x1
+access2:
+function2:
+sqlite3_test_control
+0x6ea4d8 0x46578d 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Hooks+0x8
+access1:
+function1:
+pagerUnlockAndRollback
+0x6ea4d8 0x443cda 0x1
+access2:
+function2:
+sqlite3_test_control
+0x6ea4d8 0x46578d 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Hooks+0x8
+access1:
+function1:
+getPageNormal
+0x6ea4d8 0x443f05 0x1
+access2:
+function2:
+sqlite3_test_control
+0x6ea4d8 0x46578d 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Hooks+0x8
+access1:
+function1:
+sqlite3RollbackAll
+0x6ea4d8 0x44badf 0x1
+access2:
+function2:
+sqlite3_test_control
+0x6ea4d8 0x46578d 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Hooks+0x8
+access1:
+function1:
+sqlite3WalClose
+0x6ea4d8 0x44f775 0x1
+access2:
+function2:
+sqlite3_test_control
+0x6ea4d8 0x46578d 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Hooks+0x8
+access1:
+function1:
+sqlite3PagerClose
+0x6ea4d8 0x44f97c 0x1
+access2:
+function2:
+sqlite3_test_control
+0x6ea4d8 0x46578d 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Hooks+0x8
+access1:
+function1:
+sqlite3WalDefaultHook
+0x6ea4d8 0x463ce0 0x1
+access2:
+function2:
+sqlite3_test_control
+0x6ea4d8 0x46578d 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Hooks+0x8
+access1:
+function1:
+sqlite3VdbeHalt
+0x6ea4d8 0x464636 0x1
+access2:
+function2:
+sqlite3_test_control
+0x6ea4d8 0x46578d 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Hooks+0x8
+access1:
+function1:
+sqlite3_test_control
+0x6ea4d8 0x46578d 0x2
+access2:
+function2:
+sqlite3_test_control
+0x6ea4d8 0x46578d 0x2
+exploitable_type:
+0x1
+*
+global variable:
+vfsList
+access1:
+function1:
+vfsUnlink
+0x6ea4e0 0x40a755 0x1
+access2:
+function2:
+vfsUnlink
+0x6ea4e0 0x40a79c 0x2
+exploitable_type:
+0x1
+*
+global variable:
+vfsList
+access1:
+function1:
+vfsUnlink
+0x6ea4e0 0x40a755 0x1
+access2:
+function2:
+sqlite3_vfs_register
+0x6ea4e0 0x421b9b 0x2
+exploitable_type:
+0x1
+*
+global variable:
+vfsList
+access1:
+function1:
+vfsUnlink
+0x6ea4e0 0x40a79c 0x2
+access2:
+function2:
+vfsUnlink
+0x6ea4e0 0x40a79c 0x2
+exploitable_type:
+0x1
+*
+global variable:
+vfsList
+access1:
+function1:
+vfsUnlink
+0x6ea4e0 0x40a79c 0x2
+access2:
+function2:
+sqlite3_vfs_find
+0x6ea4e0 0x421a93 0x1
+exploitable_type:
+0x1
+*
+global variable:
+vfsList
+access1:
+function1:
+vfsUnlink
+0x6ea4e0 0x40a79c 0x2
+access2:
+function2:
+sqlite3_vfs_register
+0x6ea4e0 0x421b51 0x1
+exploitable_type:
+0x1
+*
+global variable:
+vfsList
+access1:
+function1:
+vfsUnlink
+0x6ea4e0 0x40a79c 0x2
+access2:
+function2:
+sqlite3_vfs_register
+0x6ea4e0 0x421b90 0x1
+exploitable_type:
+0x1
+*
+global variable:
+vfsList
+access1:
+function1:
+vfsUnlink
+0x6ea4e0 0x40a79c 0x2
+access2:
+function2:
+sqlite3_vfs_register
+0x6ea4e0 0x421b9b 0x2
+exploitable_type:
+0x1
+*
+global variable:
+vfsList
+access1:
+function1:
+sqlite3_vfs_find
+0x6ea4e0 0x421a93 0x1
+access2:
+function2:
+sqlite3_vfs_register
+0x6ea4e0 0x421b9b 0x2
+exploitable_type:
+0x1
+*
+global variable:
+vfsList
+access1:
+function1:
+sqlite3_vfs_register
+0x6ea4e0 0x421b51 0x1
+access2:
+function2:
+sqlite3_vfs_register
+0x6ea4e0 0x421b9b 0x2
+exploitable_type:
+0x1
+*
+global variable:
+vfsList
+access1:
+function1:
+sqlite3_vfs_register
+0x6ea4e0 0x421b90 0x1
+access2:
+function2:
+sqlite3_vfs_register
+0x6ea4e0 0x421b9b 0x2
+exploitable_type:
+0x1
+*
+global variable:
+vfsList
+access1:
+function1:
+sqlite3_vfs_register
+0x6ea4e0 0x421b9b 0x2
+access2:
+function2:
+sqlite3_vfs_register
+0x6ea4e0 0x421b9b 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Stat
+access1:
+function1:
+sqlite3_memory_used
+0x6ea500 0x40a800 0x1
+access2:
+function2:
+sqlite3Malloc
+0x6ea500 0x411fef 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Stat
+access1:
+function1:
+sqlite3_memory_used
+0x6ea500 0x40a800 0x1
+access2:
+function2:
+sqlite3ScratchFree
+0x6ea500 0x41220e 0x3
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Stat
+access1:
+function1:
+sqlite3_memory_used
+0x6ea500 0x40a800 0x1
+access2:
+function2:
+sqlite3_free
+0x6ea500 0x4122cf 0x3
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Stat
+access1:
+function1:
+sqlite3_memory_used
+0x6ea500 0x40a800 0x1
+access2:
+function2:
+sqlite3Realloc
+0x6ea500 0x4123ae 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Stat
+access1:
+function1:
+sqlite3_memory_highwater
+0x6ea500 0x40a81b 0x1
+access2:
+function2:
+sqlite3Malloc
+0x6ea500 0x411fef 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Stat
+access1:
+function1:
+sqlite3_memory_highwater
+0x6ea500 0x40a81b 0x1
+access2:
+function2:
+sqlite3ScratchFree
+0x6ea500 0x41220e 0x3
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Stat
+access1:
+function1:
+sqlite3_memory_highwater
+0x6ea500 0x40a81b 0x1
+access2:
+function2:
+sqlite3_free
+0x6ea500 0x4122cf 0x3
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Stat
+access1:
+function1:
+sqlite3_memory_highwater
+0x6ea500 0x40a81b 0x1
+access2:
+function2:
+sqlite3Realloc
+0x6ea500 0x4123ae 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Stat
+access1:
+function1:
+sqlite3Malloc
+0x6ea500 0x411fb3 0x1
+access2:
+function2:
+sqlite3Malloc
+0x6ea500 0x411fef 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Stat
+access1:
+function1:
+sqlite3Malloc
+0x6ea500 0x411fb3 0x1
+access2:
+function2:
+sqlite3ScratchFree
+0x6ea500 0x41220e 0x3
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Stat
+access1:
+function1:
+sqlite3Malloc
+0x6ea500 0x411fb3 0x1
+access2:
+function2:
+sqlite3_free
+0x6ea500 0x4122cf 0x3
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Stat
+access1:
+function1:
+sqlite3Malloc
+0x6ea500 0x411fb3 0x1
+access2:
+function2:
+sqlite3Realloc
+0x6ea500 0x4123ae 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Stat
+access1:
+function1:
+sqlite3Malloc
+0x6ea500 0x411fe1 0x1
+access2:
+function2:
+sqlite3Malloc
+0x6ea500 0x411fef 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Stat
+access1:
+function1:
+sqlite3Malloc
+0x6ea500 0x411fe1 0x1
+access2:
+function2:
+sqlite3ScratchFree
+0x6ea500 0x41220e 0x3
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Stat
+access1:
+function1:
+sqlite3Malloc
+0x6ea500 0x411fe1 0x1
+access2:
+function2:
+sqlite3_free
+0x6ea500 0x4122cf 0x3
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Stat
+access1:
+function1:
+sqlite3Malloc
+0x6ea500 0x411fe1 0x1
+access2:
+function2:
+sqlite3Realloc
+0x6ea500 0x4123ae 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Stat
+access1:
+function1:
+sqlite3Malloc
+0x6ea500 0x411fef 0x2
+access2:
+function2:
+sqlite3Malloc
+0x6ea500 0x411fef 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Stat
+access1:
+function1:
+sqlite3Malloc
+0x6ea500 0x411fef 0x2
+access2:
+function2:
+sqlite3ScratchFree
+0x6ea500 0x41220e 0x3
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Stat
+access1:
+function1:
+sqlite3Malloc
+0x6ea500 0x411fef 0x2
+access2:
+function2:
+sqlite3_free
+0x6ea500 0x4122cf 0x3
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Stat
+access1:
+function1:
+sqlite3Malloc
+0x6ea500 0x411fef 0x2
+access2:
+function2:
+sqlite3Realloc
+0x6ea500 0x41239d 0x1
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Stat
+access1:
+function1:
+sqlite3Malloc
+0x6ea500 0x411fef 0x2
+access2:
+function2:
+sqlite3Realloc
+0x6ea500 0x4123ae 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Stat
+access1:
+function1:
+sqlite3Malloc
+0x6ea500 0x411fef 0x2
+access2:
+function2:
+sqlite3_soft_heap_limit64
+0x6ea500 0x43ef7a 0x1
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Stat
+access1:
+function1:
+sqlite3ScratchFree
+0x6ea500 0x41220e 0x3
+access2:
+function2:
+sqlite3ScratchFree
+0x6ea500 0x41220e 0x3
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Stat
+access1:
+function1:
+sqlite3ScratchFree
+0x6ea500 0x41220e 0x3
+access2:
+function2:
+sqlite3_free
+0x6ea500 0x4122cf 0x3
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Stat
+access1:
+function1:
+sqlite3ScratchFree
+0x6ea500 0x41220e 0x3
+access2:
+function2:
+sqlite3Realloc
+0x6ea500 0x41239d 0x1
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Stat
+access1:
+function1:
+sqlite3ScratchFree
+0x6ea500 0x41220e 0x3
+access2:
+function2:
+sqlite3Realloc
+0x6ea500 0x4123ae 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Stat
+access1:
+function1:
+sqlite3ScratchFree
+0x6ea500 0x41220e 0x3
+access2:
+function2:
+sqlite3_soft_heap_limit64
+0x6ea500 0x43ef7a 0x1
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Stat
+access1:
+function1:
+sqlite3_free
+0x6ea500 0x4122cf 0x3
+access2:
+function2:
+sqlite3_free
+0x6ea500 0x4122cf 0x3
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Stat
+access1:
+function1:
+sqlite3_free
+0x6ea500 0x4122cf 0x3
+access2:
+function2:
+sqlite3Realloc
+0x6ea500 0x41239d 0x1
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Stat
+access1:
+function1:
+sqlite3_free
+0x6ea500 0x4122cf 0x3
+access2:
+function2:
+sqlite3Realloc
+0x6ea500 0x4123ae 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Stat
+access1:
+function1:
+sqlite3_free
+0x6ea500 0x4122cf 0x3
+access2:
+function2:
+sqlite3_soft_heap_limit64
+0x6ea500 0x43ef7a 0x1
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Stat
+access1:
+function1:
+sqlite3Realloc
+0x6ea500 0x41239d 0x1
+access2:
+function2:
+sqlite3Realloc
+0x6ea500 0x4123ae 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Stat
+access1:
+function1:
+sqlite3Realloc
+0x6ea500 0x4123ae 0x2
+access2:
+function2:
+sqlite3Realloc
+0x6ea500 0x4123ae 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Stat
+access1:
+function1:
+sqlite3Realloc
+0x6ea500 0x4123ae 0x2
+access2:
+function2:
+sqlite3_soft_heap_limit64
+0x6ea500 0x43ef7a 0x1
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Stat+0x8
+access1:
+function1:
+pcache1Alloc
+0x6ea508 0x415719 0x1
+access2:
+function2:
+pcache1Alloc
+0x6ea508 0x41572b 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Stat+0x8
+access1:
+function1:
+pcache1Alloc
+0x6ea508 0x415719 0x1
+access2:
+function2:
+pcache1Free
+0x6ea508 0x4157df 0x3
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Stat+0x8
+access1:
+function1:
+pcache1Alloc
+0x6ea508 0x41572b 0x2
+access2:
+function2:
+pcache1Free
+0x6ea508 0x4157df 0x3
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Stat+0x10
+access1:
+function1:
+pcache1Alloc
+0x6ea510 0x415776 0x1
+access2:
+function2:
+pcache1Alloc
+0x6ea510 0x415784 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Stat+0x10
+access1:
+function1:
+pcache1Alloc
+0x6ea510 0x415776 0x1
+access2:
+function2:
+pcache1Free
+0x6ea510 0x4157c6 0x3
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Stat+0x10
+access1:
+function1:
+pcache1Alloc
+0x6ea510 0x415784 0x2
+access2:
+function2:
+pcache1Alloc
+0x6ea510 0x415784 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Stat+0x10
+access1:
+function1:
+pcache1Alloc
+0x6ea510 0x415784 0x2
+access2:
+function2:
+pcache1Free
+0x6ea510 0x4157c6 0x3
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Stat+0x10
+access1:
+function1:
+pcache1Free
+0x6ea510 0x4157c6 0x3
+access2:
+function2:
+pcache1Free
+0x6ea510 0x4157c6 0x3
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Stat+0x18
+access1:
+function1:
+sqlite3ScratchMalloc
+0x6ea518 0x412140 0x1
+access2:
+function2:
+sqlite3ScratchMalloc
+0x6ea518 0x412152 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Stat+0x18
+access1:
+function1:
+sqlite3ScratchMalloc
+0x6ea518 0x412140 0x1
+access2:
+function2:
+sqlite3ScratchFree
+0x6ea518 0x41222f 0x3
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Stat+0x18
+access1:
+function1:
+sqlite3ScratchMalloc
+0x6ea518 0x412152 0x2
+access2:
+function2:
+sqlite3ScratchFree
+0x6ea518 0x41222f 0x3
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Stat+0x20
+access1:
+function1:
+sqlite3ScratchMalloc
+0x6ea520 0x412195 0x1
+access2:
+function2:
+sqlite3ScratchMalloc
+0x6ea520 0x4121a3 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Stat+0x20
+access1:
+function1:
+sqlite3ScratchMalloc
+0x6ea520 0x412195 0x1
+access2:
+function2:
+sqlite3ScratchFree
+0x6ea520 0x412207 0x3
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Stat+0x20
+access1:
+function1:
+sqlite3ScratchMalloc
+0x6ea520 0x4121a3 0x2
+access2:
+function2:
+sqlite3ScratchMalloc
+0x6ea520 0x4121a3 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Stat+0x20
+access1:
+function1:
+sqlite3ScratchMalloc
+0x6ea520 0x4121a3 0x2
+access2:
+function2:
+sqlite3ScratchFree
+0x6ea520 0x412207 0x3
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Stat+0x20
+access1:
+function1:
+sqlite3ScratchFree
+0x6ea520 0x412207 0x3
+access2:
+function2:
+sqlite3ScratchFree
+0x6ea520 0x412207 0x3
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Stat+0x48
+access1:
+function1:
+sqlite3Malloc
+0x6ea548 0x411fff 0x1
+access2:
+function2:
+sqlite3Malloc
+0x6ea548 0x412011 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Stat+0x48
+access1:
+function1:
+sqlite3Malloc
+0x6ea548 0x411fff 0x1
+access2:
+function2:
+sqlite3ScratchFree
+0x6ea548 0x4121ff 0x3
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Stat+0x48
+access1:
+function1:
+sqlite3Malloc
+0x6ea548 0x411fff 0x1
+access2:
+function2:
+sqlite3_free
+0x6ea548 0x4122c7 0x3
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Stat+0x48
+access1:
+function1:
+sqlite3Malloc
+0x6ea548 0x412011 0x2
+access2:
+function2:
+sqlite3ScratchFree
+0x6ea548 0x4121ff 0x3
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Stat+0x48
+access1:
+function1:
+sqlite3Malloc
+0x6ea548 0x412011 0x2
+access2:
+function2:
+sqlite3_free
+0x6ea548 0x4122c7 0x3
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Stat+0x50
+access1:
+function1:
+sqlite3_memory_highwater
+0x6ea550 0x40a812 0x1
+access2:
+function2:
+sqlite3_memory_highwater
+0x6ea550 0x40a822 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Stat+0x50
+access1:
+function1:
+sqlite3_memory_highwater
+0x6ea550 0x40a812 0x1
+access2:
+function2:
+sqlite3Malloc
+0x6ea550 0x411ff8 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Stat+0x50
+access1:
+function1:
+sqlite3_memory_highwater
+0x6ea550 0x40a812 0x1
+access2:
+function2:
+sqlite3Realloc
+0x6ea550 0x4123b7 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Stat+0x50
+access1:
+function1:
+sqlite3_memory_highwater
+0x6ea550 0x40a822 0x2
+access2:
+function2:
+sqlite3Malloc
+0x6ea550 0x411fe8 0x1
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Stat+0x50
+access1:
+function1:
+sqlite3_memory_highwater
+0x6ea550 0x40a822 0x2
+access2:
+function2:
+sqlite3Malloc
+0x6ea550 0x411ff8 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Stat+0x50
+access1:
+function1:
+sqlite3_memory_highwater
+0x6ea550 0x40a822 0x2
+access2:
+function2:
+sqlite3Realloc
+0x6ea550 0x4123a7 0x1
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Stat+0x50
+access1:
+function1:
+sqlite3_memory_highwater
+0x6ea550 0x40a822 0x2
+access2:
+function2:
+sqlite3Realloc
+0x6ea550 0x4123b7 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Stat+0x50
+access1:
+function1:
+sqlite3Malloc
+0x6ea550 0x411fe8 0x1
+access2:
+function2:
+sqlite3Malloc
+0x6ea550 0x411ff8 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Stat+0x50
+access1:
+function1:
+sqlite3Malloc
+0x6ea550 0x411fe8 0x1
+access2:
+function2:
+sqlite3Realloc
+0x6ea550 0x4123b7 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Stat+0x50
+access1:
+function1:
+sqlite3Malloc
+0x6ea550 0x411ff8 0x2
+access2:
+function2:
+sqlite3Malloc
+0x6ea550 0x411ff8 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Stat+0x50
+access1:
+function1:
+sqlite3Malloc
+0x6ea550 0x411ff8 0x2
+access2:
+function2:
+sqlite3Realloc
+0x6ea550 0x4123a7 0x1
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Stat+0x50
+access1:
+function1:
+sqlite3Malloc
+0x6ea550 0x411ff8 0x2
+access2:
+function2:
+sqlite3Realloc
+0x6ea550 0x4123b7 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Stat+0x50
+access1:
+function1:
+sqlite3Realloc
+0x6ea550 0x4123a7 0x1
+access2:
+function2:
+sqlite3Realloc
+0x6ea550 0x4123b7 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Stat+0x50
+access1:
+function1:
+sqlite3Realloc
+0x6ea550 0x4123b7 0x2
+access2:
+function2:
+sqlite3Realloc
+0x6ea550 0x4123b7 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Stat+0x58
+access1:
+function1:
+pcache1Alloc
+0x6ea558 0x415724 0x1
+access2:
+function2:
+pcache1Alloc
+0x6ea558 0x415734 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Stat+0x58
+access1:
+function1:
+pcache1Alloc
+0x6ea558 0x415734 0x2
+access2:
+function2:
+pcache1Alloc
+0x6ea558 0x415734 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Stat+0x60
+access1:
+function1:
+pcache1Alloc
+0x6ea560 0x41577d 0x1
+access2:
+function2:
+pcache1Alloc
+0x6ea560 0x41578d 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Stat+0x60
+access1:
+function1:
+pcache1Alloc
+0x6ea560 0x41578d 0x2
+access2:
+function2:
+pcache1Alloc
+0x6ea560 0x41578d 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Stat+0x68
+access1:
+function1:
+sqlite3ScratchMalloc
+0x6ea568 0x41214b 0x1
+access2:
+function2:
+sqlite3ScratchMalloc
+0x6ea568 0x41215b 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Stat+0x68
+access1:
+function1:
+sqlite3ScratchMalloc
+0x6ea568 0x41215b 0x2
+access2:
+function2:
+sqlite3ScratchMalloc
+0x6ea568 0x41215b 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Stat+0x70
+access1:
+function1:
+sqlite3ScratchMalloc
+0x6ea570 0x41219c 0x1
+access2:
+function2:
+sqlite3ScratchMalloc
+0x6ea570 0x4121ac 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Stat+0x70
+access1:
+function1:
+sqlite3ScratchMalloc
+0x6ea570 0x4121ac 0x2
+access2:
+function2:
+sqlite3ScratchMalloc
+0x6ea570 0x4121ac 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Stat+0x78
+access1:
+function1:
+sqlite3Malloc
+0x6ea578 0x411f91 0x1
+access2:
+function2:
+sqlite3Malloc
+0x6ea578 0x411f9a 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Stat+0x78
+access1:
+function1:
+sqlite3Malloc
+0x6ea578 0x411f91 0x1
+access2:
+function2:
+sqlite3Realloc
+0x6ea578 0x412373 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Stat+0x78
+access1:
+function1:
+sqlite3Malloc
+0x6ea578 0x411f9a 0x2
+access2:
+function2:
+sqlite3Malloc
+0x6ea578 0x411f9a 0x2
+exploitable_type:
+0x3
+*
+global variable:
+sqlite3Stat+0x78
+access1:
+function1:
+sqlite3Malloc
+0x6ea578 0x411f9a 0x2
+access2:
+function2:
+sqlite3Realloc
+0x6ea578 0x41236a 0x1
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Stat+0x78
+access1:
+function1:
+sqlite3Malloc
+0x6ea578 0x411f9a 0x2
+access2:
+function2:
+sqlite3Realloc
+0x6ea578 0x412373 0x2
+exploitable_type:
+0x3
+*
+global variable:
+sqlite3Stat+0x78
+access1:
+function1:
+sqlite3Realloc
+0x6ea578 0x41236a 0x1
+access2:
+function2:
+sqlite3Realloc
+0x6ea578 0x412373 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Stat+0x78
+access1:
+function1:
+sqlite3Realloc
+0x6ea578 0x412373 0x2
+access2:
+function2:
+sqlite3Realloc
+0x6ea578 0x412373 0x2
+exploitable_type:
+0x3
+*
+global variable:
+sqlite3Stat+0x88
+access1:
+function1:
+pcache1Alloc
+0x6ea588 0x415700 0x1
+access2:
+function2:
+pcache1Alloc
+0x6ea588 0x415712 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Stat+0x88
+access1:
+function1:
+pcache1Alloc
+0x6ea588 0x415700 0x1
+access2:
+function2:
+pcache1Alloc
+0x6ea588 0x41576d 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Stat+0x88
+access1:
+function1:
+pcache1Alloc
+0x6ea588 0x415712 0x2
+access2:
+function2:
+pcache1Alloc
+0x6ea588 0x415712 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Stat+0x88
+access1:
+function1:
+pcache1Alloc
+0x6ea588 0x415712 0x2
+access2:
+function2:
+pcache1Alloc
+0x6ea588 0x415764 0x1
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Stat+0x88
+access1:
+function1:
+pcache1Alloc
+0x6ea588 0x415712 0x2
+access2:
+function2:
+pcache1Alloc
+0x6ea588 0x41576d 0x2
+exploitable_type:
+0x3
+*
+global variable:
+sqlite3Stat+0x88
+access1:
+function1:
+pcache1Alloc
+0x6ea588 0x415764 0x1
+access2:
+function2:
+pcache1Alloc
+0x6ea588 0x41576d 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Stat+0x88
+access1:
+function1:
+pcache1Alloc
+0x6ea588 0x41576d 0x2
+access2:
+function2:
+pcache1Alloc
+0x6ea588 0x41576d 0x2
+exploitable_type:
+0x3
+*
+global variable:
+sqlite3Stat+0x90
+access1:
+function1:
+sqlite3ScratchMalloc
+0x6ea590 0x412103 0x1
+access2:
+function2:
+sqlite3ScratchMalloc
+0x6ea590 0x41210d 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Stat+0x90
+access1:
+function1:
+sqlite3ScratchMalloc
+0x6ea590 0x41210d 0x2
+access2:
+function2:
+sqlite3ScratchMalloc
+0x6ea590 0x41210d 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Stat+0x98
+access1:
+function1:
+sqlite3Malloc
+0x6ea598 0x41200a 0x1
+access2:
+function2:
+sqlite3Malloc
+0x6ea598 0x41201a 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3Stat+0x98
+access1:
+function1:
+sqlite3Malloc
+0x6ea598 0x41201a 0x2
+access2:
+function2:
+sqlite3Malloc
+0x6ea598 0x41201a 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3_temp_directory
+access1:
+function1:
+unixGetTempname
+0x6ea658 0x44055a 0x1
+access2:
+function2:
+sqlite3Pragma
+0x6ea658 0x46637f 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3_temp_directory
+access1:
+function1:
+unixGetTempname
+0x6ea658 0x44055a 0x1
+access2:
+function2:
+sqlite3Pragma
+0x6ea658 0x469136 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3_temp_directory
+access1:
+function1:
+sqlite3Pragma
+0x6ea658 0x466368 0x1
+access2:
+function2:
+sqlite3Pragma
+0x6ea658 0x46637f 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3_temp_directory
+access1:
+function1:
+sqlite3Pragma
+0x6ea658 0x466368 0x1
+access2:
+function2:
+sqlite3Pragma
+0x6ea658 0x469136 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3_temp_directory
+access1:
+function1:
+sqlite3Pragma
+0x6ea658 0x46637f 0x2
+access2:
+function2:
+sqlite3Pragma
+0x6ea658 0x469035 0x1
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3_temp_directory
+access1:
+function1:
+sqlite3Pragma
+0x6ea658 0x46637f 0x2
+access2:
+function2:
+sqlite3Pragma
+0x6ea658 0x469136 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3_temp_directory
+access1:
+function1:
+sqlite3Pragma
+0x6ea658 0x469035 0x1
+access2:
+function2:
+sqlite3Pragma
+0x6ea658 0x469136 0x2
+exploitable_type:
+0x1
+*
+global variable:
+sqlite3_temp_directory
+access1:
+function1:
+sqlite3Pragma
+0x6ea658 0x469136 0x2
+access2:
+function2:
+sqlite3Pragma
+0x6ea658 0x469136 0x2
+exploitable_type:
+0x1

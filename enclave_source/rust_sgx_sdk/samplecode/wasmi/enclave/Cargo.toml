@@ -1,0 +1,22 @@
+[package]
+name = "Wasmienclave"
+version = "1.0.0"
+authors = ["Baidu"]
+
+[lib]
+name = "wasmienclave"
+crate-type = ["staticlib"]
+
+[features]
+default = []
+
+[dependencies]
+wasmi = { git = "https://github.com/mesalock-linux/wasmi-sgx" }
+serde = { git = "https://github.com/mesalock-linux/serde-sgx" }
+serde_json = { git = "https://github.com/mesalock-linux/serde-json-sgx" }
+sgxwasm = { path = "sgxwasm" }
+lazy_static = { version = "1.1.0", features = ["spin_no_std"] }
+
+[target.'cfg(not(target_env = "sgx"))'.dependencies]
+sgx_types = { version = "1.0", rev = "v1.0.8", git = "https://github.com/baidu/rust-sgx-sdk.git" }
+sgx_tstd = { version = "1.0", rev = "v1.0.8", git = "https://github.com/baidu/rust-sgx-sdk.git" }

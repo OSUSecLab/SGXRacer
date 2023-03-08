@@ -1,0 +1,13 @@
+--- ./crypto/err/err_all.c	2017-11-28 10:46:51.996404519 +0000
++++ ../talos/./crypto/err/err_all.c	2017-07-17 11:08:32.229409910 +0100
+@@ -107,6 +107,10 @@
+ #endif
+ 
+ void
++ecall_ERR_load_crypto_strings(void) {
++	ERR_load_crypto_strings();
++}
++void
+ ERR_load_crypto_strings(void)
+ {
+ #ifndef OPENSSL_NO_ERR

@@ -1,0 +1,13 @@
+--- ./ssl/t1_clnt.c	2017-11-28 10:46:52.004404366 +0000
++++ ../talos/./ssl/t1_clnt.c	2017-07-17 11:08:26.857512440 +0100
+@@ -206,6 +206,10 @@
+ 	return (NULL);
+ }
+ 
++SSL_METHOD *
++ecall_SSLv23_client_method(void) {
++	return (SSL_METHOD*)SSLv23_client_method();
++}
+ const SSL_METHOD *
+ SSLv23_client_method(void)
+ {

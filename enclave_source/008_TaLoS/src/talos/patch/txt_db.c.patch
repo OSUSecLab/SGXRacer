@@ -1,0 +1,40 @@
+--- ./crypto/txt_db/txt_db.c	2017-11-28 10:46:51.996404519 +0000
++++ ../talos/./crypto/txt_db/txt_db.c	2017-07-17 11:08:32.257409376 +0100
+@@ -66,6 +66,12 @@
+ #undef BUFSIZE
+ #define BUFSIZE	512
+ 
++#ifdef COMPILE_WITH_INTEL_SGX
++int my_fprintf(FILE *stream, const char *format, ...);
++#else
++#define my_fprintf(fd, format, ...) printf(format, ##__VA_ARGS__)
++#endif
++
+ TXT_DB *
+ TXT_DB_read(BIO *in, int num)
+ {
+@@ -155,13 +161,13 @@
+ 		}
+ 		*(p++)='\0';
+ 		if ((n != num) || (*f != '\0')) {
+-			fprintf(stderr, "wrong number of fields on line %ld (looking for field %d, got %d, '%s' left)\n",ln,num,n,f);
++			my_fprintf(stderr, "wrong number of fields on line %ld (looking for field %d, got %d, '%s' left)\n",ln,num,n,f);
+ 			er = 2;
+ 			goto err;
+ 		}
+ 		pp[n] = p;
+ 		if (!sk_OPENSSL_PSTRING_push(ret->data, pp)) {
+-			fprintf(stderr, "failure in sk_push\n");
++			my_fprintf(stderr, "failure in sk_push\n");
+ 			er = 2;
+ 			goto err;
+ 		}
+@@ -172,7 +178,7 @@
+ 	BUF_MEM_free(buf);
+ 	if (er) {
+ 		if (er == 1)
+-			fprintf(stderr, "malloc failure\n");
++			my_fprintf(stderr, "malloc failure\n");
+ 		if (ret != NULL) {
+ 			if (ret->data != NULL)
+ 				sk_OPENSSL_PSTRING_free(ret->data);

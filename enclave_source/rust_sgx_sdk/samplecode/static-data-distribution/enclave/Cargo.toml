@@ -1,0 +1,22 @@
+[package]
+name = "Staticdatadistribution"
+version = "1.0.0"
+authors = ["Baidu"]
+
+[lib]
+name = "staticdatadistribution"
+crate-type = ["staticlib"]
+
+[features]
+default = []
+
+[target.'cfg(not(target_env = "sgx"))'.dependencies]
+sgx_types = { rev = "v1.0.8", git = "https://github.com/baidu/rust-sgx-sdk.git" }
+sgx_tstd = { rev = "v1.0.8", git = "https://github.com/baidu/rust-sgx-sdk.git" }
+sgx_crypto_helper = { package="sgx_tcrypto_helper", git = "https://github.com/mesalock-linux/sgx_tcrypto_helper" }
+
+[target.'cfg(target_env = "sgx")'.dependencies]
+sgx_crypto_helper = { package="sgx_tcrypto_helper", git = "https://github.com/mesalock-linux/sgx_tcrypto_helper" }
+
+[dependencies]
+serde_json = { git = "https://github.com/mesalock-linux/serde-json-sgx" }

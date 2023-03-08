@@ -1,0 +1,10 @@
+set(MBEDTLS_SGX_INCLUDE_DIR ${MBEDTLS_SGX_ROOT}/include)
+set(MBEDTLS_SGX_LIBRARY_DIR ${MBEDTLS_SGX_ROOT}/lib)
+set(MBEDTLS_SGX_LIB_U ${CMAKE_BINARY_DIR}/ocall/libmbedtls_SGX_u.a)
+set(MBEDTLS_SGX_LIB_T ${CMAKE_BINARY_DIR}/trusted/libmbedtls_SGX_t.a)
+
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR})
+set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR})
+
+add_subdirectory(untrusted)
+add_subdirectory(enclave)

@@ -1,0 +1,19 @@
+# Copyright (c) Microsoft Corporation. All rights reserved.
+# Licensed under the MIT License.
+
+---
+tmp_dir: "C:\\Windows\\Temp"
+devcon_bin_url: 'https://oejenkins.blob.core.windows.net/oejenkins/devcon.exe'
+
+lc_driver:
+  reg_path: HKLM:\SYSTEM\CurrentControlSet\Services\sgx_lc_msr\Parameters
+  reg_key: SGX_Launch_Config_Optin
+  reg_value: 1
+
+validation_directories:
+  - "C:\\openenclave\\prereqs\\nuget\\DCAP_Components"
+  - "C:\\openenclave\\prereqs\\nuget\\EnclaveCommonAPI"
+
+validation_binaries:
+  - "C:\\openenclave\\prereqs\\nuget\\DCAP_Components\\build\\lib\\native\\Libraries\\sgx_dcap_ql.lib"
+  - "C:\\openenclave\\prereqs\\nuget\\EnclaveCommonAPI\\lib\\native\\x64-Release\\sgx_enclave_common.lib"
